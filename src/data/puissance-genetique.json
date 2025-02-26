@@ -1,0 +1,3725 @@
+{
+  "setId": "t3hb77i3xy08no0-puissance-gentique",
+  "totalCards": 286,
+  "scrapeDate": "2025-02-24T18:43:09.410Z",
+  "cards": [
+    {
+      "id": "o416iiwlr5ayncv-bulbizarre",
+      "name": "Bulbizarre",
+      "number": "1",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "91rt2114k7zcoy6-herbizarre",
+      "name": "Herbizarre",
+      "number": "2",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "hbujt0f4d66u1ty-florizarre",
+      "name": "Florizarre",
+      "number": "3",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "5fzdmu97w73vmlx-florizarre",
+      "name": "Florizarre",
+      "number": "4",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 4,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦♦",
+        "value": 4
+      }
+    },
+    {
+      "id": "qlma4w8thlrnupa-chenipan",
+      "name": "Chenipan",
+      "number": "5",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "yheve3j8h5j1n7i-chrysacier",
+      "name": "Chrysacier",
+      "number": "6",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "6nntc8xp5ej947c-papilusion",
+      "name": "Papilusion",
+      "number": "7",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "8egvc77ckoavx02-aspicot",
+      "name": "Aspicot",
+      "number": "8",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "86q39y5hbqw2dig-coconfort",
+      "name": "Coconfort",
+      "number": "9",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "qkuizk39z6m6yo5-dardargnan",
+      "name": "Dardargnan",
+      "number": "10",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "sup330k275jewmb-mystherbe",
+      "name": "Mystherbe",
+      "number": "11",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "ti40gmymmpcf4q2-ortide",
+      "name": "Ortide",
+      "number": "12",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "tno2bh6wxqlj3vy-rafflesia",
+      "name": "Rafflesia",
+      "number": "13",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "l7ddr2xf5ectlyi-paras",
+      "name": "Paras",
+      "number": "14",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "mpfpju1kszaay58-parasect",
+      "name": "Parasect",
+      "number": "15",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "of591wv7h106607-mimitoss",
+      "name": "Mimitoss",
+      "number": "16",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "yerqrz5nga2y3u3-aeromite",
+      "name": "Aéromite",
+      "number": "17",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "ds6sz882kdkvxxv-chetiflor",
+      "name": "Chétiflor",
+      "number": "18",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "ll3kfd1bydc2ng9-boustiflor",
+      "name": "Boustiflor",
+      "number": "19",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "rrtpl2ej2o7bcak-empiflor",
+      "name": "Empiflor",
+      "number": "20",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "4jcgbh0bfo6bg77-noeunoeuf",
+      "name": "Noeunoeuf",
+      "number": "21",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "k0cr4217jg3b5xi-noadkoko",
+      "name": "Noadkoko",
+      "number": "22",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "8xlamigb2t21dzz-noadkoko",
+      "name": "Noadkoko",
+      "number": "23",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 4,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦♦",
+        "value": 4
+      }
+    },
+    {
+      "id": "6qmzewuaq6htd48-saquedeneu",
+      "name": "Saquedeneu",
+      "number": "24",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "hnisi3jld7wgz6s-insecateur",
+      "name": "Insécateur",
+      "number": "25",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "s1f6yx525igdpcd-scarabrute",
+      "name": "Scarabrute",
+      "number": "26",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "5a0eblczk8h1mjv-doudouvet",
+      "name": "Doudouvet",
+      "number": "27",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "msajod2u8q8ct7z-farfaduvet",
+      "name": "Farfaduvet",
+      "number": "28",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "scy8wog5fk96e11-chlorobule",
+      "name": "Chlorobule",
+      "number": "29",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "w1dz8vkm2hpv44c-fragilady",
+      "name": "Fragilady",
+      "number": "30",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "4h2npse0fx8o8p4-cabriolaine",
+      "name": "Cabriolaine",
+      "number": "31",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "azp3mu4g5jzhq1c-chevroum",
+      "name": "Chevroum",
+      "number": "32",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "i49bmvk7ibx7mjj-salamche",
+      "name": "Salamèche",
+      "number": "33",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "ibwzm9qe3wwva1g-reptincel",
+      "name": "Reptincel",
+      "number": "34",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "ds894v669melmm1-dracaufeu",
+      "name": "Dracaufeu",
+      "number": "35",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "q6y99087szp5j9z-dracaufeu",
+      "name": "Dracaufeu",
+      "number": "36",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 4,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦♦",
+        "value": 4
+      }
+    },
+    {
+      "id": "pe5ocad3ffakiio-goupix",
+      "name": "Goupix",
+      "number": "37",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "quwfn6097ldiqj7-feunard",
+      "name": "Feunard",
+      "number": "38",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "amvv2z8m18d6twl-caninos",
+      "name": "Caninos",
+      "number": "39",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "m1qestuaqu4dlmg-arcanin",
+      "name": "Arcanin",
+      "number": "40",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "se9ifqr22p8znb4-arcanin",
+      "name": "Arcanin",
+      "number": "41",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 4,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦♦",
+        "value": 4
+      }
+    },
+    {
+      "id": "jbybqmpd549j09n-ponyta",
+      "name": "Ponyta",
+      "number": "42",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "efm05m8nbrdicrd-galopa",
+      "name": "Galopa",
+      "number": "43",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "bxp41qt9g1hji6i-magmar",
+      "name": "Magmar",
+      "number": "44",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "g3nzjnv9vvd3h0x-pyroli",
+      "name": "Pyroli",
+      "number": "45",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "6uvsmsh0r0101el-sulfura",
+      "name": "Sulfura",
+      "number": "46",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "3fm39uuilui7itp-sulfura",
+      "name": "Sulfura",
+      "number": "47",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 4,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦♦",
+        "value": 4
+      }
+    },
+    {
+      "id": "grsbnmru96dvlv5-aflamanoir",
+      "name": "Aflamanoir",
+      "number": "48",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "t1omkdtdulp4gzq-tritox",
+      "name": "Tritox",
+      "number": "49",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "weizouvt23f3yye-malamandre",
+      "name": "Malamandre",
+      "number": "50",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "659i80qhrlaxqm1-grillepattes",
+      "name": "Grillepattes",
+      "number": "51",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "f61jfk4ysa7qtje-scolocendre",
+      "name": "Scolocendre",
+      "number": "52",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "eieqnq8xi26zku6-carapuce",
+      "name": "Carapuce",
+      "number": "53",
+      "type": "water",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "n2qq9203mln1x4p-carabaffe",
+      "name": "Carabaffe",
+      "number": "54",
+      "type": "water",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "em0jjsjn3hfsnpc-tortank",
+      "name": "Tortank",
+      "number": "55",
+      "type": "water",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "s3jmqqws37eo10p-tortank",
+      "name": "Tortank",
+      "number": "56",
+      "type": "water",
+      "rarity": {
+        "diamonds": 4,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦♦",
+        "value": 4
+      }
+    },
+    {
+      "id": "rynkrzmut4hr9so-psykokwak",
+      "name": "Psykokwak",
+      "number": "57",
+      "type": "water",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "vtu0qtfsb7b8z6l-akwakwak",
+      "name": "Akwakwak",
+      "number": "58",
+      "type": "water",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "90geelqr9uil7kl-ptitard",
+      "name": "Ptitard",
+      "number": "59",
+      "type": "water",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "gyyki0e0iugvbpd-ttarte",
+      "name": "Têtarte",
+      "number": "60",
+      "type": "water",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "udz3fyocvbf3ntb-tartard",
+      "name": "Tartard",
+      "number": "61",
+      "type": "water",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "uzx0b89dcwz31c4-tentacool",
+      "name": "Tentacool",
+      "number": "62",
+      "type": "water",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "p6bqwkuf96gwx2h-tentacruel",
+      "name": "Tentacruel",
+      "number": "63",
+      "type": "water",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "mihuwj7i31xlplw-otaria",
+      "name": "Otaria",
+      "number": "64",
+      "type": "water",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "0uvq81q7xgb029t-lamantine",
+      "name": "Lamantine",
+      "number": "65",
+      "type": "water",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "xnqkurggmqkuf6i-kokiyas",
+      "name": "Kokiyas",
+      "number": "66",
+      "type": "water",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "agwgn7jjz3b3px3-crustabri",
+      "name": "Crustabri",
+      "number": "67",
+      "type": "water",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "c9pytzkth4rwgi3-krabby",
+      "name": "Krabby",
+      "number": "68",
+      "type": "water",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "u2p7zdpx69x84bn-krabboss",
+      "name": "Krabboss",
+      "number": "69",
+      "type": "water",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "3d5xvyc03f7e2fb-hypotrempe",
+      "name": "Hypotrempe",
+      "number": "70",
+      "type": "water",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "i732ylmss9hzy2n-hypotrempe",
+      "name": "Hypotrempe",
+      "number": "71",
+      "type": "water",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "zxezxfidjxz2qlq-poissirne",
+      "name": "Poissirène",
+      "number": "72",
+      "type": "water",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "ahvtw46ok3ii9gx-poissoroy",
+      "name": "Poissoroy",
+      "number": "73",
+      "type": "water",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "47u1svv9occt7ar-stari",
+      "name": "Stari",
+      "number": "74",
+      "type": "water",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "mimn4vzuu1tuza8-staross",
+      "name": "Staross",
+      "number": "75",
+      "type": "water",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "yu90c487w1fptf2-staross",
+      "name": "Staross",
+      "number": "76",
+      "type": "water",
+      "rarity": {
+        "diamonds": 4,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦♦",
+        "value": 4
+      }
+    },
+    {
+      "id": "e89t8lyiui002an-magicarpe",
+      "name": "Magicarpe",
+      "number": "77",
+      "type": "water",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "1ezf1hzl7doq3kq-leviator",
+      "name": "Léviator",
+      "number": "78",
+      "type": "water",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "e79pbhgs61h05zo-lokhlass",
+      "name": "Lokhlass",
+      "number": "79",
+      "type": "water",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "g8x0e159dl7zzbs-aquali",
+      "name": "Aquali",
+      "number": "80",
+      "type": "water",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "euhuhg6prczgkaw-amonita",
+      "name": "Amonita",
+      "number": "81",
+      "type": "water",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "q07ee15heajz1tm-amonistar",
+      "name": "Amonistar",
+      "number": "82",
+      "type": "water",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "o7i1zip29wewlhi-artikodin",
+      "name": "Artikodin",
+      "number": "83",
+      "type": "water",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "qqejl4bh7gehxn8-artikodin",
+      "name": "Artikodin",
+      "number": "84",
+      "type": "water",
+      "rarity": {
+        "diamonds": 4,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦♦",
+        "value": 4
+      }
+    },
+    {
+      "id": "oecmfjv7tjrgdpg-couaneton",
+      "name": "Couaneton",
+      "number": "85",
+      "type": "water",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "5av7l0cjbcdss4l-lakmecygne",
+      "name": "Lakmécygne",
+      "number": "86",
+      "type": "water",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "bg087rj26fapfx3-grenousse",
+      "name": "Grenousse",
+      "number": "87",
+      "type": "water",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "1j8bdcd2076y4nz-croporal",
+      "name": "Croâporal",
+      "number": "88",
+      "type": "water",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "4f7z7mvugdevjhd-amphinobi",
+      "name": "Amphinobi",
+      "number": "89",
+      "type": "water",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "5286x3z4quhmzuh-concombaffe",
+      "name": "Concombaffe",
+      "number": "90",
+      "type": "water",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "8ydzhv540f2sua6-denticrisse",
+      "name": "Denticrisse",
+      "number": "91",
+      "type": "water",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "16c6b9olgkn58r6-frissonille",
+      "name": "Frissonille",
+      "number": "92",
+      "type": "water",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "fvqtqauum7ufcc9-beldeneige",
+      "name": "Beldeneige",
+      "number": "93",
+      "type": "water",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "lgj03vamfhdulvs-pikachu",
+      "name": "Pikachu",
+      "number": "94",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "nxxmkto5w4natie-raichu",
+      "name": "Raichu",
+      "number": "95",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "50mrrurxcw5kweu-pikachu",
+      "name": "Pikachu",
+      "number": "96",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 4,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦♦",
+        "value": 4
+      }
+    },
+    {
+      "id": "yjx6xooizhi5tsm-magneti",
+      "name": "Magnéti",
+      "number": "97",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "8vfbol3it4n2srr-magneton",
+      "name": "Magnéton",
+      "number": "98",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "a8jdu9dddt4ftlw-voltorbe",
+      "name": "Voltorbe",
+      "number": "99",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "fzcve86cx2ms0b8-electrode",
+      "name": "Électrode",
+      "number": "100",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "lkvnmjnizunxu7l-elektek",
+      "name": "Élektek",
+      "number": "101",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "g0shxb2nfskce2b-voltali",
+      "name": "Voltali",
+      "number": "102",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "uodnufdzzcimfo0-electhor",
+      "name": "Électhor",
+      "number": "103",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "miad1796ap7pt27-electhor",
+      "name": "Électhor",
+      "number": "104",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 4,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦♦",
+        "value": 4
+      }
+    },
+    {
+      "id": "ed3vcka1tzv2lwz-zebibron",
+      "name": "Zébibron",
+      "number": "105",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "wsis77w65d3vux6-zeblitz",
+      "name": "Zéblitz",
+      "number": "106",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "id4hwohaca3m0zx-anchwatt",
+      "name": "Anchwatt",
+      "number": "107",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "2fatoxee9ulfx0v-lamperoie",
+      "name": "Lampéroie",
+      "number": "108",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "vqw6pt00fip0oen-ohmassacre",
+      "name": "Ohmassacre",
+      "number": "109",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "ide4kj5ec5hq5um-galvaran",
+      "name": "Galvaran",
+      "number": "110",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "xyj17fst3i351dq-iguolta",
+      "name": "Iguolta",
+      "number": "111",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "qbnldb5hpsjqr21-wattapik",
+      "name": "Wattapik",
+      "number": "112",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "m90tnqmi08ymudr-melofe",
+      "name": "Mélofée",
+      "number": "113",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "b7hu3yx1860aebs-melodelfe",
+      "name": "Mélodelfe",
+      "number": "114",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "ln544aoha3rqlgw-abra",
+      "name": "Abra",
+      "number": "115",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "w721qcf2rj9ebjr-kadabra",
+      "name": "Kadabra",
+      "number": "116",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "kfbf7u24exft8l6-alakazam",
+      "name": "Alakazam",
+      "number": "117",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "0v3dhb8sq58soib-ramoloss",
+      "name": "Ramoloss",
+      "number": "118",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "3ofmq8mluaa1kew-flagadoss",
+      "name": "Flagadoss",
+      "number": "119",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "xuncb0394x17hyx-fantominus",
+      "name": "Fantominus",
+      "number": "120",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "ygp59jw7pclxit1-spectrum",
+      "name": "Spectrum",
+      "number": "121",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "jo1s1qfui0g6vui-ectoplasma",
+      "name": "Ectoplasma",
+      "number": "122",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "7v5upq85fg4muop-ectoplasma",
+      "name": "Ectoplasma",
+      "number": "123",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 4,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦♦",
+        "value": 4
+      }
+    },
+    {
+      "id": "axdhglq6naahx0x-soporifik",
+      "name": "Soporifik",
+      "number": "124",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "j0e5vq4lskqbs2j-hypnomade",
+      "name": "Hypnomade",
+      "number": "125",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "qmclcg80c46g4qy-m-mime",
+      "name": "M. Mime",
+      "number": "126",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "k70uqtq15t3gj44-lippoutou",
+      "name": "Lippoutou",
+      "number": "127",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "tbgwd86istd5hr6-mewtwo",
+      "name": "Mewtwo",
+      "number": "128",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "1r5sepcafw5vitw-mewtwo",
+      "name": "Mewtwo",
+      "number": "129",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 4,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦♦",
+        "value": 4
+      }
+    },
+    {
+      "id": "d2xcpja5kv6iila-tarsal",
+      "name": "Tarsal",
+      "number": "130",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "mclst2f3m8olrd6-kirlia",
+      "name": "Kirlia",
+      "number": "131",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "xopfw0qr9jh4m37-gardevoir",
+      "name": "Gardevoir",
+      "number": "132",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "c5pbx6gw9s9o9bd-chovsourir",
+      "name": "Chovsourir",
+      "number": "133",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "4dzv4tetjue01yv-rhinolove",
+      "name": "Rhinolove",
+      "number": "134",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "713xi54gekan3pt-gringolem",
+      "name": "Gringolem",
+      "number": "135",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "78xq8t9e64zoh8o-golemastoc",
+      "name": "Golemastoc",
+      "number": "136",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "9jw2dbrrulglwhb-sabelette",
+      "name": "Sabelette",
+      "number": "137",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "nsku592m7ru7w3m-sablaireau",
+      "name": "Sablaireau",
+      "number": "138",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "7aboytrbpwnh3i7-taupiqueur",
+      "name": "Taupiqueur",
+      "number": "139",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "vfc4j99666ksvk7-triopikeur",
+      "name": "Triopikeur",
+      "number": "140",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "i85irdg058a7i7p-ferosinge",
+      "name": "Férosinge",
+      "number": "141",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "ov5scojhhcwi693-colossinge",
+      "name": "Colossinge",
+      "number": "142",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "sdulkjor9dc26ug-machoc",
+      "name": "Machoc",
+      "number": "143",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "ihs1e5go1vix88j-machopeur",
+      "name": "Machopeur",
+      "number": "144",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "vmse4i7c7vqhq00-machoc",
+      "name": "Machoc",
+      "number": "145",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "5fa52cwrt38oa5c-mackogneur",
+      "name": "Mackogneur",
+      "number": "146",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 4,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦♦",
+        "value": 4
+      }
+    },
+    {
+      "id": "etoo8y09yo7lwpl-racaillou",
+      "name": "Racaillou",
+      "number": "147",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "kg2c62jkgaagu20-gravalanch",
+      "name": "Gravalanch",
+      "number": "148",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "4z2uwiua42dnnm0-grolem",
+      "name": "Grolem",
+      "number": "149",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "gsm2so7gsr8v0k7-onix",
+      "name": "Onix",
+      "number": "150",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "av6vzvn1q046x38-osselait",
+      "name": "Osselait",
+      "number": "151",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "z792wrr25as6k7a-ossatueur",
+      "name": "Ossatueur",
+      "number": "152",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "7ty47ymfv50s57v-ossatueur",
+      "name": "Ossatueur",
+      "number": "153",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 4,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦♦",
+        "value": 4
+      }
+    },
+    {
+      "id": "10elflrfs3mlqga-kicklee",
+      "name": "Kicklee",
+      "number": "154",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "xx1r955ch53g8ar-tygnon",
+      "name": "Tygnon",
+      "number": "155",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "bd4vg7j2udtjezb-rhinocorne",
+      "name": "Rhinocorne",
+      "number": "156",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "5tq8m7t6ab3juhj-rhinoferos",
+      "name": "Rhinoféros",
+      "number": "157",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "sw0a04dtql2n62w-kabuto",
+      "name": "Kabuto",
+      "number": "158",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "aweci6cxk0p0y64-kabutops",
+      "name": "Kabutops",
+      "number": "159",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "4xggtczjqo7m6zw-kungfouine",
+      "name": "Kungfouine",
+      "number": "160",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "mdub96ypzwnunve-shaofouine",
+      "name": "Shaofouine",
+      "number": "161",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "i5p3bbes87f70gp-poulpaf",
+      "name": "Poulpaf",
+      "number": "162",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "6a967zoqj4qdbrf-krakos",
+      "name": "Krakos",
+      "number": "163",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "b4vsii9eq8gc4lh-abo",
+      "name": "Abo",
+      "number": "164",
+      "type": "darkness",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "jzeh0jrww3tu4wb-arbok",
+      "name": "Arbok",
+      "number": "165",
+      "type": "darkness",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "wpw7grnwwoywki0-nidoran",
+      "name": "Nidoran♂",
+      "number": "166",
+      "type": "darkness",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "dabotk99g2vyfbi-nidorina",
+      "name": "Nidorina",
+      "number": "167",
+      "type": "darkness",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "lgu5l3bnlldplsh-nidoqueen",
+      "name": "Nidoqueen",
+      "number": "168",
+      "type": "darkness",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "d70gsfqhrq5ggl8-nidoran",
+      "name": "Nidoran♂",
+      "number": "169",
+      "type": "darkness",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "9ayrm8gwzixg21g-nidorino",
+      "name": "Nidorino",
+      "number": "170",
+      "type": "darkness",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "zfq182hardirv6i-nidoking",
+      "name": "Nidoking",
+      "number": "171",
+      "type": "darkness",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "8pn4qugbzm6fpye-nosferapti",
+      "name": "Nosferapti",
+      "number": "172",
+      "type": "darkness",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "1q9mllv7l07fuf4-nosferalto",
+      "name": "Nosferalto",
+      "number": "173",
+      "type": "darkness",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "xnngc3ofsw4xg4i-tadmorv",
+      "name": "Tadmorv",
+      "number": "174",
+      "type": "darkness",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "cx7777mcv5b727n-grotadmorv",
+      "name": "Grotadmorv",
+      "number": "175",
+      "type": "darkness",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "90kt4h1a76fm1q2-smogo",
+      "name": "Smogo",
+      "number": "176",
+      "type": "darkness",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "02y16aj29pz2qfm-smogogo",
+      "name": "Smogogo",
+      "number": "177",
+      "type": "darkness",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "dqcti1i2h7x7f3j-mysdibule",
+      "name": "Mysdibule",
+      "number": "178",
+      "type": "metal",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "eurnvrllodua16d-scalpion",
+      "name": "Scalpion",
+      "number": "179",
+      "type": "metal",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "n8yq4lwjwa2a89k-scalproie",
+      "name": "Scalproie",
+      "number": "180",
+      "type": "metal",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "wg0xupppxbgxy41-meltan",
+      "name": "Meltan",
+      "number": "181",
+      "type": "metal",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "cukesb66wijfaxs-melmetal",
+      "name": "Melmetal",
+      "number": "182",
+      "type": "metal",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "4dsg8nnnemcu2vu-minidraco",
+      "name": "Minidraco",
+      "number": "183",
+      "type": "dragon",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "x8d4c2ekvjkui1d-draco",
+      "name": "Draco",
+      "number": "184",
+      "type": "dragon",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "egjpx5n08reqbhn-dracolosse",
+      "name": "Dracolosse",
+      "number": "185",
+      "type": "dragon",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "3d96twnxpazde2q-roucool",
+      "name": "Roucool",
+      "number": "186",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "ji2gujqouu9egvw-roucoups",
+      "name": "Roucoups",
+      "number": "187",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "h3ji62clus0w8qz-roucarnage",
+      "name": "Roucarnage",
+      "number": "188",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "o2sb5u0mjqslyi1-rattata",
+      "name": "Rattata",
+      "number": "189",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "nbmaxiq3avft6pv-rattatac",
+      "name": "Rattatac",
+      "number": "190",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "r4ivf6eqpuk88zb-piafabec",
+      "name": "Piafabec",
+      "number": "191",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "9pcf82aip4p0yuh-rapasdepic",
+      "name": "Rapasdepic",
+      "number": "192",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "vx66il7j85gxhns-rondoudou",
+      "name": "Rondoudou",
+      "number": "193",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "4tpiwcj8sg16nmm-grodoudou",
+      "name": "Grodoudou",
+      "number": "194",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "c55ldyclfevbh6k-grodoudou",
+      "name": "Grodoudou",
+      "number": "195",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 4,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦♦",
+        "value": 4
+      }
+    },
+    {
+      "id": "ecpk7r1lwzgbrtt-miaouss",
+      "name": "Miaouss",
+      "number": "196",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "uxymk94rb70bx5w-persian",
+      "name": "Persian",
+      "number": "197",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "5yy0gf3p1w0m3da-canarticho",
+      "name": "Canarticho",
+      "number": "198",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "j7el3m1l0w3o4k5-doduo",
+      "name": "Doduo",
+      "number": "199",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "fwnfw50eo256xej-dodrio",
+      "name": "Dodrio",
+      "number": "200",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "ne8w5r210m73hua-excelangue",
+      "name": "Excelangue",
+      "number": "201",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "vfb5vyc5rjr129h-leveinard",
+      "name": "Leveinard",
+      "number": "202",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "ykgcnsiank8e0ve-kangourex",
+      "name": "Kangourex",
+      "number": "203",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "9ij6czszymmiar4-tauros",
+      "name": "Tauros",
+      "number": "204",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "m3jb18xhccr35dj-metamorph",
+      "name": "Métamorph",
+      "number": "205",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "v4bsa575jx7dj2s-evoli",
+      "name": "Évoli",
+      "number": "206",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "wwij63tz0j2ao9s-evoli",
+      "name": "Évoli",
+      "number": "207",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "spo0fc3zvsgmmvz-evoli",
+      "name": "Évoli",
+      "number": "208",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "e7cyusmqqmeye9e-porygon",
+      "name": "Porygon",
+      "number": "209",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "j7pmll0xo8vfsy8-ptera",
+      "name": "Ptéra",
+      "number": "210",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "kccycijuiax3kih-ronflex",
+      "name": "Ronflex",
+      "number": "211",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 3,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦♦",
+        "value": 3
+      }
+    },
+    {
+      "id": "o51fu37f8g9kvm9-chinchidou",
+      "name": "Chinchidou",
+      "number": "212",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "klvf2h80ju2di08-pashmilla",
+      "name": "Pashmilla",
+      "number": "213",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "hci2oe96qrtuawf-moumouton",
+      "name": "Moumouton",
+      "number": "214",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "0e1a7yytludql1p-moumouflon",
+      "name": "Moumouflon",
+      "number": "215",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "3lq97q49k1zvv22-fossile-nautile",
+      "name": "Fossile Nautile",
+      "number": "216",
+      "type": "",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "6lftnkbxl0rzmxr-fossile-dme",
+      "name": "Fossile Dôme",
+      "number": "217",
+      "type": "",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "pm0hkg9vu5e2yi2-vieil-ambre",
+      "name": "Vieil Ambre",
+      "number": "218",
+      "type": "",
+      "rarity": {
+        "diamonds": 1,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦",
+        "value": 1
+      }
+    },
+    {
+      "id": "d5cgu0g0lwx462v-erika",
+      "name": "Erika",
+      "number": "219",
+      "type": "",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "9bjqsib073n9ull-ondine",
+      "name": "Ondine",
+      "number": "220",
+      "type": "",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "tbcy70m2d2hk9mg-auguste",
+      "name": "Auguste",
+      "number": "221",
+      "type": "",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "g1hndrmdlq6wo45-koga",
+      "name": "Koga",
+      "number": "222",
+      "type": "",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "0mqe0jkxtp48gd9-giovanni",
+      "name": "Giovanni",
+      "number": "223",
+      "type": "",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "hcqr4uwy9tbc835-pierre",
+      "name": "Pierre",
+      "number": "224",
+      "type": "",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "fjt6q6lvmq36bkv-morgane",
+      "name": "Morgane",
+      "number": "225",
+      "type": "",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "co16at4y6kmxoqy-major-bob",
+      "name": "Major Bob",
+      "number": "226",
+      "type": "",
+      "rarity": {
+        "diamonds": 2,
+        "stars": 0,
+        "crowns": 0,
+        "text": "♦♦",
+        "value": 2
+      }
+    },
+    {
+      "id": "oxq8mqy8owu87cr-bulbizarre",
+      "name": "Bulbizarre",
+      "number": "227",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 1,
+        "crowns": 0,
+        "text": "★",
+        "value": 10
+      }
+    },
+    {
+      "id": "sob76k5a5x46v3g-ortide",
+      "name": "Ortide",
+      "number": "228",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 1,
+        "crowns": 0,
+        "text": "★",
+        "value": 10
+      }
+    },
+    {
+      "id": "yvj0euuqcmcocpt-scarabrute",
+      "name": "Scarabrute",
+      "number": "229",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 1,
+        "crowns": 0,
+        "text": "★",
+        "value": 10
+      }
+    },
+    {
+      "id": "i5brojm7mo3ld5u-salamche",
+      "name": "Salamèche",
+      "number": "230",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 1,
+        "crowns": 0,
+        "text": "★",
+        "value": 10
+      }
+    },
+    {
+      "id": "e0yardoke15owvp-galopa",
+      "name": "Galopa",
+      "number": "231",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 1,
+        "crowns": 0,
+        "text": "★",
+        "value": 10
+      }
+    },
+    {
+      "id": "e2s92prkjjj760g-carapuce",
+      "name": "Carapuce",
+      "number": "232",
+      "type": "water",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 1,
+        "crowns": 0,
+        "text": "★",
+        "value": 10
+      }
+    },
+    {
+      "id": "vhisglars3d51gk-leviator",
+      "name": "Léviator",
+      "number": "233",
+      "type": "water",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 1,
+        "crowns": 0,
+        "text": "★",
+        "value": 10
+      }
+    },
+    {
+      "id": "k70cirphh18xdvn-lokhlass",
+      "name": "Lokhlass",
+      "number": "234",
+      "type": "water",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 1,
+        "crowns": 0,
+        "text": "★",
+        "value": 10
+      }
+    },
+    {
+      "id": "nd2plfcuhjnrwoc-electrode",
+      "name": "Électrode",
+      "number": "235",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 1,
+        "crowns": 0,
+        "text": "★",
+        "value": 10
+      }
+    },
+    {
+      "id": "b7p5q9u3h7eho9e-alakazam",
+      "name": "Alakazam",
+      "number": "236",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 1,
+        "crowns": 0,
+        "text": "★",
+        "value": 10
+      }
+    },
+    {
+      "id": "bg7c12fsvz7de36-ramoloss",
+      "name": "Ramoloss",
+      "number": "237",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 1,
+        "crowns": 0,
+        "text": "★",
+        "value": 10
+      }
+    },
+    {
+      "id": "9ldlg25b50k4jcb-taupiqueur",
+      "name": "Taupiqueur",
+      "number": "238",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 1,
+        "crowns": 0,
+        "text": "★",
+        "value": 10
+      }
+    },
+    {
+      "id": "9sdofavam399mhd-osselait",
+      "name": "Osselait",
+      "number": "239",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 1,
+        "crowns": 0,
+        "text": "★",
+        "value": 10
+      }
+    },
+    {
+      "id": "x86aw0f8n5tfk42-nidoqueen",
+      "name": "Nidoqueen",
+      "number": "240",
+      "type": "darkness",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 1,
+        "crowns": 0,
+        "text": "★",
+        "value": 10
+      }
+    },
+    {
+      "id": "xaje1gjnukzxmmd-nidoking",
+      "name": "Nidoking",
+      "number": "241",
+      "type": "darkness",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 1,
+        "crowns": 0,
+        "text": "★",
+        "value": 10
+      }
+    },
+    {
+      "id": "0fjze5xpdzqtro1-nosferalto",
+      "name": "Nosferalto",
+      "number": "242",
+      "type": "darkness",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 1,
+        "crowns": 0,
+        "text": "★",
+        "value": 10
+      }
+    },
+    {
+      "id": "6612rwnfo4ghc38-smogogo",
+      "name": "Smogogo",
+      "number": "243",
+      "type": "darkness",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 1,
+        "crowns": 0,
+        "text": "★",
+        "value": 10
+      }
+    },
+    {
+      "id": "hf6doffwuty02lw-dracolosse",
+      "name": "Dracolosse",
+      "number": "244",
+      "type": "dragon",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 1,
+        "crowns": 0,
+        "text": "★",
+        "value": 10
+      }
+    },
+    {
+      "id": "gau70fygenrs39v-roucarnage",
+      "name": "Roucarnage",
+      "number": "245",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 1,
+        "crowns": 0,
+        "text": "★",
+        "value": 10
+      }
+    },
+    {
+      "id": "a19rfj4bonmx3fx-miaouss",
+      "name": "Miaouss",
+      "number": "246",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 1,
+        "crowns": 0,
+        "text": "★",
+        "value": 10
+      }
+    },
+    {
+      "id": "wurhzzvku2f3wsi-metamorph",
+      "name": "Métamorph",
+      "number": "247",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 1,
+        "crowns": 0,
+        "text": "★",
+        "value": 10
+      }
+    },
+    {
+      "id": "1i7d6slma3amdet-evoli",
+      "name": "Évoli",
+      "number": "248",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 1,
+        "crowns": 0,
+        "text": "★",
+        "value": 10
+      }
+    },
+    {
+      "id": "ivx74yv5u36g0lb-porygon",
+      "name": "Porygon",
+      "number": "249",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 1,
+        "crowns": 0,
+        "text": "★",
+        "value": 10
+      }
+    },
+    {
+      "id": "n101n7iy21adove-ronflex",
+      "name": "Ronflex",
+      "number": "250",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 1,
+        "crowns": 0,
+        "text": "★",
+        "value": 10
+      }
+    },
+    {
+      "id": "puomb17frusv13v-florizarre",
+      "name": "Florizarre",
+      "number": "251",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "683i0vgj2hp6azu-noadkoko",
+      "name": "Noadkoko",
+      "number": "252",
+      "type": "grass",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "6h2rl6onfap03f3-dracaufeu",
+      "name": "Dracaufeu",
+      "number": "253",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "03aecqd3s4yc8bu-arcanin",
+      "name": "Arcanin",
+      "number": "254",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "osp90q3a811p4mi-sulfura",
+      "name": "Sulfura",
+      "number": "255",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "xzgarjnhekddxqb-tortank",
+      "name": "Tortank",
+      "number": "256",
+      "type": "water",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "iilte080mi0eu34-staross",
+      "name": "Staross",
+      "number": "257",
+      "type": "water",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "co5td6fgmhrjoc8-artikodin",
+      "name": "Artikodin",
+      "number": "258",
+      "type": "water",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "a053ccz4ouob57g-pikachu",
+      "name": "Pikachu",
+      "number": "259",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "ov9wuk3m2yz0vkn-electhor",
+      "name": "Électhor",
+      "number": "260",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "kuz861w7eieicbz-ectoplasma",
+      "name": "Ectoplasma",
+      "number": "261",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "ug3kcajed2jlf4u-mewtwo",
+      "name": "Mewtwo",
+      "number": "262",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "g1qzf4hm5go1ppq-mackogneur",
+      "name": "Mackogneur",
+      "number": "263",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "nhyo9ybd5cof3ei-ossatueur",
+      "name": "Ossatueur",
+      "number": "264",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "d841jwhlsm6sp7o-grodoudou",
+      "name": "Grodoudou",
+      "number": "265",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "2xrqtbldcrgue64-erika",
+      "name": "Erika",
+      "number": "266",
+      "type": "",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "n3l09to1c78rgtq-ondine",
+      "name": "Ondine",
+      "number": "267",
+      "type": "",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "jnphm3jun498u09-auguste",
+      "name": "Auguste",
+      "number": "268",
+      "type": "",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "stpwrat8nuw05tu-koga",
+      "name": "Koga",
+      "number": "269",
+      "type": "",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "ng7g5sc31r2yf5k-giovanni",
+      "name": "Giovanni",
+      "number": "270",
+      "type": "",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "fa0q56cood5iwqx-pierre",
+      "name": "Pierre",
+      "number": "271",
+      "type": "",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "vqyozycfzth6xe3-morgane",
+      "name": "Morgane",
+      "number": "272",
+      "type": "",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "tht5p3cyuilz2h7-major-bob",
+      "name": "Major Bob",
+      "number": "273",
+      "type": "",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "q4gamwwl9psaksz-sulfura",
+      "name": "Sulfura",
+      "number": "274",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "5eo8156ctd2rfw1-artikodin",
+      "name": "Artikodin",
+      "number": "275",
+      "type": "water",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "johh9hxtb0xk8vn-electhor",
+      "name": "Électhor",
+      "number": "276",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "6rqpcxpi76tktbg-ectoplasma",
+      "name": "Ectoplasma",
+      "number": "277",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "9ph5mty3otbae9m-mackogneur",
+      "name": "Mackogneur",
+      "number": "278",
+      "type": "fighting",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "kln796ihp1i54oi-grodoudou",
+      "name": "Grodoudou",
+      "number": "279",
+      "type": "colorless",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 2,
+        "crowns": 0,
+        "text": "★★",
+        "value": 20
+      }
+    },
+    {
+      "id": "dh2tnrdkaieuyp8-dracaufeu",
+      "name": "Dracaufeu",
+      "number": "280",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 3,
+        "crowns": 0,
+        "text": "★★★",
+        "value": 30
+      }
+    },
+    {
+      "id": "4fgxnewdkrfa2dl-pikachu",
+      "name": "Pikachu",
+      "number": "281",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 3,
+        "crowns": 0,
+        "text": "★★★",
+        "value": 30
+      }
+    },
+    {
+      "id": "afub1uil56gu6gi-mewtwo",
+      "name": "Mewtwo",
+      "number": "282",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 3,
+        "crowns": 0,
+        "text": "★★★",
+        "value": 30
+      }
+    },
+    {
+      "id": "cob6b3futaezgzy-mew",
+      "name": "Mew",
+      "number": "283",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 3,
+        "crowns": 0,
+        "text": "★★★",
+        "value": 30
+      }
+    },
+    {
+      "id": "sehq38ea9vqwed6-dracaufeu",
+      "name": "Dracaufeu",
+      "number": "284",
+      "type": "fire",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 0,
+        "crowns": 1,
+        "text": "👑",
+        "value": 100
+      }
+    },
+    {
+      "id": "cd7kn5ov3d0d3v0-pikachu",
+      "name": "Pikachu",
+      "number": "285",
+      "type": "lightning",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 0,
+        "crowns": 1,
+        "text": "👑",
+        "value": 100
+      }
+    },
+    {
+      "id": "8nmskyaulfni0yx-mewtwo",
+      "name": "Mewtwo",
+      "number": "286",
+      "type": "psychic",
+      "rarity": {
+        "diamonds": 0,
+        "stars": 0,
+        "crowns": 1,
+        "text": "👑",
+        "value": 100
+      }
+    }
+  ]
+}
