@@ -1,0 +1,399 @@
+{
+  "setName": "promo-a",
+  "totalCards": 49,
+  "scrapeDate": "2025-03-02T16:16:59.382Z",
+  "cards": [
+    {
+      "id": "uami99ol2f",
+      "name": "Sulfura EX",
+      "number": "25",
+      "rarity": "-",
+      "img": "promo-a/25.webp",
+      "setName": "promo-a"
+    },
+    {
+      "id": "bn8mrflbxr",
+      "name": "Pikachu",
+      "number": "26",
+      "rarity": "-",
+      "img": "promo-a/26.webp",
+      "setName": "promo-a"
+    },
+    {
+      "name": "Vipelierre",
+      "number": "27",
+      "rarity": "-",
+      "img": "promo-a/27.webp",
+      "setName": "promo-a",
+      "id": "i8kzgbkkgl"
+    },
+    {
+      "name": "Pyrax",
+      "number": "28",
+      "rarity": "-",
+      "img": "promo-a/28.webp",
+      "setName": "promo-a",
+      "id": "6m4igtrm0v"
+    },
+    {
+      "name": "Tortank",
+      "number": "29",
+      "rarity": "-",
+      "img": "promo-a/29.webp",
+      "setName": "promo-a",
+      "id": "8oo6w1jpsj"
+    },
+    {
+      "name": "Evoli",
+      "number": "30",
+      "rarity": "-",
+      "img": "promo-a/30.webp",
+      "setName": "promo-a",
+      "id": "xbe5748mkz"
+    },
+    {
+      "name": "Pashmilla",
+      "number": "31",
+      "rarity": "-",
+      "img": "promo-a/31.webp",
+      "setName": "promo-a",
+      "id": "sld82h8cu9"
+    },
+    {
+      "name": "Salamèche",
+      "number": "32",
+      "rarity": "-",
+      "img": "promo-a/32.webp",
+      "setName": "promo-a",
+      "id": "6byi79kgmr"
+    },
+    {
+      "name": "Carapuce",
+      "number": "33",
+      "rarity": "-",
+      "img": "promo-a/33.webp",
+      "setName": "promo-a",
+      "id": "m2d7szl5vl"
+    },
+    {
+      "name": "Potion",
+      "number": "1",
+      "rarity": "-",
+      "img": "promo-a/1.webp",
+      "setName": "promo-a",
+      "id": "eem9wyssra"
+    },
+    {
+      "name": "Vitesse X",
+      "number": "2",
+      "rarity": "-",
+      "img": "promo-a/2.webp",
+      "setName": "promo-a",
+      "id": "776t40o94m"
+    },
+    {
+      "name": "Loupe",
+      "number": "3",
+      "rarity": "-",
+      "img": "promo-a/3.webp",
+      "setName": "promo-a",
+      "id": "au29q7dl21"
+    },
+    {
+      "name": "Pokédex",
+      "number": "4",
+      "rarity": "-",
+      "img": "promo-a/4.webp",
+      "setName": "promo-a",
+      "id": "l1q0hrnpp5"
+    },
+    {
+      "name": "Poké Ball",
+      "number": "5",
+      "rarity": "-",
+      "img": "promo-a/5.webp",
+      "setName": "promo-a",
+      "id": "xl6tzhjl6m"
+    },
+    {
+      "name": "Carton Rouge",
+      "number": "6",
+      "rarity": "-",
+      "img": "promo-a/6.webp",
+      "setName": "promo-a",
+      "id": "jm0s5o3qxo"
+    },
+    {
+      "name": "Recherches Proféssorales",
+      "number": "7",
+      "rarity": "-",
+      "img": "promo-a/7.webp",
+      "setName": "promo-a",
+      "id": "ope6j4xby0"
+    },
+    {
+      "name": "Pikachu",
+      "number": "9",
+      "rarity": "-",
+      "img": "promo-a/9.webp",
+      "setName": "promo-a",
+      "id": "ahat6c4c4i"
+    },
+    {
+      "name": "Mewtwo",
+      "number": "10",
+      "rarity": "-",
+      "img": "promo-a/10.webp",
+      "setName": "promo-a",
+      "id": "1yit7f3ul9"
+    },
+    {
+      "name": "Leveinard",
+      "number": "11",
+      "rarity": "-",
+      "img": "promo-a/11.webp",
+      "setName": "promo-a",
+      "id": "28zcyqh8b1"
+    },
+    {
+      "name": "Miaouss",
+      "number": "12",
+      "rarity": "-",
+      "img": "promo-a/12.webp",
+      "setName": "promo-a",
+      "id": "ad4l3x740j"
+    },
+    {
+      "name": "Papilusion",
+      "number": "13",
+      "rarity": "-",
+      "img": "promo-a/13.webp",
+      "setName": "promo-a",
+      "id": "198equ7l9a"
+    },
+    {
+      "name": "Lokhlass EX",
+      "number": "14",
+      "rarity": "-",
+      "img": "promo-a/14.webp",
+      "setName": "promo-a",
+      "id": "g4srtgzz2j"
+    },
+    {
+      "name": "Pikachu",
+      "number": "15",
+      "rarity": "-",
+      "img": "promo-a/15.webp",
+      "setName": "promo-a",
+      "id": "gn5596ck72"
+    },
+    {
+      "name": "Mélofée",
+      "number": "16",
+      "rarity": "-",
+      "img": "promo-a/16.webp",
+      "setName": "promo-a",
+      "id": "r7uv4u892c"
+    },
+    {
+      "name": "Férosinge",
+      "number": "17",
+      "rarity": "-",
+      "img": "promo-a/17.webp",
+      "setName": "promo-a",
+      "id": "f087ijs1ez"
+    },
+    {
+      "name": "Florizarre",
+      "number": "18",
+      "rarity": "-",
+      "img": "promo-a/18.webp",
+      "setName": "promo-a",
+      "id": "psrd0944zy"
+    },
+    {
+      "name": "Amphinobi",
+      "number": "19",
+      "rarity": "-",
+      "img": "promo-a/19.webp",
+      "setName": "promo-a",
+      "id": "unv7a6bakk"
+    },
+    {
+      "name": "Spectrum",
+      "number": "20",
+      "rarity": "-",
+      "img": "promo-a/20.webp",
+      "setName": "promo-a",
+      "id": "toacn0my0w"
+    },
+    {
+      "name": "Onix",
+      "number": "21",
+      "rarity": "-",
+      "img": "promo-a/21.webp",
+      "setName": "promo-a",
+      "id": "kc5d90gv8y"
+    },
+    {
+      "name": "Rondoudou",
+      "number": "22",
+      "rarity": "-",
+      "img": "promo-a/22.webp",
+      "setName": "promo-a",
+      "id": "fg4inxsxi0"
+    },
+    {
+      "name": "Bulbizarre",
+      "number": "23",
+      "rarity": "-",
+      "img": "promo-a/23.webp",
+      "setName": "promo-a",
+      "id": "btx31i94r3"
+    },
+    {
+      "name": "Magnéti",
+      "number": "24",
+      "rarity": "-",
+      "img": "promo-a/24.webp",
+      "setName": "promo-a",
+      "id": "umooph58rx"
+    },
+    {
+      "name": "Pokédex",
+      "number": "8",
+      "rarity": "-",
+      "img": "promo-a/8.webp",
+      "setName": "promo-a",
+      "id": "f5tobzue46"
+    },
+    {
+      "name": "Tiplouf",
+      "number": "34",
+      "rarity": "-",
+      "img": "promo-a/34.webp",
+      "setName": "promo-a",
+      "id": "w4m7hf9nu9"
+    },
+    {
+      "name": "Tortipouss",
+      "number": "35",
+      "rarity": "-",
+      "img": "promo-a/35.webp",
+      "setName": "promo-a",
+      "id": "ciieynzh9g"
+    },
+    {
+      "name": "Élekable",
+      "number": "36",
+      "rarity": "-",
+      "img": "promo-a/36.webp",
+      "setName": "promo-a",
+      "id": "1ena8cl3b2"
+    },
+    {
+      "name": "Cresselia ex",
+      "number": "37",
+      "rarity": "-",
+      "img": "promo-a/37.webp",
+      "setName": "promo-a",
+      "id": "0c19b56xip"
+    },
+    {
+      "name": "Feuforêve",
+      "number": "38",
+      "rarity": "-",
+      "img": "promo-a/38.webp",
+      "setName": "promo-a",
+      "id": "jr5mo2zkpy"
+    },
+    {
+      "name": "Airmure",
+      "number": "39",
+      "rarity": "-",
+      "img": "promo-a/39.webp",
+      "setName": "promo-a",
+      "id": "8rnz3z3ilw"
+    },
+    {
+      "name": "Ouisticram",
+      "number": "40",
+      "rarity": "-",
+      "img": "promo-a/40.webp",
+      "setName": "promo-a",
+      "id": "azmn1vyg30"
+    },
+    {
+      "name": "Togepi",
+      "number": "41",
+      "rarity": "-",
+      "img": "promo-a/41.webp",
+      "setName": "promo-a",
+      "id": "72romier1q"
+    },
+    {
+      "name": "Darkrai ex",
+      "number": "42",
+      "rarity": "-",
+      "img": "promo-a/42.webp",
+      "setName": "promo-a",
+      "id": "yuaixqaq40"
+    },
+    {
+      "name": "Ceriflor",
+      "number": "43",
+      "rarity": "-",
+      "img": "promo-a/43.webp",
+      "setName": "promo-a",
+      "id": "5c9col5iuu"
+    },
+    {
+      "name": "Raichu",
+      "number": "44",
+      "rarity": "-",
+      "img": "promo-a/44.webp",
+      "setName": "promo-a",
+      "id": "ughque3ici"
+    },
+    {
+      "name": "Tarinor",
+      "number": "45",
+      "rarity": "-",
+      "img": "promo-a/45.webp",
+      "setName": "promo-a",
+      "id": "91hda47nj2"
+    },
+    {
+      "name": "Griknot",
+      "number": "46",
+      "rarity": "-",
+      "img": "promo-a/46.webp",
+      "setName": "promo-a",
+      "id": "v4h1lj3wcv"
+    },
+    {
+      "name": "Étouraptor",
+      "number": "47",
+      "rarity": "-",
+      "img": "promo-a/47.webp",
+      "setName": "promo-a",
+      "id": "di35ox99e0"
+    },
+    {
+      "name": "Manaphy",
+      "number": "48",
+      "rarity": "-",
+      "img": "promo-a/48.webp",
+      "setName": "promo-a",
+      "id": "w583ugsenb"
+    },
+    {
+      "name": "Ronflex",
+      "number": "49",
+      "rarity": "-",
+      "img": "promo-a/49.webp",
+      "setName": "promo-a",
+      "id": "0i48tk418x"
+    }
+  ]
+}

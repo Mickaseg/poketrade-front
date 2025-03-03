@@ -1,0 +1,775 @@
+{
+  "setName": "lumiere-triomphale",
+  "totalCards": 96,
+  "scrapeDate": "2025-03-02T16:24:43.455Z",
+  "cards": [
+    {
+      "id": "2ww9flu1wg",
+      "name": "Scarhino",
+      "number": "1",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/1.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "8mnm4a3ykb",
+      "name": "Cheniti",
+      "number": "2",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/2.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "4ullwul6z9",
+      "name": "Papilord",
+      "number": "3",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/3.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "5yrqi1jxyc",
+      "name": "Apitrini",
+      "number": "4",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/4.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "zlk3znlxf1",
+      "name": "Apireine",
+      "number": "5",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/5.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "aratrpq5hx",
+      "name": "Ceribou",
+      "number": "6",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/6.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "pofibqs6n9",
+      "name": "Ceriflor",
+      "number": "7",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/7.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "6wqbdxnoln",
+      "name": "Ceriflor",
+      "number": "8",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/8.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "i7t3t46xjg",
+      "name": "Vortente",
+      "number": "9",
+      "rarity": "♢♢♢",
+      "img": "lumiere-triomphale/9.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "kzr1a1k03o",
+      "name": "Phyllali ex",
+      "number": "10",
+      "rarity": "♢♢♢♢",
+      "img": "lumiere-triomphale/10.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "2n1mizquei",
+      "name": "Malosse",
+      "number": "11",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/11.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "tdjnu11ge6",
+      "name": "Démolosse",
+      "number": "12",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/12.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "e7qtucu3ky",
+      "name": "Heatran",
+      "number": "13",
+      "rarity": "♢♢♢",
+      "img": "lumiere-triomphale/13.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "nwrs5intfc",
+      "name": "Marill",
+      "number": "14",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/14.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "sim25u1q3v",
+      "name": "Azumarill",
+      "number": "15",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/15.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "krw5udgv4c",
+      "name": "Barloche",
+      "number": "16",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/16.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "r6owvsetmf",
+      "name": "Barbicha",
+      "number": "17",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/17.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "bj417nvpcv",
+      "name": "Stalgamin",
+      "number": "18",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/18.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "cswn61oc8v",
+      "name": "Momartik",
+      "number": "19",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/19.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "b09utzc1ev",
+      "name": "Blizzi",
+      "number": "20",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/20.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "ufgsszh06g",
+      "name": "Blizzaroi",
+      "number": "21",
+      "rarity": "♢♢♢",
+      "img": "lumiere-triomphale/21.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "w2czm04vsn",
+      "name": "Givrali ex",
+      "number": "22",
+      "rarity": "♢♢♢♢",
+      "img": "lumiere-triomphale/22.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "xv0fyixoq3",
+      "name": "Palkia (Forme Originelle)",
+      "number": "23",
+      "rarity": "♢♢♢",
+      "img": "lumiere-triomphale/23.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "bxpljwh7fx",
+      "name": "Phione",
+      "number": "24",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/24.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "b4jwi9e98e",
+      "name": "Pikachu",
+      "number": "25",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/25.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "ng5jtcmkxd",
+      "name": "Raichu",
+      "number": "26",
+      "rarity": "♢♢♢",
+      "img": "lumiere-triomphale/26.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "lelmh9jtqu",
+      "name": "Dynavolt",
+      "number": "27",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/27.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "mr3er8cu1q",
+      "name": "Élecsprint",
+      "number": "28",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/28.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "5vfe4dms06",
+      "name": "Mélofée",
+      "number": "29",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/29.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "mtm9jftjwo",
+      "name": "Mélodelfe",
+      "number": "30",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/30.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "t1ij2nvbdo",
+      "name": "Fantominus",
+      "number": "31",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/31.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "oaww1ieizb",
+      "name": "Spectrum",
+      "number": "32",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/32.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "rohu5fcten",
+      "name": "Ectoplasma",
+      "number": "33",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/33.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "tgbpg7i6xv",
+      "name": "Zarbi",
+      "number": "34",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/34.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "oea5tmhcn8",
+      "name": "Motisma",
+      "number": "35",
+      "rarity": "♢♢♢",
+      "img": "lumiere-triomphale/35.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "wr4hanj10q",
+      "name": "Simularbre",
+      "number": "36",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/36.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "921rhvb8sj",
+      "name": "Phanpy",
+      "number": "37",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/37.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "e21eu7kbcg",
+      "name": "Donphan",
+      "number": "38",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/38.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "mfgl6vlg5u",
+      "name": "Embrylex",
+      "number": "39",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/39.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "1fpo8z5rau",
+      "name": "Ymphect",
+      "number": "40",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/40.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "kztkvmp16k",
+      "name": "Tyranocif",
+      "number": "41",
+      "rarity": "♢♢♢",
+      "img": "lumiere-triomphale/41.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "jlkeaz7yg4",
+      "name": "Tarinor",
+      "number": "42",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/42.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "kx3teehj0p",
+      "name": "Méditikka",
+      "number": "43",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/43.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "raj26jhvf0",
+      "name": "Charmina",
+      "number": "44",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/44.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "pe84mccpt6",
+      "name": "Griknot",
+      "number": "45",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/45.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "wl2ofjwaw5",
+      "name": "Carmache",
+      "number": "46",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/46.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "447bky1w8i",
+      "name": "Carchacrok ex",
+      "number": "47",
+      "rarity": "♢♢♢♢",
+      "img": "lumiere-triomphale/47.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "r3kyv3rjeh",
+      "name": "Nosferapti",
+      "number": "48",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/48.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "zkjbfonee7",
+      "name": "Nosferalto",
+      "number": "49",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/49.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "g3qxy9k0js",
+      "name": "Nostenfer",
+      "number": "50",
+      "rarity": "♢♢♢",
+      "img": "lumiere-triomphale/50.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "kg0bvymdol",
+      "name": "Cradopaud",
+      "number": "51",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/51.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "7qj6l5dm4x",
+      "name": "Coatox",
+      "number": "52",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/52.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "121td8wzla",
+      "name": "Magnéti",
+      "number": "53",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/53.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "xzkulmatzv",
+      "name": "Magnéton",
+      "number": "54",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/54.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "iypn6mm7uf",
+      "name": "Magnézone",
+      "number": "55",
+      "rarity": "♢♢♢",
+      "img": "lumiere-triomphale/55.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "mxqf0uncmi",
+      "name": "Mysdibule",
+      "number": "56",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/56.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "l07w9hemvj",
+      "name": "Tarinorme ex",
+      "number": "57",
+      "rarity": "♢♢♢♢",
+      "img": "lumiere-triomphale/57.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "wjuhqqlzx7",
+      "name": "Archéomire",
+      "number": "58",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/58.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "liflf96fnk",
+      "name": "Archéodong",
+      "number": "59",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/59.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "3cnivljqnc",
+      "name": "Dialga (Forme Originelle)",
+      "number": "60",
+      "rarity": "♢♢♢",
+      "img": "lumiere-triomphale/60.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "amajvtqiaq",
+      "name": "Giratina",
+      "number": "61",
+      "rarity": "♢♢♢",
+      "img": "lumiere-triomphale/61.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "6hz1os9cvb",
+      "name": "Évoli",
+      "number": "62",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/62.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "4f957ah6yw",
+      "name": "Ronflex",
+      "number": "63",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/63.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "nxbc45fg83",
+      "name": "Hoothoot",
+      "number": "64",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/64.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "mczfalgt6r",
+      "name": "Noarfang",
+      "number": "65",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/65.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "myxggqgit9",
+      "name": "Étourmi",
+      "number": "66",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/66.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "zr0l6jzr2q",
+      "name": "Étourvol",
+      "number": "67",
+      "rarity": "♢",
+      "img": "lumiere-triomphale/67.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "k7ew5htrzr",
+      "name": "Étouraptor",
+      "number": "68",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/68.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "xtxq8bp37n",
+      "name": "Shaymin",
+      "number": "69",
+      "rarity": "♢♢♢",
+      "img": "lumiere-triomphale/69.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "ll0q8ksds5",
+      "name": "Arceus",
+      "number": "70",
+      "rarity": "♢♢♢",
+      "img": "lumiere-triomphale/70.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "7ae4pb1ida",
+      "name": "Arceus ex",
+      "number": "71",
+      "rarity": "♢♢♢♢",
+      "img": "lumiere-triomphale/71.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "sisi6wa1vg",
+      "name": "Nacchara",
+      "number": "72",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/72.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "7hj1eabk9m",
+      "name": "Doyenne de Célestia",
+      "number": "73",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/73.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "vi7mzb3ud4",
+      "name": "René",
+      "number": "74",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/74.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "0e4ovuse8b",
+      "name": "Adamantin",
+      "number": "75",
+      "rarity": "♢♢",
+      "img": "lumiere-triomphale/75.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "kmlw1u5e4n",
+      "name": "Démolosse",
+      "number": "76",
+      "rarity": "☆",
+      "img": "lumiere-triomphale/76.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "mp1f94zk95",
+      "name": "Marill",
+      "number": "77",
+      "rarity": "☆",
+      "img": "lumiere-triomphale/77.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "xesvmvx0o6",
+      "name": "Zarbi",
+      "number": "78",
+      "rarity": "☆",
+      "img": "lumiere-triomphale/78.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "t9yo3yj6wm",
+      "name": "Simularbre",
+      "number": "79",
+      "rarity": "☆",
+      "img": "lumiere-triomphale/79.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "in8g8xnc0q",
+      "name": "Magnéti",
+      "number": "80",
+      "rarity": "☆",
+      "img": "lumiere-triomphale/80.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "l2bl298xfd",
+      "name": "Shaymin",
+      "number": "81",
+      "rarity": "☆",
+      "img": "lumiere-triomphale/81.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "eeq99icr8o",
+      "name": "Phyllali ex",
+      "number": "82",
+      "rarity": "☆☆",
+      "img": "lumiere-triomphale/82.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "nj65l7vm4u",
+      "name": "Givrali ex",
+      "number": "83",
+      "rarity": "☆☆",
+      "img": "lumiere-triomphale/83.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "pow6afh2bb",
+      "name": "Carchacrok ex",
+      "number": "84",
+      "rarity": "☆☆",
+      "img": "lumiere-triomphale/84.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "g29ti8gs67",
+      "name": "Tarinorme ex",
+      "number": "85",
+      "rarity": "☆☆",
+      "img": "lumiere-triomphale/85.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "cplekb9d59",
+      "name": "Arceus ex",
+      "number": "86",
+      "rarity": "☆☆",
+      "img": "lumiere-triomphale/86.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "ia89exy85g",
+      "name": "Nacchara",
+      "number": "87",
+      "rarity": "☆☆",
+      "img": "lumiere-triomphale/87.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "wbga4a41ci",
+      "name": "Doyenne de Célestia",
+      "number": "88",
+      "rarity": "☆☆",
+      "img": "lumiere-triomphale/88.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "dr09nno49f",
+      "name": "René",
+      "number": "89",
+      "rarity": "☆☆",
+      "img": "lumiere-triomphale/89.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "s48ml48gyo",
+      "name": "Adamantin",
+      "number": "90",
+      "rarity": "☆☆",
+      "img": "lumiere-triomphale/90.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "nrdqrct0zq",
+      "name": "Phyllali ex",
+      "number": "91",
+      "rarity": "☆☆",
+      "img": "lumiere-triomphale/91.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "1duk8530pq",
+      "name": "Givrali ex",
+      "number": "92",
+      "rarity": "☆☆",
+      "img": "lumiere-triomphale/92.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "fy3ctdcksz",
+      "name": "Carchacrok ex",
+      "number": "93",
+      "rarity": "☆☆",
+      "img": "lumiere-triomphale/93.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "f99vtmri57",
+      "name": "Tarinorme ex",
+      "number": "94",
+      "rarity": "☆☆",
+      "img": "lumiere-triomphale/94.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "j2vo1i7e1w",
+      "name": "Arceus ex",
+      "number": "95",
+      "rarity": "☆☆☆",
+      "img": "lumiere-triomphale/95.webp",
+      "setName": "lumiere-triomphale"
+    },
+    {
+      "id": "sqer2m8ib6",
+      "name": "Arceus ex",
+      "number": "96",
+      "rarity": "♛",
+      "img": "lumiere-triomphale/96.webp",
+      "setName": "lumiere-triomphale"
+    }
+  ]
+}

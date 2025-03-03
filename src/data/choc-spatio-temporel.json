@@ -1,2698 +1,1663 @@
 {
-  "setId": "i344270g8xo3wb9-choc-spatio-temporel",
+  "setName": "choc-spatio-temporel",
   "totalCards": 207,
-  "scrapeDate": "2025-02-24T18:45:10.434Z",
+  "scrapeDate": "2025-03-02T16:22:07.436Z",
   "cards": [
     {
-      "id": "d1n42et54088p2g-mystherbe",
+      "id": "lchv326qbp",
       "name": "Mystherbe",
       "number": "1",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/1.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "55hujy9ns27ube2-ortide",
+      "id": "fgco81c7op",
       "name": "Ortide",
       "number": "2",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/2.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "3i4h168lu8486su-joliflor",
+      "id": "0ao6r5n8eb",
       "name": "Joliflor",
       "number": "3",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/3.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "3v65a565dy8d8l8-saquedeneu",
-      "name": "Saquedeneu",
+      "id": "n0f3evc6v8",
+      "name": "Chétiflor",
       "number": "4",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/4.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "gjd8go4m790og86-bouldeneu",
-      "name": "Bouldeneu",
+      "id": "ut2c63bynp",
+      "name": "Boustiflor",
       "number": "5",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/5.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "z9z648763nb94q1-yanma",
-      "name": "Yanma",
+      "id": "ufkfd4whf0",
+      "name": "Empiflor",
       "number": "6",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/6.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "t2ickfb3q35721y-yanmega-ex",
-      "name": "Yanmega-ex",
+      "id": "oeou4pzh8k",
+      "name": "Yanmega ex",
       "number": "7",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "choc-spatio-temporel/7.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "0kq15k1x0h71wf1-roselia",
+      "id": "zpw82hir78",
       "name": "Rosélia",
       "number": "8",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/8.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "ez5l91mc3gzx9yz-roserade",
+      "id": "sgkjg5rbny",
       "name": "Roserade",
       "number": "9",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/9.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "h79986449s90mmz-tortipouss",
+      "id": "ax9lcw18ok",
       "name": "Tortipouss",
       "number": "10",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/10.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "4hb937fp6v02ohv-boskara",
+      "id": "hakdg3ddy2",
       "name": "Boskara",
       "number": "11",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/11.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "bb7jafcdxpl48p9-torterra",
+      "id": "1cz3upw433",
       "name": "Torterra",
       "number": "12",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/12.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "6luhf33ftv7c248-crikzik",
+      "id": "7sv15k9lq7",
       "name": "Crikzik",
       "number": "13",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/13.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "0ob3e39b5l0b9c1-melokrik",
+      "id": "pnjffqpxzu",
       "name": "Mélokrik",
       "number": "14",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/14.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "1rn92q4cptd8r59-cheniti",
+      "id": "gvsj374h1z",
       "name": "Cheniti",
       "number": "15",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/15.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "a2yj732845w4896-cheniselle",
+      "id": "io03v8l4rg",
       "name": "Cheniselle",
       "number": "16",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/16.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "6qab202290f62cc-apitrini",
+      "id": "iaa70lfhat",
       "name": "Apitrini",
       "number": "17",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/17.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "guet0bwn99lw103-apireine",
+      "id": "349ytbhcne",
       "name": "Apireine",
       "number": "18",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/18.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "4b06k982bur8hwg-vortente",
+      "id": "bncmxw4olv",
       "name": "Vortente",
       "number": "19",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/19.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "9b5j508e063340v-phyllali",
+      "id": "s2a69gw9ai",
       "name": "Phyllali",
       "number": "20",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/20.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "72k19qv754p2n7p-motisma-tonte",
+      "id": "sb0v793gg0",
       "name": "Motisma Tonte",
       "number": "21",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/21.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "25e5y9irtr6626y-shaymin",
+      "id": "a2396j4srs",
       "name": "Shaymin",
       "number": "22",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/22.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "yxj67fo04a2vxd5-magmar",
+      "id": "qr6koe6a35",
       "name": "Magmar",
       "number": "23",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/23.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "cloo46y4qdewn0z-maganon",
+      "id": "ibxecln6b2",
       "name": "Maganon",
       "number": "24",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/24.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "y41klu037gburvv-limagma",
+      "id": "beifywu5wj",
       "name": "Limagma",
       "number": "25",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/25.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "j64r65m94333w1f-volcaropod",
+      "id": "2jzcqbueva",
       "name": "Volcaropod",
       "number": "26",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/26.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "mx9t06re6431wj6-ouisticram",
+      "id": "zr3onvif4l",
       "name": "Ouisticram",
       "number": "27",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/27.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "m5lz3h4013kdo87-chimpenfeu",
+      "id": "487xmo1r8f",
       "name": "Chimpenfeu",
       "number": "28",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/28.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "r6g2rc558e4x155-simiabraz-ex",
-      "name": "Simiabraz-ex",
+      "id": "ra4v26pzck",
+      "name": "Simiabraz ex",
       "number": "29",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "choc-spatio-temporel/29.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "z661rpu209422p2-motisma-chaleur",
+      "id": "k9gksfzswv",
       "name": "Motisma Chaleur",
       "number": "30",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/30.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "7038p187241fbta-marcacrin",
+      "id": "d9e7leq62w",
       "name": "Marcacrin",
       "number": "31",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/31.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "37m3q787u25ff27-cochignon",
+      "id": "j31o2q0njf",
       "name": "Cochignon",
       "number": "32",
-      "type": "water",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/32.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "o9360oyx06n75w9-mammochon",
+      "id": "i6b1h4f7oo",
       "name": "Mammochon",
       "number": "33",
-      "type": "water",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/33.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "40396i37fn201i7-regice",
+      "id": "8buhsu6psa",
       "name": "Regice",
       "number": "34",
-      "type": "water",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/34.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "g1faufe0g04it65-tiplouf",
+      "id": "6j5qggnmcg",
       "name": "Tiplouf",
       "number": "35",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/35.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "zn12gi590hp7y65-prinplouf",
+      "id": "wsjeb1eng2",
       "name": "Prinplouf",
       "number": "36",
-      "type": "water",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/36.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "y05rrt7zuw2p625-pingoleon",
+      "id": "h15endwhlz",
       "name": "Pingoléon",
       "number": "37",
-      "type": "water",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/37.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "42658dem77y60u9-musteboue",
+      "id": "yoqodcjhcd",
       "name": "Mustébouée",
       "number": "38",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/38.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "8wq1e7c4oqtlhof-musteflott",
+      "id": "rmq884ni8y",
       "name": "Mustéflott",
       "number": "39",
-      "type": "water",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/39.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "w324wk78fzf11pq-sancoki",
+      "id": "m83jvaih0v",
       "name": "Sancoki",
       "number": "40",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/40.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "6br4t6f1103278r-tritosor",
+      "id": "kbyvphq3ne",
       "name": "Tritosor",
       "number": "41",
-      "type": "water",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/41.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "415y7s070qu6o7b-ecayon",
+      "id": "8w0iwjf191",
       "name": "Écayon",
       "number": "42",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/42.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "9z51r0uq473bi5v-lumineon",
+      "id": "mlvxchh2io",
       "name": "Luminéon",
       "number": "43",
-      "type": "water",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/43.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "1a7329gve205mu1-blizzi",
+      "id": "i1sbw5ryka",
       "name": "Blizzi",
       "number": "44",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/44.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "u0p6ece837789nz-blizzaroi",
+      "id": "vcxvnnt0q8",
       "name": "Blizzaroi",
       "number": "45",
-      "type": "water",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/45.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "d632t9q2l44bu3f-givrali",
+      "id": "m5rctmeou4",
       "name": "Givrali",
       "number": "46",
-      "type": "water",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/46.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "fd3lr4xkjf2wn8a-motisma-lavage",
+      "id": "q6k524v33f",
       "name": "Motisma Lavage",
       "number": "47",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/47.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "6dccq4kuobhzgz1-motisma-froid",
+      "id": "f1qztptluc",
       "name": "Motisma Froid",
       "number": "48",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/48.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "7vh6irm1ucs5qv2-palkia-ex",
-      "name": "Palkia-ex",
+      "id": "jovngbifxm",
+      "name": "Palkia ex",
       "number": "49",
-      "type": "water",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "choc-spatio-temporel/49.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "04k921sxzk65669-manaphy",
+      "id": "uwkt3d5kbe",
       "name": "Manaphy",
       "number": "50",
-      "type": "water",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/50.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "0bpevr0y99ddm7h-magneti",
+      "id": "caxos2a7k6",
       "name": "Magnéti",
       "number": "51",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/51.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "z80wc1l3399r3ol-magneton",
+      "id": "pg65i1p7mx",
       "name": "Magnéton",
       "number": "52",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/52.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "67500h2gd04f7za-magnezone",
+      "id": "8eizyubs6w",
       "name": "Magnézone",
       "number": "53",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/53.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "k039533hzyhau05-voltorbe",
+      "id": "ipsacq34uk",
       "name": "Voltorbe",
       "number": "54",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/54.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "8jtf46e89k36fxi-electrode",
+      "id": "kvf0k42giy",
       "name": "Électrode",
       "number": "55",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/55.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "ozz4z9vjebrzel9-elektek",
+      "id": "j13m74r6gr",
       "name": "Élektek",
       "number": "56",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/56.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "00cckul0x6bi7tt-elekable",
+      "id": "ik865qyz9u",
       "name": "Élekable",
       "number": "57",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/57.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "03b7j9t65b4z935-lixy",
+      "id": "kyh15onyyd",
       "name": "Lixy",
       "number": "58",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/58.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "5z1luma06jy337v-luxio",
+      "id": "iwwq669x1t",
       "name": "Luxio",
       "number": "59",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/59.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "3mesv23g030k11e-luxray",
+      "id": "k50qjsnv1j",
       "name": "Luxray",
       "number": "60",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/60.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "3hx55l9ah2801ru-pachirisu-ex",
-      "name": "Pachirisu-ex",
+      "id": "ngoi7cewam",
+      "name": "Pachirisu ex",
       "number": "61",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "choc-spatio-temporel/61.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "618rcw4w2p73g6r-motisma",
+      "id": "vlcp6p6778",
       "name": "Motisma",
       "number": "62",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/62.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "vb55etw97z10508-togepi",
+      "id": "rkvopeegi8",
       "name": "Togepi",
       "number": "63",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/63.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "116d1ph73y4xa6r-togetic",
+      "id": "zlogy9jsis",
       "name": "Togetic",
       "number": "64",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/64.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "ud6zf82lz460941-togekiss",
+      "id": "8s45fhn5z1",
       "name": "Togekiss",
       "number": "65",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/65.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "qde9oz54729ncjz-feuforve",
+      "id": "ozhbn471k2",
       "name": "Feuforêve",
       "number": "66",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/66.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "424fj39d56h4uw2-magirve-ex",
-      "name": "Magirêve-ex",
+      "id": "ckv37kx4l0",
+      "name": "Magirêve ex",
       "number": "67",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "choc-spatio-temporel/67.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "0f2k8c2pmi79bk0-tarsal",
+      "id": "m5julcrtef",
       "name": "Tarsal",
       "number": "68",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/68.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "62bsi8566wrf46v-kirlia",
+      "id": "ieamjby8md",
       "name": "Kirlia",
       "number": "69",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/69.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "hh27nf4ggbet2yg-skelenox",
+      "id": "kg1blqwni5",
       "name": "Skelénox",
       "number": "70",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/70.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "22ucr130f6qa48j-teraclope",
+      "id": "di4r31k4wd",
       "name": "Téraclope",
       "number": "71",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/71.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "9o21v427omlopa8-noctunoir",
+      "id": "i63n8puzk3",
       "name": "Noctunoir",
       "number": "72",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/72.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "nb4160af16a86mn-baudrive",
+      "id": "hxcrhpbom9",
       "name": "Baudrive",
       "number": "73",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/73.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "u4l3x6ug00p0aqa-grodrive",
+      "id": "l3o78i2vcx",
       "name": "Grodrive",
       "number": "74",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/74.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "82nearho8njgt65-crehelf",
+      "id": "5mf1fwmdjv",
       "name": "Créhelf",
       "number": "75",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/75.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "udp0nspb55p956q-crefollet",
+      "id": "s1wki3kah3",
       "name": "Créfollet",
       "number": "76",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/76.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "2id176nycxk3k09-crefadet",
+      "id": "zsdri1cf0m",
       "name": "Créfadet",
       "number": "77",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/77.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "r4ds68765uc400h-giratina",
+      "id": "ngxb8oo54i",
       "name": "Giratina",
       "number": "78",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/78.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "0430636zwrelal1-cresselia",
+      "id": "qu1ptutxu2",
       "name": "Cresselia",
       "number": "79",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/79.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "318q9n9crvo8o0r-rhinocorne",
+      "id": "jpvla2eh7r",
       "name": "Rhinocorne",
       "number": "80",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/80.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "us1581uqdg2r4vo-rhinoferos",
+      "id": "gjrfrtqfco",
       "name": "Rhinoféros",
       "number": "81",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/81.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "5bni951fbt3ti65-rhinastoc",
+      "id": "4m27dp9cuk",
       "name": "Rhinastoc",
       "number": "82",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/82.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "33q1969mzl285v9-scorplane",
+      "id": "sk6icfsue3",
       "name": "Scorplane",
       "number": "83",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/83.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "4rrjwf4h9f5xzb6-scorvol",
+      "id": "79glqgnjpu",
       "name": "Scorvol",
       "number": "84",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/84.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "aesl4jzqz9igw08-kapoera",
+      "id": "7hgf3ouv4s",
       "name": "Kapoera",
       "number": "85",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/85.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "u4zy07t8st0cimf-tarinor",
+      "id": "go6f3kbm7l",
       "name": "Tarinor",
       "number": "86",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/86.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "4l1utv8cd49u7ew-regirock",
+      "id": "bj5fs79mje",
       "name": "Regirock",
       "number": "87",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/87.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "74kf850b1qcx81w-kranidos",
+      "id": "8eqjg12i05",
       "name": "Kranidos",
       "number": "88",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/88.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "52r4gy5djhr71ye-charkos",
+      "id": "esozywde83",
       "name": "Charkos",
       "number": "89",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/89.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "fjj01dn684rigu4-cheniselle",
+      "id": "igp1vudf8x",
       "name": "Cheniselle",
       "number": "90",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/90.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "mp93zm7a4losf56-riolu",
+      "id": "bea2vik77e",
       "name": "Riolu",
       "number": "91",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/91.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "7shb4509ugc8392-lucario",
+      "id": "hs6d0a6g7a",
       "name": "Lucario",
       "number": "92",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/92.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "v9089z132xd2s8r-hippopotas",
+      "id": "enpc7hkzet",
       "name": "Hippopotas",
       "number": "93",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/93.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "r7p2151k5t11o2i-hippodocus",
+      "id": "18n37mjco4",
       "name": "Hippodocus",
       "number": "94",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/94.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "67tgfe3ui2b5d03-gallame-ex",
-      "name": "Gallame-ex",
+      "id": "1e2evw8kz5",
+      "name": "Gallame ex",
       "number": "95",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "choc-spatio-temporel/95.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "7u667yr56134en5-cornbre",
+      "id": "radpoygbby",
       "name": "Cornèbre",
       "number": "96",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/96.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "8z4ps9ik1p5k4re-corboss",
+      "id": "n8u6fkqfqy",
       "name": "Corboss",
       "number": "97",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/97.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "jzldmjb4los4sb5-farfuret",
+      "id": "bo1yqz3dad",
       "name": "Farfuret",
       "number": "98",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/98.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "fl884272v99167h-dimoret-ex",
-      "name": "Dimoret-ex",
+      "id": "97crrjjzte",
+      "name": "Dimoret ex",
       "number": "99",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "choc-spatio-temporel/99.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "7hz66o4309i5942-medhyna",
+      "id": "3qtcgq1jco",
       "name": "Medhyèna",
       "number": "100",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/100.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "2e623nicio920oq-grahyna",
+      "id": "f25qmpo0n3",
       "name": "Grahyèna",
       "number": "101",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/101.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "661610634z378q9-moufouette",
+      "id": "8r0ntwui1n",
       "name": "Moufouette",
       "number": "102",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/102.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "6m0924g57z7f35g-moufflair",
+      "id": "x99241ekqh",
       "name": "Moufflair",
       "number": "103",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/103.webp",
+      "setName": "choc-spatio-temporel"
     },
     {
-      "id": "egi01eb692adh04-spiritomb",
       "name": "Spiritomb",
       "number": "104",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/104.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "v628g9ouu8"
     },
     {
-      "id": "4ye2t4c9kzy0wa9-rapion",
       "name": "Rapion",
       "number": "105",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/105.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "hqiifmezce"
     },
     {
-      "id": "1s7cd6nxkmt7v33-drascore",
       "name": "Drascore",
       "number": "106",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/106.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "9dymakj6dj"
     },
     {
-      "id": "96382wgcph065wv-cradopaud",
       "name": "Cradopaud",
       "number": "107",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/107.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "g8dm472e1m"
     },
     {
-      "id": "ro6bzt9tny867f2-coatox",
       "name": "Coatox",
       "number": "108",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/108.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "yer9kyqmfg"
     },
     {
-      "id": "zm421n0s4an91o6-darkrai",
       "name": "Darkrai",
       "number": "109",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/109.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "wwues9nt9y"
     },
     {
-      "id": "a24h6da4zix1mz1-darkrai-ex",
-      "name": "Darkrai-ex",
+      "name": "Darkrai ex",
       "number": "110",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "choc-spatio-temporel/110.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "8rsjqo1gcw"
     },
     {
-      "id": "4485120h3j9m09x-airmure",
       "name": "Airmure",
       "number": "111",
-      "type": "metal",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/111.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "yf98lraguc"
     },
     {
-      "id": "i0x169iv7ywphm0-registeel",
       "name": "Registeel",
       "number": "112",
-      "type": "metal",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/112.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "1sq4fqzciu"
     },
     {
-      "id": "92034n533n6h1rm-dinoclier",
       "name": "Dinoclier",
       "number": "113",
-      "type": "metal",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/113.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "nwd22ktfn4"
     },
     {
-      "id": "0mae1v52u5pnh1r-bastiodon",
       "name": "Bastiodon",
       "number": "114",
-      "type": "metal",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/114.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "9dodh668zr"
     },
     {
-      "id": "ci793v1u4sz9u0e-cheniselle",
       "name": "Cheniselle",
       "number": "115",
-      "type": "metal",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/115.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "69fqoz19qu"
     },
     {
-      "id": "639wm49h2w3964p-archeomire",
       "name": "Archéomire",
       "number": "116",
-      "type": "metal",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/116.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "693ke2fzeo"
     },
     {
-      "id": "7342vgl6tphz452-archeodong",
       "name": "Archéodong",
       "number": "117",
-      "type": "metal",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/117.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "tqagy1n29i"
     },
     {
-      "id": "vtq786k73n8w603-tarinorme",
       "name": "Tarinorme",
       "number": "118",
-      "type": "metal",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/118.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "rtaxh5jeff"
     },
     {
-      "id": "kvo6x2m1elyhe1k-dialga-ex",
-      "name": "Dialga-ex",
+      "name": "Dialga ex",
       "number": "119",
-      "type": "metal",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "choc-spatio-temporel/119.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "30fsf4onx1"
     },
     {
-      "id": "s2s01a287cst4p5-heatran",
       "name": "Heatran",
       "number": "120",
-      "type": "metal",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/120.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "ai7uz9iz8b"
     },
     {
-      "id": "m5u1o259642gp2n-griknot",
       "name": "Griknot",
       "number": "121",
-      "type": "dragon",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/121.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "jg4w9v1ng2"
     },
     {
-      "id": "a5uy6mptn5l22rt-carmache",
       "name": "Carmache",
       "number": "122",
-      "type": "dragon",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/122.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "054p8rau8l"
     },
     {
-      "id": "ikghon5b4a05yb4-carchacrok",
       "name": "Carchacrok",
       "number": "123",
-      "type": "dragon",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/123.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "y43cyft3a8"
     },
     {
-      "id": "58o9sx0b36ch76b-excelangue",
       "name": "Excelangue",
       "number": "124",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/124.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "jogwy4r6zw"
     },
     {
-      "id": "v7i5u0u2ew32n8h-coudlangue-ex",
-      "name": "Coudlangue-ex",
+      "name": "Coudlangue ex",
       "number": "125",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "choc-spatio-temporel/125.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "d382y8s98c"
     },
     {
-      "id": "o0f285902f6vsh1-evoli",
       "name": "Évoli",
       "number": "126",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/126.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "znjb0k80kk"
     },
     {
-      "id": "me5s12968roo1kq-porygon",
       "name": "Porygon",
       "number": "127",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/127.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "jjsuxutbtx"
     },
     {
-      "id": "3fdr3wxze0e982h-porygon2",
       "name": "Porygon2",
       "number": "128",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/128.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "o1ixkprpmo"
     },
     {
-      "id": "u67f35iq6ht0z72-porygon-z",
       "name": "Porygon-Z",
       "number": "129",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/129.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "6mbfdfgtmb"
     },
     {
-      "id": "pdd447s68beiekf-capumain",
       "name": "Capumain",
       "number": "130",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/130.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "piyx8lr8mc"
     },
     {
-      "id": "0682nxd27uf5pmr-capidextre",
       "name": "Capidextre",
       "number": "131",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/131.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "szcx15115v"
     },
     {
-      "id": "92c3702t63l38t9-etourmi",
       "name": "Étourmi",
       "number": "132",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/132.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "h891jhb2j6"
     },
     {
-      "id": "6891hb8n0apx1l7-etourvol",
       "name": "Étourvol",
       "number": "133",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/133.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "r2okhyj1xe"
     },
     {
-      "id": "5l99g7773bw1tl4-etouraptor",
       "name": "Étouraptor",
       "number": "134",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/134.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "dsrm0bamqy"
     },
     {
-      "id": "e5i2kmq4kcgyq55-keunotor",
       "name": "Keunotor",
       "number": "135",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/135.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "90fxp4q1h7"
     },
     {
-      "id": "2kg56ughc067399-castorno",
       "name": "Castorno",
       "number": "136",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/136.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "j4e43f8f60"
     },
     {
-      "id": "fd16ybo673x49wj-laporeille",
       "name": "Laporeille",
       "number": "137",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/137.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "m4yja5nrrk"
     },
     {
-      "id": "5wowyb77elkm3jg-lockpin",
       "name": "Lockpin",
       "number": "138",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/138.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "dcvl5457xq"
     },
     {
-      "id": "0d6s3b38389bz62-chaglam",
       "name": "Chaglam",
       "number": "139",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/139.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "xjwxhi4i1s"
     },
     {
-      "id": "i3yh27hw6tj3zx7-chaffreux",
       "name": "Chaffreux",
       "number": "140",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/140.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "2q6j7zmetd"
     },
     {
-      "id": "5vby8ya6f98923e-pijako",
       "name": "Pijako",
       "number": "141",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/141.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "deudl8517i"
     },
     {
-      "id": "t899mlx288d0935-motisma-helice",
-      "name": "Motisma Hélice",
+      "name": "Motisma Vent",
       "number": "142",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/142.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "ph1o5s77m7"
     },
     {
-      "id": "5k7515cw7e8768u-regigigas",
       "name": "Regigigas",
       "number": "143",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "choc-spatio-temporel/143.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "xlq3p02uz9"
     },
     {
-      "id": "3u089up0s6044is-fossile-crne",
       "name": "Fossile Crâne",
       "number": "144",
-      "type": "",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/144.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "nca1fznd4c"
     },
     {
-      "id": "v309z699jgpwq55-fossile-armure",
       "name": "Fossile Armure",
       "number": "145",
-      "type": "",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "choc-spatio-temporel/145.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "2ksqxweqbv"
     },
     {
-      "id": "843zsh9kg6rfcht-communication-pokemon",
       "name": "Communication Pokémon",
       "number": "146",
-      "type": "",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/146.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "dcog8t1cbq"
     },
     {
-      "id": "720yej830jjgzhw-cape-geante",
       "name": "Cape Géante",
       "number": "147",
-      "type": "",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/147.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "3f0s7tns73"
     },
     {
-      "id": "xzb6448d2037a3m-casque-brut",
       "name": "Casque Brut",
       "number": "148",
-      "type": "",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/148.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "uxjfcx72gs"
     },
     {
-      "id": "6vdebs6km12kvdf-baie-prine",
-      "name": "Baie Prine",
+      "name": "Baie Lum",
       "number": "149",
-      "type": "",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/149.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "vfycl6q7ja"
     },
     {
-      "id": "6ly77pu3b0elj1h-helio",
       "name": "Hélio",
       "number": "150",
-      "type": "",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/150.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "w51w4wo31t"
     },
     {
-      "id": "001zgn13605khgb-sbire-de-la-team-galaxie",
       "name": "Sbire de la Team Galaxie",
       "number": "151",
-      "type": "",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/151.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "uoo6g9hzm5"
     },
     {
-      "id": "942km1245p3f5y7-cynthia",
       "name": "Cynthia",
       "number": "152",
-      "type": "",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/152.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "xa0uvwu7mk"
     },
     {
-      "id": "7jg6of92auwj08u-tanguy",
       "name": "Tanguy",
       "number": "153",
-      "type": "",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/153.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "23hvh3rnwh"
     },
     {
-      "id": "qe40e51w3g81899-aurore",
       "name": "Aurore",
       "number": "154",
-      "type": "",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/154.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "uu7g2dwr57"
     },
     {
-      "id": "4g0jft5ie9hgft6-mars",
       "name": "Mars",
       "number": "155",
-      "type": "",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "choc-spatio-temporel/155.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "a09y4o4rws"
     },
     {
-      "id": "14x3437j90g9133-bouldeneu",
       "name": "Bouldeneu",
       "number": "156",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "choc-spatio-temporel/156.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "s4k6jfzv31"
     },
     {
-      "id": "01zyte7dr8dbbq5-apitrini",
       "name": "Apitrini",
       "number": "157",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "choc-spatio-temporel/157.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "393a4o4vth"
     },
     {
-      "id": "nqi5j5y46kxcl6q-vortente",
       "name": "Vortente",
       "number": "158",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "choc-spatio-temporel/158.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "d8hznmy2tm"
     },
     {
-      "id": "9iq3b0p7s4s9y9v-shaymin",
       "name": "Shaymin",
       "number": "159",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "choc-spatio-temporel/159.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "gas3b1pfaf"
     },
     {
-      "id": "tgdt4695rmcdn7c-mammochon",
       "name": "Mammochon",
       "number": "160",
-      "type": "water",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "choc-spatio-temporel/160.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "c7jqnsb38d"
     },
     {
-      "id": "7a35swfsk42486l-tritosor",
       "name": "Tritosor",
       "number": "161",
-      "type": "water",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "choc-spatio-temporel/161.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "puneciqvud"
     },
     {
-      "id": "hcrl22k9b18h82e-manaphy",
       "name": "Manaphy",
       "number": "162",
-      "type": "water",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "choc-spatio-temporel/162.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "g89mqk1jp7"
     },
     {
-      "id": "c91pview105fw4q-lixy",
       "name": "Lixy",
       "number": "163",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "choc-spatio-temporel/163.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "mqqoxzvpcb"
     },
     {
-      "id": "7t8xj540kxh9etj-motisma",
       "name": "Motisma",
       "number": "164",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "choc-spatio-temporel/164.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "r5nj8nn82q"
     },
     {
-      "id": "6vw19d78388d9p3-baudrive",
       "name": "Baudrive",
       "number": "165",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "choc-spatio-temporel/165.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "6b0iiujuhi"
     },
     {
-      "id": "m8h9n16yvq1od32-crefollet",
       "name": "Créfollet",
       "number": "166",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "choc-spatio-temporel/166.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "mg9yibc467"
     },
     {
-      "id": "48m23q6o2fx31wq-giratina",
       "name": "Giratina",
       "number": "167",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "choc-spatio-temporel/167.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "00f5iiswp4"
     },
     {
-      "id": "w0m874l50ded9w7-cresselia",
       "name": "Cresselia",
       "number": "168",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "choc-spatio-temporel/168.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "jnw06yrirs"
     },
     {
-      "id": "78k191ks8hvtz69-rhinastoc",
       "name": "Rhinastoc",
       "number": "169",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "choc-spatio-temporel/169.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "q1qw5q7ntn"
     },
     {
-      "id": "o0xvx9n4u381ho2-lucario",
       "name": "Lucario",
       "number": "170",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "choc-spatio-temporel/170.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "3afde4t21k"
     },
     {
-      "id": "52u7n2w1i8143q6-hippopotas",
       "name": "Hippopotas",
       "number": "171",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "choc-spatio-temporel/171.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "yjclzqdgw1"
     },
     {
-      "id": "c1t24x8ah7zn7b4-spiritomb",
       "name": "Spiritomb",
       "number": "172",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "choc-spatio-temporel/172.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "qfzb8pizze"
     },
     {
-      "id": "30368v66io131j2-cradopaud",
       "name": "Cradopaud",
       "number": "173",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "choc-spatio-temporel/173.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "d7uc8ivkf9"
     },
     {
-      "id": "762x5ew99c8i062-heatran",
       "name": "Heatran",
       "number": "174",
-      "type": "metal",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "choc-spatio-temporel/174.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "w732zz2ugb"
     },
     {
-      "id": "2v3tnce717p16g6-carchacrok",
       "name": "Carchacrok",
       "number": "175",
-      "type": "dragon",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "choc-spatio-temporel/175.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "lku10rhgn2"
     },
     {
-      "id": "k855e78vjuk64p5-etouraptor",
       "name": "Étouraptor",
       "number": "176",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "choc-spatio-temporel/176.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "5k4lz9i3xt"
     },
     {
-      "id": "78c57myg926j75h-keunotor",
       "name": "Keunotor",
       "number": "177",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "choc-spatio-temporel/177.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "acz63m5tbd"
     },
     {
-      "id": "51dalv9550s6n3z-chaglam",
       "name": "Chaglam",
       "number": "178",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "choc-spatio-temporel/178.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "96iz6ks57d"
     },
     {
-      "id": "02o34vmo8j656aj-regigigas",
       "name": "Regigigas",
       "number": "179",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "choc-spatio-temporel/179.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "kald2us5qu"
     },
     {
-      "id": "oa414d3m883hrx9-yanmega-ex",
-      "name": "Yanmega-ex",
+      "name": "Yanmega ex",
       "number": "180",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "choc-spatio-temporel/180.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "rz4x079dfj"
     },
     {
-      "id": "o1yr40gf5g551wh-simiabraz-ex",
-      "name": "Simiabraz-ex",
+      "name": "Simiabraz ex",
       "number": "181",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "choc-spatio-temporel/181.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "466o62sh5a"
     },
     {
-      "id": "0kyeh787zhbgrim-palkia-ex",
-      "name": "Palkia-ex",
+      "name": "Palkia ex",
       "number": "182",
-      "type": "water",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "choc-spatio-temporel/182.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "1vmw6vxlb7"
     },
     {
-      "id": "t221kv9p8t3b506-pachirisu-ex",
-      "name": "Pachirisu-ex",
+      "name": "Pachirisu ex",
       "number": "183",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "choc-spatio-temporel/183.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "3nuai8jh8m"
     },
     {
-      "id": "121g7lj9u62us6d-magirve-ex",
-      "name": "Magirêve-ex",
+      "name": "Magirêve ex",
       "number": "184",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "choc-spatio-temporel/184.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "edc4si4c28"
     },
     {
-      "id": "99t11x3124a6ti0-gallame-ex",
-      "name": "Gallame-ex",
+      "name": "Gallame ex",
       "number": "185",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "choc-spatio-temporel/185.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "g11xbndxyr"
     },
     {
-      "id": "sb2yzndz82f4k3q-dimoret-ex",
-      "name": "Dimoret-ex",
+      "name": "Dimoret ex",
       "number": "186",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "choc-spatio-temporel/186.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "88id3wi9q2"
     },
     {
-      "id": "u4379k69glnx9j7-darkrai-ex",
-      "name": "Darkrai-ex",
+      "name": "Darkrai ex",
       "number": "187",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "choc-spatio-temporel/187.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "crkp7rjka3"
     },
     {
-      "id": "7ebmy55e6etkuj9-dialga-ex",
-      "name": "Dialga-ex",
+      "name": "Dialga ex",
       "number": "188",
-      "type": "metal",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "choc-spatio-temporel/188.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "q1x63p04eq"
     },
     {
-      "id": "o9rd5d9ilyg74l5-coudlangue-ex",
-      "name": "Coudlangue-ex",
+      "name": "Coudlangue ex",
       "number": "189",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "choc-spatio-temporel/189.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "4h7a53hapx"
     },
     {
-      "id": "0vlxjz2ezk4mtx6-helio",
       "name": "Hélio",
       "number": "190",
-      "type": "",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "choc-spatio-temporel/190.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "r5uagj73zx"
     },
     {
-      "id": "e537k01k7vkndxc-sbire-de-la-team-galaxie",
       "name": "Sbire de la Team Galaxie",
       "number": "191",
-      "type": "",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "choc-spatio-temporel/191.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "z6avu5ovn4"
     },
     {
-      "id": "q88kbv99b88ublt-cynthia",
       "name": "Cynthia",
       "number": "192",
-      "type": "",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "choc-spatio-temporel/192.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "a99a7agthx"
     },
     {
-      "id": "o77qw5ugk95r60h-tanguy",
       "name": "Tanguy",
       "number": "193",
-      "type": "",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "choc-spatio-temporel/193.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "v5fvb0u08e"
     },
     {
-      "id": "75a6v22p6j1t01e-aurore",
       "name": "Aurore",
       "number": "194",
-      "type": "",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "choc-spatio-temporel/194.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "pvjbteaikz"
     },
     {
-      "id": "50u14qwpz2p16g4-mars",
       "name": "Mars",
       "number": "195",
-      "type": "",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "choc-spatio-temporel/195.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "n1rirwbfo0"
     },
     {
-      "id": "4124rn9vn527ldu-yanmega-ex",
-      "name": "Yanmega-ex",
+      "name": "Yanmega ex",
       "number": "196",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "choc-spatio-temporel/196.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "mtsle7ilw8"
     },
     {
-      "id": "k56kka52k39d8xq-simiabraz-ex",
-      "name": "Simiabraz-ex",
+      "name": "Simiabraz ex",
       "number": "197",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "choc-spatio-temporel/197.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "19xt03z9eo"
     },
     {
-      "id": "t45k59ev0crxy1l-pachirisu-ex",
-      "name": "Pachirisu-ex",
+      "name": "Pachirisu ex",
       "number": "198",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "choc-spatio-temporel/198.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "fawkj8byat"
     },
     {
-      "id": "e7i7i9g9i9o56ip-magirve-ex",
-      "name": "Magirêve-ex",
+      "name": "Magirêve ex",
       "number": "199",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "choc-spatio-temporel/199.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "vqklb3mcp1"
     },
     {
-      "id": "bch24889689f15v-gallame-ex",
-      "name": "Gallame-ex",
+      "name": "Gallame ex",
       "number": "200",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "choc-spatio-temporel/200.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "hykm150idr"
     },
     {
-      "id": "o4926p8o98wbks8-dimoret-ex",
-      "name": "Dimoret-ex",
+      "name": "Dimoret ex",
       "number": "201",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "choc-spatio-temporel/201.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "4bnvnqgz02"
     },
     {
-      "id": "l156h3rqd18e056-darkrai-ex",
-      "name": "Darkrai-ex",
+      "name": "Darkrai ex",
       "number": "202",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "choc-spatio-temporel/202.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "756ocew6xc"
     },
     {
-      "id": "p4b5779j8o8ewb1-coudlangue-ex",
-      "name": "Coudlangue-ex",
+      "name": "Coudlangue ex",
       "number": "203",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "choc-spatio-temporel/203.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "fo3l3xm603"
     },
     {
-      "id": "9k83gm11j5rf5j4-palkia-ex",
-      "name": "Palkia-ex",
+      "name": "Palkia ex",
       "number": "204",
-      "type": "water",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 3,
-        "crowns": 0,
-        "text": "★★★",
-        "value": 30
-      }
+      "rarity": "☆☆☆",
+      "img": "choc-spatio-temporel/204.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "7aqnkyx0q5"
     },
     {
-      "id": "311j7rv2146fx7m-dialga-ex",
-      "name": "Dialga-ex",
+      "name": "Dialga ex",
       "number": "205",
-      "type": "metal",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 3,
-        "crowns": 0,
-        "text": "★★★",
-        "value": 30
-      }
+      "rarity": "☆☆☆",
+      "img": "choc-spatio-temporel/205.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "ne81vjonc8"
     },
     {
-      "id": "y8ym9p47b8082ri-palkia-ex",
-      "name": "Palkia-ex",
+      "name": "Palkia ex",
       "number": "206",
-      "type": "water",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 0,
-        "crowns": 1,
-        "text": "👑",
-        "value": 100
-      }
+      "rarity": "♛",
+      "img": "choc-spatio-temporel/206.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "npd75oudch"
     },
     {
-      "id": "ft0kn1l0zx41j7p-dialga-ex",
-      "name": "Dialga-ex",
+      "name": "Dialga ex",
       "number": "207",
-      "type": "metal",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 0,
-        "crowns": 1,
-        "text": "👑",
-        "value": 100
-      }
+      "rarity": "♛",
+      "img": "choc-spatio-temporel/207.webp",
+      "setName": "choc-spatio-temporel",
+      "id": "m276q3gx64"
     }
   ]
 }

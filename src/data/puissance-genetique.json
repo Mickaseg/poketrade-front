@@ -1,3725 +1,2295 @@
 {
-  "setId": "t3hb77i3xy08no0-puissance-gentique",
+  "setName": "puissance-genetique",
   "totalCards": 286,
-  "scrapeDate": "2025-02-24T18:43:09.410Z",
+  "scrapeDate": "2025-03-02T13:03:24.063Z",
   "cards": [
     {
-      "id": "o416iiwlr5ayncv-bulbizarre",
+      "id": "ywf08i0oo6",
       "name": "Bulbizarre",
       "number": "1",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/1.webp",
+      "setName": "puissance-genetique"
     },
     {
-      "id": "91rt2114k7zcoy6-herbizarre",
+      "id": "8vuhj35myg",
       "name": "Herbizarre",
       "number": "2",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/2.webp",
+      "setName": "puissance-genetique"
     },
     {
-      "id": "hbujt0f4d66u1ty-florizarre",
       "name": "Florizarre",
       "number": "3",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/3.webp",
+      "setName": "puissance-genetique",
+      "id": "tsjivpnx28"
     },
     {
-      "id": "5fzdmu97w73vmlx-florizarre",
-      "name": "Florizarre",
+      "name": "Florizarre ex",
       "number": "4",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "puissance-genetique/4.webp",
+      "setName": "puissance-genetique",
+      "id": "hnbi7szmgp"
     },
     {
-      "id": "qlma4w8thlrnupa-chenipan",
       "name": "Chenipan",
       "number": "5",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/5.webp",
+      "setName": "puissance-genetique",
+      "id": "24mdc2b8j1"
     },
     {
-      "id": "yheve3j8h5j1n7i-chrysacier",
       "name": "Chrysacier",
       "number": "6",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/6.webp",
+      "setName": "puissance-genetique",
+      "id": "zpcny3qxdg"
     },
     {
-      "id": "6nntc8xp5ej947c-papilusion",
       "name": "Papilusion",
       "number": "7",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/7.webp",
+      "setName": "puissance-genetique",
+      "id": "p4whfs079q"
     },
     {
-      "id": "8egvc77ckoavx02-aspicot",
       "name": "Aspicot",
       "number": "8",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/8.webp",
+      "setName": "puissance-genetique",
+      "id": "a3pbmlpnpy"
     },
     {
-      "id": "86q39y5hbqw2dig-coconfort",
       "name": "Coconfort",
       "number": "9",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/9.webp",
+      "setName": "puissance-genetique",
+      "id": "tmxza28hhq"
     },
     {
-      "id": "qkuizk39z6m6yo5-dardargnan",
       "name": "Dardargnan",
       "number": "10",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/10.webp",
+      "setName": "puissance-genetique",
+      "id": "y1yrgjumo7"
     },
     {
-      "id": "sup330k275jewmb-mystherbe",
       "name": "Mystherbe",
       "number": "11",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/11.webp",
+      "setName": "puissance-genetique",
+      "id": "5q0jb51x8c"
     },
     {
-      "id": "ti40gmymmpcf4q2-ortide",
       "name": "Ortide",
       "number": "12",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/12.webp",
+      "setName": "puissance-genetique",
+      "id": "k6d3t08z18"
     },
     {
-      "id": "tno2bh6wxqlj3vy-rafflesia",
       "name": "Rafflesia",
       "number": "13",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/13.webp",
+      "setName": "puissance-genetique",
+      "id": "wu92ycqden"
     },
     {
-      "id": "l7ddr2xf5ectlyi-paras",
       "name": "Paras",
       "number": "14",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/14.webp",
+      "setName": "puissance-genetique",
+      "id": "wypkhuggeo"
     },
     {
-      "id": "mpfpju1kszaay58-parasect",
       "name": "Parasect",
       "number": "15",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/15.webp",
+      "setName": "puissance-genetique",
+      "id": "6om9k5x3ct"
     },
     {
-      "id": "of591wv7h106607-mimitoss",
       "name": "Mimitoss",
       "number": "16",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/16.webp",
+      "setName": "puissance-genetique",
+      "id": "xye094ufhy"
     },
     {
-      "id": "yerqrz5nga2y3u3-aeromite",
       "name": "Aéromite",
       "number": "17",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/17.webp",
+      "setName": "puissance-genetique",
+      "id": "ynfpur7irc"
     },
     {
-      "id": "ds6sz882kdkvxxv-chetiflor",
       "name": "Chétiflor",
       "number": "18",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/18.webp",
+      "setName": "puissance-genetique",
+      "id": "lmkprqu3yq"
     },
     {
-      "id": "ll3kfd1bydc2ng9-boustiflor",
       "name": "Boustiflor",
       "number": "19",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/19.webp",
+      "setName": "puissance-genetique",
+      "id": "o57a1jbhpb"
     },
     {
-      "id": "rrtpl2ej2o7bcak-empiflor",
       "name": "Empiflor",
       "number": "20",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/20.webp",
+      "setName": "puissance-genetique",
+      "id": "2kq9dpecfr"
     },
     {
-      "id": "4jcgbh0bfo6bg77-noeunoeuf",
-      "name": "Noeunoeuf",
+      "name": "Nœunœuf",
       "number": "21",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/21.webp",
+      "setName": "puissance-genetique",
+      "id": "xm03l86rz7"
     },
     {
-      "id": "k0cr4217jg3b5xi-noadkoko",
       "name": "Noadkoko",
       "number": "22",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/22.webp",
+      "setName": "puissance-genetique",
+      "id": "s39vx1fmrx"
     },
     {
-      "id": "8xlamigb2t21dzz-noadkoko",
-      "name": "Noadkoko",
+      "name": "Noadkoko ex",
       "number": "23",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "puissance-genetique/23.webp",
+      "setName": "puissance-genetique",
+      "id": "yinjs3irfi"
     },
     {
-      "id": "6qmzewuaq6htd48-saquedeneu",
       "name": "Saquedeneu",
       "number": "24",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/24.webp",
+      "setName": "puissance-genetique",
+      "id": "aummd8ond4"
     },
     {
-      "id": "hnisi3jld7wgz6s-insecateur",
       "name": "Insécateur",
       "number": "25",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/25.webp",
+      "setName": "puissance-genetique",
+      "id": "h7keol57yj"
     },
     {
-      "id": "s1f6yx525igdpcd-scarabrute",
       "name": "Scarabrute",
       "number": "26",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/26.webp",
+      "setName": "puissance-genetique",
+      "id": "23ypbng5oz"
     },
     {
-      "id": "5a0eblczk8h1mjv-doudouvet",
       "name": "Doudouvet",
       "number": "27",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/27.webp",
+      "setName": "puissance-genetique",
+      "id": "wfok2pj1c7"
     },
     {
-      "id": "msajod2u8q8ct7z-farfaduvet",
       "name": "Farfaduvet",
       "number": "28",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/28.webp",
+      "setName": "puissance-genetique",
+      "id": "3g6ez3mcaf"
     },
     {
-      "id": "scy8wog5fk96e11-chlorobule",
       "name": "Chlorobule",
       "number": "29",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/29.webp",
+      "setName": "puissance-genetique",
+      "id": "t1uha7gjm2"
     },
     {
-      "id": "w1dz8vkm2hpv44c-fragilady",
       "name": "Fragilady",
       "number": "30",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/30.webp",
+      "setName": "puissance-genetique",
+      "id": "71ajppvenz"
     },
     {
-      "id": "4h2npse0fx8o8p4-cabriolaine",
       "name": "Cabriolaine",
       "number": "31",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/31.webp",
+      "setName": "puissance-genetique",
+      "id": "m2fuln6g5n"
     },
     {
-      "id": "azp3mu4g5jzhq1c-chevroum",
       "name": "Chevroum",
       "number": "32",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/32.webp",
+      "setName": "puissance-genetique",
+      "id": "n034q5wawx"
     },
     {
-      "id": "i49bmvk7ibx7mjj-salamche",
       "name": "Salamèche",
       "number": "33",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/33.webp",
+      "setName": "puissance-genetique",
+      "id": "hf5ndfgpsd"
     },
     {
-      "id": "ibwzm9qe3wwva1g-reptincel",
       "name": "Reptincel",
       "number": "34",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/34.webp",
+      "setName": "puissance-genetique",
+      "id": "et8vpmunob"
     },
     {
-      "id": "ds894v669melmm1-dracaufeu",
       "name": "Dracaufeu",
       "number": "35",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/35.webp",
+      "setName": "puissance-genetique",
+      "id": "a5hu7p7wpa"
     },
     {
-      "id": "q6y99087szp5j9z-dracaufeu",
-      "name": "Dracaufeu",
+      "name": "Dracaufeu ex",
       "number": "36",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "puissance-genetique/36.webp",
+      "setName": "puissance-genetique",
+      "id": "ga1c56olzn"
     },
     {
-      "id": "pe5ocad3ffakiio-goupix",
       "name": "Goupix",
       "number": "37",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/37.webp",
+      "setName": "puissance-genetique",
+      "id": "m69xtqj6lw"
     },
     {
-      "id": "quwfn6097ldiqj7-feunard",
       "name": "Feunard",
       "number": "38",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/38.webp",
+      "setName": "puissance-genetique",
+      "id": "spi2jog9xa"
     },
     {
-      "id": "amvv2z8m18d6twl-caninos",
       "name": "Caninos",
       "number": "39",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/39.webp",
+      "setName": "puissance-genetique",
+      "id": "wokdapvkow"
     },
     {
-      "id": "m1qestuaqu4dlmg-arcanin",
       "name": "Arcanin",
       "number": "40",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/40.webp",
+      "setName": "puissance-genetique",
+      "id": "5lpthm14cm"
     },
     {
-      "id": "se9ifqr22p8znb4-arcanin",
-      "name": "Arcanin",
+      "name": "Arcanin ex",
       "number": "41",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "puissance-genetique/41.webp",
+      "setName": "puissance-genetique",
+      "id": "1gom89luwi"
     },
     {
-      "id": "jbybqmpd549j09n-ponyta",
       "name": "Ponyta",
       "number": "42",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/42.webp",
+      "setName": "puissance-genetique",
+      "id": "ohb68zc9ui"
     },
     {
-      "id": "efm05m8nbrdicrd-galopa",
       "name": "Galopa",
       "number": "43",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/43.webp",
+      "setName": "puissance-genetique",
+      "id": "2vze3fgaal"
     },
     {
-      "id": "bxp41qt9g1hji6i-magmar",
       "name": "Magmar",
       "number": "44",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/44.webp",
+      "setName": "puissance-genetique",
+      "id": "zr44m9uo05"
     },
     {
-      "id": "g3nzjnv9vvd3h0x-pyroli",
       "name": "Pyroli",
       "number": "45",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/45.webp",
+      "setName": "puissance-genetique",
+      "id": "m25wohm3zw"
     },
     {
-      "id": "6uvsmsh0r0101el-sulfura",
       "name": "Sulfura",
       "number": "46",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/46.webp",
+      "setName": "puissance-genetique",
+      "id": "w82o13vygb"
     },
     {
-      "id": "3fm39uuilui7itp-sulfura",
-      "name": "Sulfura",
+      "name": "Sulfura ex",
       "number": "47",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "puissance-genetique/47.webp",
+      "setName": "puissance-genetique",
+      "id": "8z7204ntoc"
     },
     {
-      "id": "grsbnmru96dvlv5-aflamanoir",
       "name": "Aflamanoir",
       "number": "48",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/48.webp",
+      "setName": "puissance-genetique",
+      "id": "b21l467bjp"
     },
     {
-      "id": "t1omkdtdulp4gzq-tritox",
       "name": "Tritox",
       "number": "49",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/49.webp",
+      "setName": "puissance-genetique",
+      "id": "y327blmzm5"
     },
     {
-      "id": "weizouvt23f3yye-malamandre",
       "name": "Malamandre",
       "number": "50",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/50.webp",
+      "setName": "puissance-genetique",
+      "id": "ihxg908d5a"
     },
     {
-      "id": "659i80qhrlaxqm1-grillepattes",
       "name": "Grillepattes",
       "number": "51",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/51.webp",
+      "setName": "puissance-genetique",
+      "id": "hqo7gxepgz"
     },
     {
-      "id": "f61jfk4ysa7qtje-scolocendre",
       "name": "Scolocendre",
       "number": "52",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/52.webp",
+      "setName": "puissance-genetique",
+      "id": "pdqozk653g"
     },
     {
-      "id": "eieqnq8xi26zku6-carapuce",
       "name": "Carapuce",
       "number": "53",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/53.webp",
+      "setName": "puissance-genetique",
+      "id": "jvp7l9e2qj"
     },
     {
-      "id": "n2qq9203mln1x4p-carabaffe",
       "name": "Carabaffe",
       "number": "54",
-      "type": "water",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/54.webp",
+      "setName": "puissance-genetique",
+      "id": "btipjdt3f9"
     },
     {
-      "id": "em0jjsjn3hfsnpc-tortank",
       "name": "Tortank",
       "number": "55",
-      "type": "water",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/55.webp",
+      "setName": "puissance-genetique",
+      "id": "wb102y3be1"
     },
     {
-      "id": "s3jmqqws37eo10p-tortank",
-      "name": "Tortank",
+      "name": "Tortank ex",
       "number": "56",
-      "type": "water",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "puissance-genetique/56.webp",
+      "setName": "puissance-genetique",
+      "id": "bqojm7e7xb"
     },
     {
-      "id": "rynkrzmut4hr9so-psykokwak",
       "name": "Psykokwak",
       "number": "57",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/57.webp",
+      "setName": "puissance-genetique",
+      "id": "ujxsd8rund"
     },
     {
-      "id": "vtu0qtfsb7b8z6l-akwakwak",
       "name": "Akwakwak",
       "number": "58",
-      "type": "water",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/58.webp",
+      "setName": "puissance-genetique",
+      "id": "0n9o9uy069"
     },
     {
-      "id": "90geelqr9uil7kl-ptitard",
       "name": "Ptitard",
       "number": "59",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/59.webp",
+      "setName": "puissance-genetique",
+      "id": "c0s8tabko0"
     },
     {
-      "id": "gyyki0e0iugvbpd-ttarte",
       "name": "Têtarte",
       "number": "60",
-      "type": "water",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/60.webp",
+      "setName": "puissance-genetique",
+      "id": "q4l05k6uhj"
     },
     {
-      "id": "udz3fyocvbf3ntb-tartard",
       "name": "Tartard",
       "number": "61",
-      "type": "water",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/61.webp",
+      "setName": "puissance-genetique",
+      "id": "ol0b2prtxt"
     },
     {
-      "id": "uzx0b89dcwz31c4-tentacool",
       "name": "Tentacool",
       "number": "62",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/62.webp",
+      "setName": "puissance-genetique",
+      "id": "pf5gtcemnj"
     },
     {
-      "id": "p6bqwkuf96gwx2h-tentacruel",
       "name": "Tentacruel",
       "number": "63",
-      "type": "water",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/63.webp",
+      "setName": "puissance-genetique",
+      "id": "kbjwxw2p6t"
     },
     {
-      "id": "mihuwj7i31xlplw-otaria",
       "name": "Otaria",
       "number": "64",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/64.webp",
+      "setName": "puissance-genetique",
+      "id": "im7t57gl7r"
     },
     {
-      "id": "0uvq81q7xgb029t-lamantine",
       "name": "Lamantine",
       "number": "65",
-      "type": "water",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/65.webp",
+      "setName": "puissance-genetique",
+      "id": "okktnuqsgc"
     },
     {
-      "id": "xnqkurggmqkuf6i-kokiyas",
       "name": "Kokiyas",
       "number": "66",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/66.webp",
+      "setName": "puissance-genetique",
+      "id": "6qyfauapql"
     },
     {
-      "id": "agwgn7jjz3b3px3-crustabri",
       "name": "Crustabri",
       "number": "67",
-      "type": "water",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/67.webp",
+      "setName": "puissance-genetique",
+      "id": "7jpegbubj0"
     },
     {
-      "id": "c9pytzkth4rwgi3-krabby",
       "name": "Krabby",
       "number": "68",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/68.webp",
+      "setName": "puissance-genetique",
+      "id": "5c03yfmjba"
     },
     {
-      "id": "u2p7zdpx69x84bn-krabboss",
       "name": "Krabboss",
       "number": "69",
-      "type": "water",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/69.webp",
+      "setName": "puissance-genetique",
+      "id": "ikjsfszqt5"
     },
     {
-      "id": "3d5xvyc03f7e2fb-hypotrempe",
       "name": "Hypotrempe",
       "number": "70",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/70.webp",
+      "setName": "puissance-genetique",
+      "id": "y9qd92mhc2"
     },
     {
-      "id": "i732ylmss9hzy2n-hypotrempe",
-      "name": "Hypotrempe",
+      "name": "Hypocéan",
       "number": "71",
-      "type": "water",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/71.webp",
+      "setName": "puissance-genetique",
+      "id": "7tp36d4e40"
     },
     {
-      "id": "zxezxfidjxz2qlq-poissirne",
       "name": "Poissirène",
       "number": "72",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/72.webp",
+      "setName": "puissance-genetique",
+      "id": "tqa62jozhe"
     },
     {
-      "id": "ahvtw46ok3ii9gx-poissoroy",
       "name": "Poissoroy",
       "number": "73",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/73.webp",
+      "setName": "puissance-genetique",
+      "id": "t4hk5b61pg"
     },
     {
-      "id": "47u1svv9occt7ar-stari",
       "name": "Stari",
       "number": "74",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/74.webp",
+      "setName": "puissance-genetique",
+      "id": "zciiat8hm2"
     },
     {
-      "id": "mimn4vzuu1tuza8-staross",
       "name": "Staross",
       "number": "75",
-      "type": "water",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/75.webp",
+      "setName": "puissance-genetique",
+      "id": "je0axz23qj"
     },
     {
-      "id": "yu90c487w1fptf2-staross",
-      "name": "Staross",
+      "name": "Staross ex",
       "number": "76",
-      "type": "water",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "puissance-genetique/76.webp",
+      "setName": "puissance-genetique",
+      "id": "r6snzlq91f"
     },
     {
-      "id": "e89t8lyiui002an-magicarpe",
       "name": "Magicarpe",
       "number": "77",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/77.webp",
+      "setName": "puissance-genetique",
+      "id": "u03ithnr7m"
     },
     {
-      "id": "1ezf1hzl7doq3kq-leviator",
       "name": "Léviator",
       "number": "78",
-      "type": "water",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/78.webp",
+      "setName": "puissance-genetique",
+      "id": "5vz9vgxz8i"
     },
     {
-      "id": "e79pbhgs61h05zo-lokhlass",
       "name": "Lokhlass",
       "number": "79",
-      "type": "water",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/79.webp",
+      "setName": "puissance-genetique",
+      "id": "y0fp4zxezv"
     },
     {
-      "id": "g8x0e159dl7zzbs-aquali",
       "name": "Aquali",
       "number": "80",
-      "type": "water",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/80.webp",
+      "setName": "puissance-genetique",
+      "id": "aepegoe7m8"
     },
     {
-      "id": "euhuhg6prczgkaw-amonita",
       "name": "Amonita",
       "number": "81",
-      "type": "water",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/81.webp",
+      "setName": "puissance-genetique",
+      "id": "849baa25z4"
     },
     {
-      "id": "q07ee15heajz1tm-amonistar",
       "name": "Amonistar",
       "number": "82",
-      "type": "water",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/82.webp",
+      "setName": "puissance-genetique",
+      "id": "s4gwxpwq2j"
     },
     {
-      "id": "o7i1zip29wewlhi-artikodin",
       "name": "Artikodin",
       "number": "83",
-      "type": "water",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/83.webp",
+      "setName": "puissance-genetique",
+      "id": "0dhb9pw3s1"
     },
     {
-      "id": "qqejl4bh7gehxn8-artikodin",
-      "name": "Artikodin",
+      "name": "Artikodin ex",
       "number": "84",
-      "type": "water",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "puissance-genetique/84.webp",
+      "setName": "puissance-genetique",
+      "id": "q9ob0qshgx"
     },
     {
-      "id": "oecmfjv7tjrgdpg-couaneton",
       "name": "Couaneton",
       "number": "85",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/85.webp",
+      "setName": "puissance-genetique",
+      "id": "oisbsmk56g"
     },
     {
-      "id": "5av7l0cjbcdss4l-lakmecygne",
       "name": "Lakmécygne",
       "number": "86",
-      "type": "water",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/86.webp",
+      "setName": "puissance-genetique",
+      "id": "vwp9wq7rgb"
     },
     {
-      "id": "bg087rj26fapfx3-grenousse",
       "name": "Grenousse",
       "number": "87",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/87.webp",
+      "setName": "puissance-genetique",
+      "id": "uzpnpo17tp"
     },
     {
-      "id": "1j8bdcd2076y4nz-croporal",
       "name": "Croâporal",
       "number": "88",
-      "type": "water",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/88.webp",
+      "setName": "puissance-genetique",
+      "id": "u6bvbox183"
     },
     {
-      "id": "4f7z7mvugdevjhd-amphinobi",
       "name": "Amphinobi",
       "number": "89",
-      "type": "water",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/89.webp",
+      "setName": "puissance-genetique",
+      "id": "09mkluruxh"
     },
     {
-      "id": "5286x3z4quhmzuh-concombaffe",
       "name": "Concombaffe",
       "number": "90",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/90.webp",
+      "setName": "puissance-genetique",
+      "id": "zjty70czmf"
     },
     {
-      "id": "8ydzhv540f2sua6-denticrisse",
       "name": "Denticrisse",
       "number": "91",
-      "type": "water",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/91.webp",
+      "setName": "puissance-genetique",
+      "id": "qdatpukdqt"
     },
     {
-      "id": "16c6b9olgkn58r6-frissonille",
       "name": "Frissonille",
       "number": "92",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/92.webp",
+      "setName": "puissance-genetique",
+      "id": "zyt7wadkvr"
     },
     {
-      "id": "fvqtqauum7ufcc9-beldeneige",
       "name": "Beldeneige",
       "number": "93",
-      "type": "water",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/93.webp",
+      "setName": "puissance-genetique",
+      "id": "htkqgkd4h9"
     },
     {
-      "id": "lgj03vamfhdulvs-pikachu",
       "name": "Pikachu",
       "number": "94",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/94.webp",
+      "setName": "puissance-genetique",
+      "id": "67uf5yekd2"
     },
     {
-      "id": "nxxmkto5w4natie-raichu",
       "name": "Raichu",
       "number": "95",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/95.webp",
+      "setName": "puissance-genetique",
+      "id": "uuj5pl9kwt"
     },
     {
-      "id": "50mrrurxcw5kweu-pikachu",
-      "name": "Pikachu",
+      "name": "Pikachu ex",
       "number": "96",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "puissance-genetique/96.webp",
+      "setName": "puissance-genetique",
+      "id": "a1tqrtosc2"
     },
     {
-      "id": "yjx6xooizhi5tsm-magneti",
       "name": "Magnéti",
       "number": "97",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/97.webp",
+      "setName": "puissance-genetique",
+      "id": "4x9z5641ls"
     },
     {
-      "id": "8vfbol3it4n2srr-magneton",
       "name": "Magnéton",
       "number": "98",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/98.webp",
+      "setName": "puissance-genetique",
+      "id": "cqou8aagr0"
     },
     {
-      "id": "a8jdu9dddt4ftlw-voltorbe",
       "name": "Voltorbe",
       "number": "99",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/99.webp",
+      "setName": "puissance-genetique",
+      "id": "xd7macvozx"
     },
     {
-      "id": "fzcve86cx2ms0b8-electrode",
       "name": "Électrode",
       "number": "100",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/100.webp",
+      "setName": "puissance-genetique",
+      "id": "8iz2ekkh17"
     },
     {
-      "id": "lkvnmjnizunxu7l-elektek",
       "name": "Élektek",
       "number": "101",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/101.webp",
+      "setName": "puissance-genetique",
+      "id": "65t20garf3"
     },
     {
-      "id": "g0shxb2nfskce2b-voltali",
       "name": "Voltali",
       "number": "102",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/102.webp",
+      "setName": "puissance-genetique",
+      "id": "rviumlem1r"
     },
     {
-      "id": "uodnufdzzcimfo0-electhor",
       "name": "Électhor",
       "number": "103",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/103.webp",
+      "setName": "puissance-genetique",
+      "id": "2goiw7qp1r"
     },
     {
-      "id": "miad1796ap7pt27-electhor",
-      "name": "Électhor",
+      "name": "Électhor ex",
       "number": "104",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "puissance-genetique/104.webp",
+      "setName": "puissance-genetique",
+      "id": "l6xhuktvvd"
     },
     {
-      "id": "ed3vcka1tzv2lwz-zebibron",
       "name": "Zébibron",
       "number": "105",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/105.webp",
+      "setName": "puissance-genetique",
+      "id": "93x3qyvr8p"
     },
     {
-      "id": "wsis77w65d3vux6-zeblitz",
       "name": "Zéblitz",
       "number": "106",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/106.webp",
+      "setName": "puissance-genetique",
+      "id": "mt0boy1pzi"
     },
     {
-      "id": "id4hwohaca3m0zx-anchwatt",
       "name": "Anchwatt",
       "number": "107",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/107.webp",
+      "setName": "puissance-genetique",
+      "id": "cwgfdnyh4d"
     },
     {
-      "id": "2fatoxee9ulfx0v-lamperoie",
       "name": "Lampéroie",
       "number": "108",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/108.webp",
+      "setName": "puissance-genetique",
+      "id": "g3eemu5jdq"
     },
     {
-      "id": "vqw6pt00fip0oen-ohmassacre",
       "name": "Ohmassacre",
       "number": "109",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/109.webp",
+      "setName": "puissance-genetique",
+      "id": "aqi94a3qfk"
     },
     {
-      "id": "ide4kj5ec5hq5um-galvaran",
       "name": "Galvaran",
       "number": "110",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/110.webp",
+      "setName": "puissance-genetique",
+      "id": "n62ouigcvi"
     },
     {
-      "id": "xyj17fst3i351dq-iguolta",
       "name": "Iguolta",
       "number": "111",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/111.webp",
+      "setName": "puissance-genetique",
+      "id": "ugby75z6ay"
     },
     {
-      "id": "qbnldb5hpsjqr21-wattapik",
       "name": "Wattapik",
       "number": "112",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/112.webp",
+      "setName": "puissance-genetique",
+      "id": "afvhw5ofzh"
     },
     {
-      "id": "m90tnqmi08ymudr-melofe",
       "name": "Mélofée",
       "number": "113",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/113.webp",
+      "setName": "puissance-genetique",
+      "id": "aci98lmmdl"
     },
     {
-      "id": "b7hu3yx1860aebs-melodelfe",
       "name": "Mélodelfe",
       "number": "114",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/114.webp",
+      "setName": "puissance-genetique",
+      "id": "bzw8spri1u"
     },
     {
-      "id": "ln544aoha3rqlgw-abra",
       "name": "Abra",
       "number": "115",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/115.webp",
+      "setName": "puissance-genetique",
+      "id": "b9a5qwbpn1"
     },
     {
-      "id": "w721qcf2rj9ebjr-kadabra",
       "name": "Kadabra",
       "number": "116",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/116.webp",
+      "setName": "puissance-genetique",
+      "id": "sek37sc63f"
     },
     {
-      "id": "kfbf7u24exft8l6-alakazam",
       "name": "Alakazam",
       "number": "117",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/117.webp",
+      "setName": "puissance-genetique",
+      "id": "oyhnl8wrcs"
     },
     {
-      "id": "0v3dhb8sq58soib-ramoloss",
       "name": "Ramoloss",
       "number": "118",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/118.webp",
+      "setName": "puissance-genetique",
+      "id": "grwogbzvyq"
     },
     {
-      "id": "3ofmq8mluaa1kew-flagadoss",
       "name": "Flagadoss",
       "number": "119",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/119.webp",
+      "setName": "puissance-genetique",
+      "id": "6fj5s5wwdm"
     },
     {
-      "id": "xuncb0394x17hyx-fantominus",
       "name": "Fantominus",
       "number": "120",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/120.webp",
+      "setName": "puissance-genetique",
+      "id": "x9tkm4vhjp"
     },
     {
-      "id": "ygp59jw7pclxit1-spectrum",
       "name": "Spectrum",
       "number": "121",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/121.webp",
+      "setName": "puissance-genetique",
+      "id": "zhlw5rpi83"
     },
     {
-      "id": "jo1s1qfui0g6vui-ectoplasma",
       "name": "Ectoplasma",
       "number": "122",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/122.webp",
+      "setName": "puissance-genetique",
+      "id": "mketv5wbi7"
     },
     {
-      "id": "7v5upq85fg4muop-ectoplasma",
-      "name": "Ectoplasma",
+      "name": "Ectoplasma ex",
       "number": "123",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "puissance-genetique/123.webp",
+      "setName": "puissance-genetique",
+      "id": "uozv7jq0fm"
     },
     {
-      "id": "axdhglq6naahx0x-soporifik",
       "name": "Soporifik",
       "number": "124",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/124.webp",
+      "setName": "puissance-genetique",
+      "id": "9deeh9xucr"
     },
     {
-      "id": "j0e5vq4lskqbs2j-hypnomade",
       "name": "Hypnomade",
       "number": "125",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/125.webp",
+      "setName": "puissance-genetique",
+      "id": "ifmky76igh"
     },
     {
-      "id": "qmclcg80c46g4qy-m-mime",
       "name": "M. Mime",
       "number": "126",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/126.webp",
+      "setName": "puissance-genetique",
+      "id": "ryzatnyopd"
     },
     {
-      "id": "k70uqtq15t3gj44-lippoutou",
       "name": "Lippoutou",
       "number": "127",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/127.webp",
+      "setName": "puissance-genetique",
+      "id": "c11rgnap7k"
     },
     {
-      "id": "tbgwd86istd5hr6-mewtwo",
       "name": "Mewtwo",
       "number": "128",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/128.webp",
+      "setName": "puissance-genetique",
+      "id": "tqo063nf6o"
     },
     {
-      "id": "1r5sepcafw5vitw-mewtwo",
-      "name": "Mewtwo",
+      "name": "Mewtwo ex",
       "number": "129",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "puissance-genetique/129.webp",
+      "setName": "puissance-genetique",
+      "id": "c2naigsj3y"
     },
     {
-      "id": "d2xcpja5kv6iila-tarsal",
       "name": "Tarsal",
       "number": "130",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/130.webp",
+      "setName": "puissance-genetique",
+      "id": "jdgwh7piq7"
     },
     {
-      "id": "mclst2f3m8olrd6-kirlia",
       "name": "Kirlia",
       "number": "131",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/131.webp",
+      "setName": "puissance-genetique",
+      "id": "5oj8c77h7j"
     },
     {
-      "id": "xopfw0qr9jh4m37-gardevoir",
       "name": "Gardevoir",
       "number": "132",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/132.webp",
+      "setName": "puissance-genetique",
+      "id": "tcfadg6usp"
     },
     {
-      "id": "c5pbx6gw9s9o9bd-chovsourir",
       "name": "Chovsourir",
       "number": "133",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/133.webp",
+      "setName": "puissance-genetique",
+      "id": "2y73czafd4"
     },
     {
-      "id": "4dzv4tetjue01yv-rhinolove",
       "name": "Rhinolove",
       "number": "134",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/134.webp",
+      "setName": "puissance-genetique",
+      "id": "wsvnhqzm24"
     },
     {
-      "id": "713xi54gekan3pt-gringolem",
       "name": "Gringolem",
       "number": "135",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/135.webp",
+      "setName": "puissance-genetique",
+      "id": "hrsxckt6qg"
     },
     {
-      "id": "78xq8t9e64zoh8o-golemastoc",
       "name": "Golemastoc",
       "number": "136",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/136.webp",
+      "setName": "puissance-genetique",
+      "id": "0d503rer4z"
     },
     {
-      "id": "9jw2dbrrulglwhb-sabelette",
       "name": "Sabelette",
       "number": "137",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/137.webp",
+      "setName": "puissance-genetique",
+      "id": "v1j55o307e"
     },
     {
-      "id": "nsku592m7ru7w3m-sablaireau",
       "name": "Sablaireau",
       "number": "138",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/138.webp",
+      "setName": "puissance-genetique",
+      "id": "dh3j4fsp5d"
     },
     {
-      "id": "7aboytrbpwnh3i7-taupiqueur",
       "name": "Taupiqueur",
       "number": "139",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/139.webp",
+      "setName": "puissance-genetique",
+      "id": "piu72zaajt"
     },
     {
-      "id": "vfc4j99666ksvk7-triopikeur",
       "name": "Triopikeur",
       "number": "140",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/140.webp",
+      "setName": "puissance-genetique",
+      "id": "tdpuisiwpj"
     },
     {
-      "id": "i85irdg058a7i7p-ferosinge",
       "name": "Férosinge",
       "number": "141",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/141.webp",
+      "setName": "puissance-genetique",
+      "id": "i85vjb4cvv"
     },
     {
-      "id": "ov5scojhhcwi693-colossinge",
       "name": "Colossinge",
       "number": "142",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/142.webp",
+      "setName": "puissance-genetique",
+      "id": "w5zicy8zt3"
     },
     {
-      "id": "sdulkjor9dc26ug-machoc",
       "name": "Machoc",
       "number": "143",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/143.webp",
+      "setName": "puissance-genetique",
+      "id": "nx6i6zyk7u"
     },
     {
-      "id": "ihs1e5go1vix88j-machopeur",
       "name": "Machopeur",
       "number": "144",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/144.webp",
+      "setName": "puissance-genetique",
+      "id": "pb4x7bpmms"
     },
     {
-      "id": "vmse4i7c7vqhq00-machoc",
-      "name": "Machoc",
-      "number": "145",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
-    },
-    {
-      "id": "5fa52cwrt38oa5c-mackogneur",
       "name": "Mackogneur",
-      "number": "146",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "number": "145",
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/145.webp",
+      "setName": "puissance-genetique",
+      "id": "kmxb9rdomi"
     },
     {
-      "id": "etoo8y09yo7lwpl-racaillou",
+      "name": "Mackogneur ex",
+      "number": "146",
+      "rarity": "♢♢♢♢",
+      "img": "puissance-genetique/146.webp",
+      "setName": "puissance-genetique",
+      "id": "ze0jxnybwq"
+    },
+    {
       "name": "Racaillou",
       "number": "147",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/147.webp",
+      "setName": "puissance-genetique",
+      "id": "jlq0gsapqc"
     },
     {
-      "id": "kg2c62jkgaagu20-gravalanch",
       "name": "Gravalanch",
       "number": "148",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/148.webp",
+      "setName": "puissance-genetique",
+      "id": "qfw8i6h65h"
     },
     {
-      "id": "4z2uwiua42dnnm0-grolem",
       "name": "Grolem",
       "number": "149",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/149.webp",
+      "setName": "puissance-genetique",
+      "id": "jhug9xl43m"
     },
     {
-      "id": "gsm2so7gsr8v0k7-onix",
       "name": "Onix",
       "number": "150",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/150.webp",
+      "setName": "puissance-genetique",
+      "id": "rqrzxbmenj"
     },
     {
-      "id": "av6vzvn1q046x38-osselait",
       "name": "Osselait",
       "number": "151",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/151.webp",
+      "setName": "puissance-genetique",
+      "id": "zrlnenquj5"
     },
     {
-      "id": "z792wrr25as6k7a-ossatueur",
       "name": "Ossatueur",
       "number": "152",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/152.webp",
+      "setName": "puissance-genetique",
+      "id": "jslkjn58fj"
     },
     {
-      "id": "7ty47ymfv50s57v-ossatueur",
-      "name": "Ossatueur",
+      "name": "Ossatueur ex",
       "number": "153",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "puissance-genetique/153.webp",
+      "setName": "puissance-genetique",
+      "id": "6zizfzfv4k"
     },
     {
-      "id": "10elflrfs3mlqga-kicklee",
       "name": "Kicklee",
       "number": "154",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/154.webp",
+      "setName": "puissance-genetique",
+      "id": "gai8ndieuu"
     },
     {
-      "id": "xx1r955ch53g8ar-tygnon",
       "name": "Tygnon",
       "number": "155",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/155.webp",
+      "setName": "puissance-genetique",
+      "id": "6xurdx2e5y"
     },
     {
-      "id": "bd4vg7j2udtjezb-rhinocorne",
       "name": "Rhinocorne",
       "number": "156",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/156.webp",
+      "setName": "puissance-genetique",
+      "id": "2gn6dc0kwx"
     },
     {
-      "id": "5tq8m7t6ab3juhj-rhinoferos",
       "name": "Rhinoféros",
       "number": "157",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/157.webp",
+      "setName": "puissance-genetique",
+      "id": "gs5hh153vi"
     },
     {
-      "id": "sw0a04dtql2n62w-kabuto",
       "name": "Kabuto",
       "number": "158",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/158.webp",
+      "setName": "puissance-genetique",
+      "id": "g4r4qergu5"
     },
     {
-      "id": "aweci6cxk0p0y64-kabutops",
       "name": "Kabutops",
       "number": "159",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/159.webp",
+      "setName": "puissance-genetique",
+      "id": "fh9eykkxdo"
     },
     {
-      "id": "4xggtczjqo7m6zw-kungfouine",
       "name": "Kungfouine",
       "number": "160",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/160.webp",
+      "setName": "puissance-genetique",
+      "id": "amfyvs5wad"
     },
     {
-      "id": "mdub96ypzwnunve-shaofouine",
       "name": "Shaofouine",
       "number": "161",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/161.webp",
+      "setName": "puissance-genetique",
+      "id": "wowpquliev"
     },
     {
-      "id": "i5p3bbes87f70gp-poulpaf",
       "name": "Poulpaf",
       "number": "162",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/162.webp",
+      "setName": "puissance-genetique",
+      "id": "810n8quy9t"
     },
     {
-      "id": "6a967zoqj4qdbrf-krakos",
       "name": "Krakos",
       "number": "163",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/163.webp",
+      "setName": "puissance-genetique",
+      "id": "p218i4v0hg"
     },
     {
-      "id": "b4vsii9eq8gc4lh-abo",
       "name": "Abo",
       "number": "164",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/164.webp",
+      "setName": "puissance-genetique",
+      "id": "svhglkuuau"
     },
     {
-      "id": "jzeh0jrww3tu4wb-arbok",
       "name": "Arbok",
       "number": "165",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/165.webp",
+      "setName": "puissance-genetique",
+      "id": "2lwjw4equo"
     },
     {
-      "id": "wpw7grnwwoywki0-nidoran",
-      "name": "Nidoran♂",
+      "name": "Nidoran♀",
       "number": "166",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/166.webp",
+      "setName": "puissance-genetique",
+      "id": "rfszzlpjhu"
     },
     {
-      "id": "dabotk99g2vyfbi-nidorina",
       "name": "Nidorina",
       "number": "167",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/167.webp",
+      "setName": "puissance-genetique",
+      "id": "6bj0tqzn2q"
     },
     {
-      "id": "lgu5l3bnlldplsh-nidoqueen",
       "name": "Nidoqueen",
       "number": "168",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/168.webp",
+      "setName": "puissance-genetique",
+      "id": "kqx379brmd"
     },
     {
-      "id": "d70gsfqhrq5ggl8-nidoran",
       "name": "Nidoran♂",
       "number": "169",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/169.webp",
+      "setName": "puissance-genetique",
+      "id": "1j9ra0ds0y"
     },
     {
-      "id": "9ayrm8gwzixg21g-nidorino",
       "name": "Nidorino",
       "number": "170",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/170.webp",
+      "setName": "puissance-genetique",
+      "id": "brko03x5sg"
     },
     {
-      "id": "zfq182hardirv6i-nidoking",
       "name": "Nidoking",
       "number": "171",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/171.webp",
+      "setName": "puissance-genetique",
+      "id": "5bfgf9zmfu"
     },
     {
-      "id": "8pn4qugbzm6fpye-nosferapti",
       "name": "Nosferapti",
       "number": "172",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/172.webp",
+      "setName": "puissance-genetique",
+      "id": "lpmdm4ivzg"
     },
     {
-      "id": "1q9mllv7l07fuf4-nosferalto",
-      "name": "Nosferalto",
+      "name": "Nosféralto",
       "number": "173",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/173.webp",
+      "setName": "puissance-genetique",
+      "id": "qc8c12svfe"
     },
     {
-      "id": "xnngc3ofsw4xg4i-tadmorv",
       "name": "Tadmorv",
       "number": "174",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/174.webp",
+      "setName": "puissance-genetique",
+      "id": "9hdczer7k3"
     },
     {
-      "id": "cx7777mcv5b727n-grotadmorv",
       "name": "Grotadmorv",
       "number": "175",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/175.webp",
+      "setName": "puissance-genetique",
+      "id": "pmes5vtxyw"
     },
     {
-      "id": "90kt4h1a76fm1q2-smogo",
       "name": "Smogo",
       "number": "176",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/176.webp",
+      "setName": "puissance-genetique",
+      "id": "zaq95t8zzz"
     },
     {
-      "id": "02y16aj29pz2qfm-smogogo",
       "name": "Smogogo",
       "number": "177",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/177.webp",
+      "setName": "puissance-genetique",
+      "id": "kp7966fynd"
     },
     {
-      "id": "dqcti1i2h7x7f3j-mysdibule",
       "name": "Mysdibule",
       "number": "178",
-      "type": "metal",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/178.webp",
+      "setName": "puissance-genetique",
+      "id": "rou03dumnw"
     },
     {
-      "id": "eurnvrllodua16d-scalpion",
       "name": "Scalpion",
       "number": "179",
-      "type": "metal",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/179.webp",
+      "setName": "puissance-genetique",
+      "id": "b76n669i5y"
     },
     {
-      "id": "n8yq4lwjwa2a89k-scalproie",
       "name": "Scalproie",
       "number": "180",
-      "type": "metal",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/180.webp",
+      "setName": "puissance-genetique",
+      "id": "26qaa7dtt4"
     },
     {
-      "id": "wg0xupppxbgxy41-meltan",
       "name": "Meltan",
       "number": "181",
-      "type": "metal",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/181.webp",
+      "setName": "puissance-genetique",
+      "id": "tfrp57cljv"
     },
     {
-      "id": "cukesb66wijfaxs-melmetal",
       "name": "Melmetal",
       "number": "182",
-      "type": "metal",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/182.webp",
+      "setName": "puissance-genetique",
+      "id": "o39ot0xrlm"
     },
     {
-      "id": "4dsg8nnnemcu2vu-minidraco",
       "name": "Minidraco",
       "number": "183",
-      "type": "dragon",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/183.webp",
+      "setName": "puissance-genetique",
+      "id": "hjv5ei4fvw"
     },
     {
-      "id": "x8d4c2ekvjkui1d-draco",
       "name": "Draco",
       "number": "184",
-      "type": "dragon",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/184.webp",
+      "setName": "puissance-genetique",
+      "id": "ph4v1abs2i"
     },
     {
-      "id": "egjpx5n08reqbhn-dracolosse",
       "name": "Dracolosse",
       "number": "185",
-      "type": "dragon",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/185.webp",
+      "setName": "puissance-genetique",
+      "id": "brb3n7omq3"
     },
     {
-      "id": "3d96twnxpazde2q-roucool",
       "name": "Roucool",
       "number": "186",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/186.webp",
+      "setName": "puissance-genetique",
+      "id": "s3xuls0zyp"
     },
     {
-      "id": "ji2gujqouu9egvw-roucoups",
       "name": "Roucoups",
       "number": "187",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/187.webp",
+      "setName": "puissance-genetique",
+      "id": "xrvpariibd"
     },
     {
-      "id": "h3ji62clus0w8qz-roucarnage",
       "name": "Roucarnage",
       "number": "188",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/188.webp",
+      "setName": "puissance-genetique",
+      "id": "ywewq9elua"
     },
     {
-      "id": "o2sb5u0mjqslyi1-rattata",
       "name": "Rattata",
       "number": "189",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/189.webp",
+      "setName": "puissance-genetique",
+      "id": "4cm7ys90ba"
     },
     {
-      "id": "nbmaxiq3avft6pv-rattatac",
       "name": "Rattatac",
       "number": "190",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/190.webp",
+      "setName": "puissance-genetique",
+      "id": "fmvqseje1t"
     },
     {
-      "id": "r4ivf6eqpuk88zb-piafabec",
       "name": "Piafabec",
       "number": "191",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/191.webp",
+      "setName": "puissance-genetique",
+      "id": "hg0myh1cpn"
     },
     {
-      "id": "9pcf82aip4p0yuh-rapasdepic",
       "name": "Rapasdepic",
       "number": "192",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/192.webp",
+      "setName": "puissance-genetique",
+      "id": "ngh9y3j3ok"
     },
     {
-      "id": "vx66il7j85gxhns-rondoudou",
       "name": "Rondoudou",
       "number": "193",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/193.webp",
+      "setName": "puissance-genetique",
+      "id": "d6y7iyn8uo"
     },
     {
-      "id": "4tpiwcj8sg16nmm-grodoudou",
       "name": "Grodoudou",
       "number": "194",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/194.webp",
+      "setName": "puissance-genetique",
+      "id": "r82mj955ra"
     },
     {
-      "id": "c55ldyclfevbh6k-grodoudou",
-      "name": "Grodoudou",
+      "name": "Grodoudou ex",
       "number": "195",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "puissance-genetique/195.webp",
+      "setName": "puissance-genetique",
+      "id": "f924g2iw86"
     },
     {
-      "id": "ecpk7r1lwzgbrtt-miaouss",
       "name": "Miaouss",
       "number": "196",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/196.webp",
+      "setName": "puissance-genetique",
+      "id": "dsiaahyic7"
     },
     {
-      "id": "uxymk94rb70bx5w-persian",
       "name": "Persian",
       "number": "197",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/197.webp",
+      "setName": "puissance-genetique",
+      "id": "2qhueuase5"
     },
     {
-      "id": "5yy0gf3p1w0m3da-canarticho",
       "name": "Canarticho",
       "number": "198",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/198.webp",
+      "setName": "puissance-genetique",
+      "id": "56bfyu5ho9"
     },
     {
-      "id": "j7el3m1l0w3o4k5-doduo",
       "name": "Doduo",
       "number": "199",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/199.webp",
+      "setName": "puissance-genetique",
+      "id": "v12sh10zca"
     },
     {
-      "id": "fwnfw50eo256xej-dodrio",
       "name": "Dodrio",
       "number": "200",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/200.webp",
+      "setName": "puissance-genetique",
+      "id": "dux1g44l99"
     },
     {
-      "id": "ne8w5r210m73hua-excelangue",
       "name": "Excelangue",
       "number": "201",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/201.webp",
+      "setName": "puissance-genetique",
+      "id": "epsetwex3x"
     },
     {
-      "id": "vfb5vyc5rjr129h-leveinard",
       "name": "Leveinard",
       "number": "202",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/202.webp",
+      "setName": "puissance-genetique",
+      "id": "0tq3h6dxb4"
     },
     {
-      "id": "ykgcnsiank8e0ve-kangourex",
       "name": "Kangourex",
       "number": "203",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/203.webp",
+      "setName": "puissance-genetique",
+      "id": "k9o6u1h9ep"
     },
     {
-      "id": "9ij6czszymmiar4-tauros",
       "name": "Tauros",
       "number": "204",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/204.webp",
+      "setName": "puissance-genetique",
+      "id": "1wk3mte6sj"
     },
     {
-      "id": "m3jb18xhccr35dj-metamorph",
       "name": "Métamorph",
       "number": "205",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/205.webp",
+      "setName": "puissance-genetique",
+      "id": "kzyvemr938"
     },
     {
-      "id": "v4bsa575jx7dj2s-evoli",
       "name": "Évoli",
       "number": "206",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/206.webp",
+      "setName": "puissance-genetique",
+      "id": "9ya31w44nl"
     },
     {
-      "id": "wwij63tz0j2ao9s-evoli",
       "name": "Évoli",
       "number": "207",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/207.webp",
+      "setName": "puissance-genetique",
+      "id": "tvcxsesvgy"
     },
     {
-      "id": "spo0fc3zvsgmmvz-evoli",
       "name": "Évoli",
       "number": "208",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/208.webp",
+      "setName": "puissance-genetique",
+      "id": "wctzx3en77"
     },
     {
-      "id": "e7cyusmqqmeye9e-porygon",
       "name": "Porygon",
       "number": "209",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/209.webp",
+      "setName": "puissance-genetique",
+      "id": "w3csww19zk"
     },
     {
-      "id": "j7pmll0xo8vfsy8-ptera",
       "name": "Ptéra",
       "number": "210",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/210.webp",
+      "setName": "puissance-genetique",
+      "id": "jlqy5rkldz"
     },
     {
-      "id": "kccycijuiax3kih-ronflex",
       "name": "Ronflex",
       "number": "211",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "puissance-genetique/211.webp",
+      "setName": "puissance-genetique",
+      "id": "tixd3t6zu4"
     },
     {
-      "id": "o51fu37f8g9kvm9-chinchidou",
       "name": "Chinchidou",
       "number": "212",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/212.webp",
+      "setName": "puissance-genetique",
+      "id": "emy1sjgf8c"
     },
     {
-      "id": "klvf2h80ju2di08-pashmilla",
       "name": "Pashmilla",
       "number": "213",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/213.webp",
+      "setName": "puissance-genetique",
+      "id": "tzln8oqbg7"
     },
     {
-      "id": "hci2oe96qrtuawf-moumouton",
       "name": "Moumouton",
       "number": "214",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/214.webp",
+      "setName": "puissance-genetique",
+      "id": "7fr76k0i2l"
     },
     {
-      "id": "0e1a7yytludql1p-moumouflon",
       "name": "Moumouflon",
       "number": "215",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/215.webp",
+      "setName": "puissance-genetique",
+      "id": "njozgxk4gc"
     },
     {
-      "id": "3lq97q49k1zvv22-fossile-nautile",
       "name": "Fossile Nautile",
       "number": "216",
-      "type": "",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/216.webp",
+      "setName": "puissance-genetique",
+      "id": "9cnslo6i2c"
     },
     {
-      "id": "6lftnkbxl0rzmxr-fossile-dme",
       "name": "Fossile Dôme",
       "number": "217",
-      "type": "",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/217.webp",
+      "setName": "puissance-genetique",
+      "id": "fx38ofkcrx"
     },
     {
-      "id": "pm0hkg9vu5e2yi2-vieil-ambre",
       "name": "Vieil Ambre",
       "number": "218",
-      "type": "",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "puissance-genetique/218.webp",
+      "setName": "puissance-genetique",
+      "id": "zisnonebc5"
     },
     {
-      "id": "d5cgu0g0lwx462v-erika",
       "name": "Erika",
       "number": "219",
-      "type": "",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/219.webp",
+      "setName": "puissance-genetique",
+      "id": "xgxyb5gigq"
     },
     {
-      "id": "9bjqsib073n9ull-ondine",
       "name": "Ondine",
       "number": "220",
-      "type": "",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/220.webp",
+      "setName": "puissance-genetique",
+      "id": "y7cr2nnsxx"
     },
     {
-      "id": "tbcy70m2d2hk9mg-auguste",
       "name": "Auguste",
       "number": "221",
-      "type": "",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/221.webp",
+      "setName": "puissance-genetique",
+      "id": "s3iqhkdsah"
     },
     {
-      "id": "g1hndrmdlq6wo45-koga",
       "name": "Koga",
       "number": "222",
-      "type": "",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/222.webp",
+      "setName": "puissance-genetique",
+      "id": "mfdf8bdttw"
     },
     {
-      "id": "0mqe0jkxtp48gd9-giovanni",
       "name": "Giovanni",
       "number": "223",
-      "type": "",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/223.webp",
+      "setName": "puissance-genetique",
+      "id": "mp8h0k4dxx"
     },
     {
-      "id": "hcqr4uwy9tbc835-pierre",
       "name": "Pierre",
       "number": "224",
-      "type": "",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/224.webp",
+      "setName": "puissance-genetique",
+      "id": "ei5lde3zr8"
     },
     {
-      "id": "fjt6q6lvmq36bkv-morgane",
       "name": "Morgane",
       "number": "225",
-      "type": "",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/225.webp",
+      "setName": "puissance-genetique",
+      "id": "znhcd1psqh"
     },
     {
-      "id": "co16at4y6kmxoqy-major-bob",
       "name": "Major Bob",
       "number": "226",
-      "type": "",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "puissance-genetique/226.webp",
+      "setName": "puissance-genetique",
+      "id": "emb0wx9pau"
     },
     {
-      "id": "oxq8mqy8owu87cr-bulbizarre",
       "name": "Bulbizarre",
       "number": "227",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "puissance-genetique/227.webp",
+      "setName": "puissance-genetique",
+      "id": "9sldjed3d3"
     },
     {
-      "id": "sob76k5a5x46v3g-ortide",
       "name": "Ortide",
       "number": "228",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "puissance-genetique/228.webp",
+      "setName": "puissance-genetique",
+      "id": "bjbffzm4ef"
     },
     {
-      "id": "yvj0euuqcmcocpt-scarabrute",
       "name": "Scarabrute",
       "number": "229",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "puissance-genetique/229.webp",
+      "setName": "puissance-genetique",
+      "id": "t0hfq4nxj9"
     },
     {
-      "id": "i5brojm7mo3ld5u-salamche",
       "name": "Salamèche",
       "number": "230",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "puissance-genetique/230.webp",
+      "setName": "puissance-genetique",
+      "id": "wwza1mezmv"
     },
     {
-      "id": "e0yardoke15owvp-galopa",
       "name": "Galopa",
       "number": "231",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "puissance-genetique/231.webp",
+      "setName": "puissance-genetique",
+      "id": "m63em8x7zx"
     },
     {
-      "id": "e2s92prkjjj760g-carapuce",
       "name": "Carapuce",
       "number": "232",
-      "type": "water",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "puissance-genetique/232.webp",
+      "setName": "puissance-genetique",
+      "id": "zvuigt7ylj"
     },
     {
-      "id": "vhisglars3d51gk-leviator",
       "name": "Léviator",
       "number": "233",
-      "type": "water",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "puissance-genetique/233.webp",
+      "setName": "puissance-genetique",
+      "id": "nah44adg56"
     },
     {
-      "id": "k70cirphh18xdvn-lokhlass",
       "name": "Lokhlass",
       "number": "234",
-      "type": "water",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "puissance-genetique/234.webp",
+      "setName": "puissance-genetique",
+      "id": "yhg4k99e90"
     },
     {
-      "id": "nd2plfcuhjnrwoc-electrode",
       "name": "Électrode",
       "number": "235",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "puissance-genetique/235.webp",
+      "setName": "puissance-genetique",
+      "id": "64s75f0eof"
     },
     {
-      "id": "b7p5q9u3h7eho9e-alakazam",
       "name": "Alakazam",
       "number": "236",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "puissance-genetique/236.webp",
+      "setName": "puissance-genetique",
+      "id": "vmnj7dkiz0"
     },
     {
-      "id": "bg7c12fsvz7de36-ramoloss",
       "name": "Ramoloss",
       "number": "237",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "puissance-genetique/237.webp",
+      "setName": "puissance-genetique",
+      "id": "rkh9tzqct3"
     },
     {
-      "id": "9ldlg25b50k4jcb-taupiqueur",
       "name": "Taupiqueur",
       "number": "238",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "puissance-genetique/238.webp",
+      "setName": "puissance-genetique",
+      "id": "kys2pklgvp"
     },
     {
-      "id": "9sdofavam399mhd-osselait",
       "name": "Osselait",
       "number": "239",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "puissance-genetique/239.webp",
+      "setName": "puissance-genetique",
+      "id": "7lbp4ohsru"
     },
     {
-      "id": "x86aw0f8n5tfk42-nidoqueen",
       "name": "Nidoqueen",
       "number": "240",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "puissance-genetique/240.webp",
+      "setName": "puissance-genetique",
+      "id": "2lxpxd31hz"
     },
     {
-      "id": "xaje1gjnukzxmmd-nidoking",
       "name": "Nidoking",
       "number": "241",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "puissance-genetique/241.webp",
+      "setName": "puissance-genetique",
+      "id": "0hnr28bk3a"
     },
     {
-      "id": "0fjze5xpdzqtro1-nosferalto",
-      "name": "Nosferalto",
+      "name": "Nosféralto",
       "number": "242",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "puissance-genetique/242.webp",
+      "setName": "puissance-genetique",
+      "id": "8bbj532wo2"
     },
     {
-      "id": "6612rwnfo4ghc38-smogogo",
       "name": "Smogogo",
       "number": "243",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "puissance-genetique/243.webp",
+      "setName": "puissance-genetique",
+      "id": "yjprtn9nra"
     },
     {
-      "id": "hf6doffwuty02lw-dracolosse",
       "name": "Dracolosse",
       "number": "244",
-      "type": "dragon",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "puissance-genetique/244.webp",
+      "setName": "puissance-genetique",
+      "id": "rm66nwrjrs"
     },
     {
-      "id": "gau70fygenrs39v-roucarnage",
       "name": "Roucarnage",
       "number": "245",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "puissance-genetique/245.webp",
+      "setName": "puissance-genetique",
+      "id": "iyu3vu2gom"
     },
     {
-      "id": "a19rfj4bonmx3fx-miaouss",
       "name": "Miaouss",
       "number": "246",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "puissance-genetique/246.webp",
+      "setName": "puissance-genetique",
+      "id": "gozhw1pwtu"
     },
     {
-      "id": "wurhzzvku2f3wsi-metamorph",
       "name": "Métamorph",
       "number": "247",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "puissance-genetique/247.webp",
+      "setName": "puissance-genetique",
+      "id": "02w677vxm5"
     },
     {
-      "id": "1i7d6slma3amdet-evoli",
       "name": "Évoli",
       "number": "248",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "puissance-genetique/248.webp",
+      "setName": "puissance-genetique",
+      "id": "5pgrgpqr6r"
     },
     {
-      "id": "ivx74yv5u36g0lb-porygon",
       "name": "Porygon",
       "number": "249",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "puissance-genetique/249.webp",
+      "setName": "puissance-genetique",
+      "id": "v0y54m4iky"
     },
     {
-      "id": "n101n7iy21adove-ronflex",
       "name": "Ronflex",
       "number": "250",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "puissance-genetique/250.webp",
+      "setName": "puissance-genetique",
+      "id": "zqpqerslkb"
     },
     {
-      "id": "puomb17frusv13v-florizarre",
-      "name": "Florizarre",
+      "name": "Florizarre ex",
       "number": "251",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/251.webp",
+      "setName": "puissance-genetique",
+      "id": "t3dojdqa11"
     },
     {
-      "id": "683i0vgj2hp6azu-noadkoko",
-      "name": "Noadkoko",
+      "name": "Noadkoko ex",
       "number": "252",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/252.webp",
+      "setName": "puissance-genetique",
+      "id": "x0amjgvrlp"
     },
     {
-      "id": "6h2rl6onfap03f3-dracaufeu",
-      "name": "Dracaufeu",
+      "name": "Dracaufeu ex",
       "number": "253",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/253.webp",
+      "setName": "puissance-genetique",
+      "id": "3r50nrrhyg"
     },
     {
-      "id": "03aecqd3s4yc8bu-arcanin",
-      "name": "Arcanin",
+      "name": "Arcanin ex",
       "number": "254",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/254.webp",
+      "setName": "puissance-genetique",
+      "id": "ptb76n7as0"
     },
     {
-      "id": "osp90q3a811p4mi-sulfura",
-      "name": "Sulfura",
+      "name": "Sulfura ex",
       "number": "255",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/255.webp",
+      "setName": "puissance-genetique",
+      "id": "gt4rextgyc"
     },
     {
-      "id": "xzgarjnhekddxqb-tortank",
-      "name": "Tortank",
+      "name": "Tortank ex",
       "number": "256",
-      "type": "water",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/256.webp",
+      "setName": "puissance-genetique",
+      "id": "lrbfvlh66o"
     },
     {
-      "id": "iilte080mi0eu34-staross",
-      "name": "Staross",
+      "name": "Staross ex",
       "number": "257",
-      "type": "water",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/257.webp",
+      "setName": "puissance-genetique",
+      "id": "o0anj4jy7g"
     },
     {
-      "id": "co5td6fgmhrjoc8-artikodin",
-      "name": "Artikodin",
+      "name": "Artikodin ex",
       "number": "258",
-      "type": "water",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/258.webp",
+      "setName": "puissance-genetique",
+      "id": "jj50kaunif"
     },
     {
-      "id": "a053ccz4ouob57g-pikachu",
-      "name": "Pikachu",
+      "name": "Pikachu ex",
       "number": "259",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/259.webp",
+      "setName": "puissance-genetique",
+      "id": "onw1ododhx"
     },
     {
-      "id": "ov9wuk3m2yz0vkn-electhor",
-      "name": "Électhor",
+      "name": "Électhor ex",
       "number": "260",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/260.webp",
+      "setName": "puissance-genetique",
+      "id": "yramirla21"
     },
     {
-      "id": "kuz861w7eieicbz-ectoplasma",
-      "name": "Ectoplasma",
+      "name": "Ectoplasma ex",
       "number": "261",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/261.webp",
+      "setName": "puissance-genetique",
+      "id": "1jwl78lfpa"
     },
     {
-      "id": "ug3kcajed2jlf4u-mewtwo",
-      "name": "Mewtwo",
+      "name": "Mewtwo ex",
       "number": "262",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/262.webp",
+      "setName": "puissance-genetique",
+      "id": "gax2cq6pxe"
     },
     {
-      "id": "g1qzf4hm5go1ppq-mackogneur",
-      "name": "Mackogneur",
+      "name": "Mackogneur ex",
       "number": "263",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/263.webp",
+      "setName": "puissance-genetique",
+      "id": "a10h60h71o"
     },
     {
-      "id": "nhyo9ybd5cof3ei-ossatueur",
-      "name": "Ossatueur",
+      "name": "Ossatueur ex",
       "number": "264",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/264.webp",
+      "setName": "puissance-genetique",
+      "id": "osv0dus9of"
     },
     {
-      "id": "d841jwhlsm6sp7o-grodoudou",
-      "name": "Grodoudou",
+      "name": "Grodoudou ex",
       "number": "265",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/265.webp",
+      "setName": "puissance-genetique",
+      "id": "oemtj0mz9y"
     },
     {
-      "id": "2xrqtbldcrgue64-erika",
       "name": "Erika",
       "number": "266",
-      "type": "",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/266.webp",
+      "setName": "puissance-genetique",
+      "id": "u3t3g1kxag"
     },
     {
-      "id": "n3l09to1c78rgtq-ondine",
       "name": "Ondine",
       "number": "267",
-      "type": "",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/267.webp",
+      "setName": "puissance-genetique",
+      "id": "8g8838xiqx"
     },
     {
-      "id": "jnphm3jun498u09-auguste",
       "name": "Auguste",
       "number": "268",
-      "type": "",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/268.webp",
+      "setName": "puissance-genetique",
+      "id": "sohl8o5253"
     },
     {
-      "id": "stpwrat8nuw05tu-koga",
       "name": "Koga",
       "number": "269",
-      "type": "",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/269.webp",
+      "setName": "puissance-genetique",
+      "id": "afakk8c0w3"
     },
     {
-      "id": "ng7g5sc31r2yf5k-giovanni",
       "name": "Giovanni",
       "number": "270",
-      "type": "",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/270.webp",
+      "setName": "puissance-genetique",
+      "id": "6tsvnegi4n"
     },
     {
-      "id": "fa0q56cood5iwqx-pierre",
       "name": "Pierre",
       "number": "271",
-      "type": "",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/271.webp",
+      "setName": "puissance-genetique",
+      "id": "l3whpl559l"
     },
     {
-      "id": "vqyozycfzth6xe3-morgane",
       "name": "Morgane",
       "number": "272",
-      "type": "",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/272.webp",
+      "setName": "puissance-genetique",
+      "id": "nl557mx7u6"
     },
     {
-      "id": "tht5p3cyuilz2h7-major-bob",
       "name": "Major Bob",
       "number": "273",
-      "type": "",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/273.webp",
+      "setName": "puissance-genetique",
+      "id": "tyx4y8pzpt"
     },
     {
-      "id": "q4gamwwl9psaksz-sulfura",
-      "name": "Sulfura",
+      "name": "Sulfura ex",
       "number": "274",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/274.webp",
+      "setName": "puissance-genetique",
+      "id": "oxvz8k7le4"
     },
     {
-      "id": "5eo8156ctd2rfw1-artikodin",
-      "name": "Artikodin",
+      "name": "Artikodin ex",
       "number": "275",
-      "type": "water",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/275.webp",
+      "setName": "puissance-genetique",
+      "id": "z432nq47ze"
     },
     {
-      "id": "johh9hxtb0xk8vn-electhor",
-      "name": "Électhor",
+      "name": "Électhor ex",
       "number": "276",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/276.webp",
+      "setName": "puissance-genetique",
+      "id": "kwcf9stlve"
     },
     {
-      "id": "6rqpcxpi76tktbg-ectoplasma",
-      "name": "Ectoplasma",
+      "name": "Ectoplasma ex",
       "number": "277",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/277.webp",
+      "setName": "puissance-genetique",
+      "id": "vo1e29ytq4"
     },
     {
-      "id": "9ph5mty3otbae9m-mackogneur",
-      "name": "Mackogneur",
+      "name": "Mackogneur ex",
       "number": "278",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/278.webp",
+      "setName": "puissance-genetique",
+      "id": "5bod02wlh9"
     },
     {
-      "id": "kln796ihp1i54oi-grodoudou",
-      "name": "Grodoudou",
+      "name": "Grodoudou ex",
       "number": "279",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "puissance-genetique/279.webp",
+      "setName": "puissance-genetique",
+      "id": "jy2vvpqku6"
     },
     {
-      "id": "dh2tnrdkaieuyp8-dracaufeu",
-      "name": "Dracaufeu",
+      "name": "Dracaufeu ex",
       "number": "280",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 3,
-        "crowns": 0,
-        "text": "★★★",
-        "value": 30
-      }
+      "rarity": "☆☆☆",
+      "img": "puissance-genetique/280.webp",
+      "setName": "puissance-genetique",
+      "id": "5qkcxduvcd"
     },
     {
-      "id": "4fgxnewdkrfa2dl-pikachu",
-      "name": "Pikachu",
+      "name": "Pikachu ex",
       "number": "281",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 3,
-        "crowns": 0,
-        "text": "★★★",
-        "value": 30
-      }
+      "rarity": "☆☆☆",
+      "img": "puissance-genetique/281.webp",
+      "setName": "puissance-genetique",
+      "id": "26w8zungal"
     },
     {
-      "id": "afub1uil56gu6gi-mewtwo",
-      "name": "Mewtwo",
+      "name": "Mewtwo ex",
       "number": "282",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 3,
-        "crowns": 0,
-        "text": "★★★",
-        "value": 30
-      }
+      "rarity": "☆☆☆",
+      "img": "puissance-genetique/282.webp",
+      "setName": "puissance-genetique",
+      "id": "xr89rl37w2"
     },
     {
-      "id": "cob6b3futaezgzy-mew",
       "name": "Mew",
       "number": "283",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 3,
-        "crowns": 0,
-        "text": "★★★",
-        "value": 30
-      }
+      "rarity": "☆☆☆",
+      "img": "puissance-genetique/283.webp",
+      "setName": "puissance-genetique",
+      "id": "dsl0xzyzdy"
     },
     {
-      "id": "sehq38ea9vqwed6-dracaufeu",
-      "name": "Dracaufeu",
+      "name": "Dracaufeu ex",
       "number": "284",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 0,
-        "crowns": 1,
-        "text": "👑",
-        "value": 100
-      }
+      "rarity": "♛",
+      "img": "puissance-genetique/284.webp",
+      "setName": "puissance-genetique",
+      "id": "npbtak2ecz"
     },
     {
-      "id": "cd7kn5ov3d0d3v0-pikachu",
-      "name": "Pikachu",
+      "name": "Pikachu ex",
       "number": "285",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 0,
-        "crowns": 1,
-        "text": "👑",
-        "value": 100
-      }
+      "rarity": "♛",
+      "img": "puissance-genetique/285.webp",
+      "setName": "puissance-genetique",
+      "id": "79izpd8wqz"
     },
     {
-      "id": "8nmskyaulfni0yx-mewtwo",
-      "name": "Mewtwo",
+      "name": "Mewtwo ex",
       "number": "286",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 0,
-        "crowns": 1,
-        "text": "👑",
-        "value": 100
-      }
+      "rarity": "♛",
+      "img": "puissance-genetique/286.webp",
+      "setName": "puissance-genetique",
+      "id": "ru8thbig4v"
     }
   ]
 }

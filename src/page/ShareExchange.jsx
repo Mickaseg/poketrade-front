@@ -145,11 +145,9 @@ const ShareExchange = () => {
                                 <div className="mt-3 text-center">
                                     <h4 className="font-semibold text-gray-900">{selectedCard.name}</h4>
                                     <div className="mt-1 text-sm text-gray-700">
-                                        <p>Set: {selectedCard.setName || selectedCard.setId}</p>
+                                        <p>Set: {selectedCard.setName}</p>
                                         <p>Numéro: {selectedCard.number}</p>
-                                        {selectedCard.rarity && (
-                                            <p>Rareté: {selectedCard.rarity.text || `${selectedCard.rarity.diamonds || 0} diamants, ${selectedCard.rarity.stars || 0} étoiles`}</p>
-                                        )}
+                                        <p>Rareté: {selectedCard.rarity}</p>
                                     </div>
                                 </div>
                             </div>

@@ -1,11 +1,14 @@
-import { Link, useLocation } from 'react-router-dom';
-import pokeball from "../assets/824565.png"
-import { Plus } from "lucide-react";
-const Navbar = () => {
-    const location = useLocation();
+import { Link, useLocation } from "react-router-dom";
+import pokeball from "../assets/824565.png";
+import { Power, Plus, LogIn, UserPlus, Repeat, LayoutGrid, Bell } from "lucide-react";
+import { useAuth } from "../context/AuthContext";
 
+const Navbar = () => {
+    const { isAuthenticated, user, logout } = useAuth();
+    const location = useLocation();
+    
     return (
-        <nav className="bg-gradient-to-r from-blue-700 to-blue-500 shadow-lg p-4 text-white">
+        <nav className="bg-gradient-to-r from-gray-900 to-gray-800 shadow-lg p-4 text-white">
             <div className="container mx-auto flex justify-between items-center">
                 {/* Logo and Title */}
                 <div className="font-bold text-xl">
@@ -25,44 +28,72 @@ const Navbar = () => {
                 </div>
 
                 {/* Navigation Links */}
-                <div className="flex gap-3 items-center">
+                <div className="flex gap-4 items-center">
                     <Link
                         to="/galerie"
-                        className={`px-4 py-2 rounded-md transition-all duration-200 ${location.pathname === '/galerie'
-                                ? 'bg-white text-blue-700 font-medium'
-                                : 'hover:bg-blue-600 hover:text-white'
-                            }`}
+                        className={`btn btn-primary px-4 py-2 rounded-md transition-all duration-200 ${
+                            location.pathname === "/galerie" ? "btn-active" : ""
+                        }`}
                     >
-                        Galerie
+                        <LayoutGrid size={16} /> Galerie
                     </Link>
                     <Link
                         to="/"
-                        className={`px-4 py-2 rounded-md transition-all duration-200 ${location.pathname === '/'
-                                ? 'bg-white text-blue-700 font-medium'
-                                : 'hover:bg-blue-600 hover:text-white'
-                            }`}
+                        className={`btn btn-primary px-4 py-2 rounded-md transition-all duration-200 ${
+                            location.pathname === "/" ? "btn-active" : ""
+                        }`}
                     >
-                        Voir les échanges
+                        <Repeat size={16} /> Echanges
                     </Link>
-                    <Link
-                        to="/create-trade"
-                        className="px-4 py-2 bg-green-500 rounded-md font-medium flex items-center gap-1 hover:bg-green-600 transition-all duration-200 shadow-sm"
-                        aria-label="Créer un nouvel échange"
-                    >
-                        <Plus size={16} />
-                        Créer un échange
-                    </Link>
-                </div>
+                    {isAuthenticated && (
+                        <Link
+                            to="/create-trade"
+                            className="px-4 py-2 btn btn-accent hover:bg-green-600 transition-all duration-200 shadow-sm text-white"
+                            aria-label="Créer un nouvel échange"
+                        >
+                            <Plus size={16} />
+                            Créer un échange
+                        </Link>
+                    )}
+                    {/* User Menu */}   
+                    <div className="hidden md:flex items-center gap-2">
+                        {isAuthenticated ? (
+                            <div className="flex items-center gap-3">
+                                <Link to="#" className="btn btn-primary btn-circle">
+                                <Bell size={20} />
+                                </Link>
 
-                {/* User Menu - Optional */}
-                <div className="hidden md:block">
-                    {/*<button className="flex items-center gap-2 px-3 py-2 rounded-full bg-blue-600 hover:bg-blue-700 transition-all duration-200">*/}
-                    {/*    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">*/}
-                    {/*        <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />*/}
-                    {/*        <circle cx="12" cy="7" r="4" />*/}
-                    {/*    </svg>*/}
-                    {/*    <span>Profil</span>*/}
-                    {/*</button>*/}
+                                <span className="text-sm">{user.username}</span>
+                                <button
+                                    onClick={logout}
+                                    className="btn btn-error btn-circle"
+                                >
+                                    <Power size={20} />
+                                </button>
+                            </div>
+                        ) : (
+                            <div className="flex items-center gap-2">
+                                <Link
+                                    to="/login"
+                                    className="btn btn-primary flex items-center gap-1 px-3 py-2 rounded-md transition-all duration-200"
+                                >
+                                    <LogIn size={18} />
+                                    <span className="hidden sm:inline">
+                                        Connexion
+                                    </span>
+                                </Link>
+                                <Link
+                                    to="/register"
+                                    className="btn btn-accent flex items-center gap-1 px-3 py-2 rounded-md transition-all duration-200"
+                                >
+                                    <UserPlus size={18} />
+                                    <span className="hidden sm:inline">
+                                        Inscription
+                                    </span>
+                                </Link>
+                            </div>
+                        )}
+                    </div>
                 </div>
             </div>
         </nav>

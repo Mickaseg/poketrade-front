@@ -1,1125 +1,695 @@
 {
-  "setId": "bh6swrnbnb0xqp7-ile-fabuleuse",
+  "setName": "ile-fabuleuse",
   "totalCards": 86,
-  "scrapeDate": "2025-02-24T18:44:46.506Z",
+  "scrapeDate": "2025-03-02T16:20:40.310Z",
   "cards": [
     {
-      "id": "njtqzb4g1xvmyte-noeunoeuf",
-      "name": "Noeunoeuf",
+      "id": "l96if9yllg",
+      "name": "Nœunœuf",
       "number": "1",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/1.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "upwu4egfe8n09oe-noadkoko",
+      "id": "ggun8ke3k8",
       "name": "Noadkoko",
       "number": "2",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "l-ile-fabuleuse/2.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "h1lxnlhpl5zljro-celebi-ex",
-      "name": "Celebi-ex",
+      "id": "l8i6lyy14z",
+      "name": "Celebi EX",
       "number": "3",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "l-ile-fabuleuse/3.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "9fuzldsjs86vk1y-vipelierre",
+      "id": "0elav8zb15",
       "name": "Vipélierre",
       "number": "4",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/4.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "24gcgk3xh24yy3c-lianaja",
+      "id": "uym6pf7w48",
       "name": "Lianaja",
       "number": "5",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "l-ile-fabuleuse/5.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "ewaplkoi5ko7x9w-majaspic",
+      "id": "2bifj6370s",
       "name": "Majaspic",
       "number": "6",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "l-ile-fabuleuse/6.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "cmpiz48676erqu2-spododo",
+      "id": "0cqb6p2bc1",
       "name": "Spododo",
       "number": "7",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/7.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "8loxhhip6gekxvr-lampignon",
+      "id": "bcbfjj66tn",
       "name": "Lampignon",
       "number": "8",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "l-ile-fabuleuse/8.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "kj9tvr5n5cjfbx9-sinistrail",
+      "id": "ozid6m9sva",
       "name": "Sinistrail",
       "number": "9",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "l-ile-fabuleuse/9.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "7e1adx2kf4udcld-ponyta",
+      "id": "ektyrn21jq",
       "name": "Ponyta",
       "number": "10",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/10.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "z7j1kqi2e8tl06r-galopa",
+      "id": "05s0vylgm6",
       "name": "Galopa",
       "number": "11",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "l-ile-fabuleuse/11.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "tqn51pibscr7zx2-magmar",
+      "id": "c6tyljix31",
       "name": "Magmar",
       "number": "12",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "l-ile-fabuleuse/12.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "aq1a8ns3zq3r3d4-pyronille",
+      "id": "jgyvnrh2to",
       "name": "Pyronille",
       "number": "13",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/13.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "5jsi6xvwpmx4rd8-pyrax",
+      "id": "giyrpzjq9d",
       "name": "Pyrax",
       "number": "14",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "l-ile-fabuleuse/14.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "tn0m919glf7p4ui-tritox",
+      "id": "8hbvw1heir",
       "name": "Tritox",
       "number": "15",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/15.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "fpax2tzmqojixxm-malamandre",
+      "id": "hbwj1r3ny8",
       "name": "Malamandre",
       "number": "16",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/16.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "dkxuvrd749iha5i-magicarpe",
+      "id": "cxgsaz9v5s",
       "name": "Magicarpe",
       "number": "17",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/17.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "hmda751busew0m6-leviator",
-      "name": "Léviator",
+      "id": "pdl21btbut",
+      "name": "Léviator EX",
       "number": "18",
-      "type": "water",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "l-ile-fabuleuse/18.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "1izrnidqwlh57zf-aquali",
+      "id": "w44o94rcil",
       "name": "Aquali",
       "number": "19",
-      "type": "water",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "l-ile-fabuleuse/19.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "5fnq79pzk3j7ns3-ecayon",
+      "id": "gco0u4augy",
       "name": "Écayon",
       "number": "20",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/20.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "wb0l84qjlf8pjto-lumineon",
+      "id": "1m8yz6yd9p",
       "name": "Luminéon",
       "number": "21",
-      "type": "water",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "l-ile-fabuleuse/21.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "812ymr06ftodvyk-khelocrok",
+      "id": "a843l0mvvy",
       "name": "Khélocrok",
       "number": "22",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/22.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "j3m8vyl62sk6mnp-torgamord",
+      "id": "dhdd4k71k2",
       "name": "Torgamord",
       "number": "23",
-      "type": "water",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "l-ile-fabuleuse/23.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "l8ixwzd0kidm7rw-nigosier",
+      "id": "3vdodenbre",
       "name": "Nigosier",
       "number": "24",
-      "type": "water",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/24.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "4i9rpfwox9ld9yn-pikachu",
+      "id": "h76l1rydz7",
       "name": "Pikachu",
       "number": "25",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/25.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "6tuaztw76k9faao-raichu",
+      "id": "eeyvet87m5",
       "name": "Raichu",
       "number": "26",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "l-ile-fabuleuse/26.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "ud1jhjmo8ypor5m-elektek",
+      "id": "3n4sxp4w0t",
       "name": "Élektek",
       "number": "27",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "l-ile-fabuleuse/27.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "najoy11qoykq5a4-statitik",
+      "id": "jxk0qgjbuf",
       "name": "Statitik",
       "number": "28",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/28.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "apn3egss9zs1oel-mygavolt",
+      "id": "cb9karq6d0",
       "name": "Mygavolt",
       "number": "29",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "l-ile-fabuleuse/29.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "6cnxjgx3cvgf45w-dedenne",
+      "id": "9bnslgbpxs",
       "name": "Dedenne",
       "number": "30",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/30.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "vf0r9kvdsazl74z-mew",
+      "id": "vcv5pksqbd",
       "name": "Mew",
       "number": "31",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "l-ile-fabuleuse/31.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "5yi2fgnh2xat86l-mew-ex",
-      "name": "Mew-ex",
+      "id": "fa9kucrd04",
+      "name": "Mew EX",
       "number": "32",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "l-ile-fabuleuse/32.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "io8pmf1np20ivkt-cryptero",
+      "id": "h8xn0e7041",
       "name": "Cryptéro",
       "number": "33",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "l-ile-fabuleuse/33.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "pa4w0evig08bx6m-lewsor",
+      "id": "icvphiy7t7",
       "name": "Lewsor",
       "number": "34",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/34.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "v8krjbv35yat9rr-neitram",
+      "id": "1qd5bptpng",
       "name": "Neitram",
       "number": "35",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "l-ile-fabuleuse/35.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "4rjiv5t6kgenqjp-flabeb",
+      "id": "az312o2p5d",
       "name": "Flabébé",
       "number": "36",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/36.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "cvxg6bdbnxhtuey-floette",
+      "id": "edtdxdra4g",
       "name": "Floette",
       "number": "37",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/37.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "zxtei9is63ll464-florges",
+      "id": "ub5b15ry3r",
       "name": "Florges",
       "number": "38",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "l-ile-fabuleuse/38.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "clwrerk7zkp56nd-sucroquin",
+      "id": "08j2g6lo8m",
       "name": "Sucroquin",
       "number": "39",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/39.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "hmaw88f1sd4n0eg-cupcanaille",
+      "id": "acqxt5uiig",
       "name": "Cupcanaille",
       "number": "40",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/40.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "h3kjwqdud9vzbir-ferosinge",
+      "id": "8v6tuldzzb",
       "name": "Férosinge",
       "number": "41",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/41.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "xqlbewvndwjsv0g-colossinge",
+      "id": "geldmt18ih",
       "name": "Colossinge",
       "number": "42",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/42.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "lfi58nyo9hdyeg9-racaillou",
+      "id": "aat31cv4s9",
       "name": "Racaillou",
       "number": "43",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/43.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "nuop96e51iiwngw-gravalanch",
+      "id": "053f8szqiv",
       "name": "Gravalanch",
       "number": "44",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "l-ile-fabuleuse/44.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "aeybbymedewzboe-grolem",
+      "id": "echz1kjjdx",
       "name": "Grolem",
       "number": "45",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "l-ile-fabuleuse/45.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "z13co4oge3d8vwt-ptera-ex",
-      "name": "Ptéra-ex",
+      "id": "fjhzr0h4km",
+      "name": "Ptéra EX",
       "number": "46",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "l-ile-fabuleuse/46.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "wxa0dmxiysjkh19-marshadow",
+      "id": "1xzv09p6cl",
       "name": "Marshadow",
       "number": "47",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "l-ile-fabuleuse/47.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "oif9hc1l2182yck-dolman",
+      "id": "eqv7ugt9r9",
       "name": "Dolman",
       "number": "48",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "l-ile-fabuleuse/48.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "3rytiasmgwj4dll-smogo",
+      "id": "uzsn8o8k9r",
       "name": "Smogo",
       "number": "49",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/49.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "yeya26y0p6b1urk-smogogo",
+      "id": "7adbayjii2",
       "name": "Smogogo",
       "number": "50",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "l-ile-fabuleuse/50.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "loj95zzm39lc9s5-chacripan",
+      "id": "1ts7aostsb",
       "name": "Chacripan",
       "number": "51",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/51.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "nkd9f2amdhd657e-leopardus",
+      "id": "s2j87wecpi",
       "name": "Léopardus",
       "number": "52",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/52.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "var7rxly2080w98-venipatte",
+      "id": "5yh9axrjjp",
       "name": "Venipatte",
       "number": "53",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/53.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "yi4ngt04jh845m9-scobolide",
+      "id": "ovvb4ntxnx",
       "name": "Scobolide",
       "number": "54",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/54.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "qvb758zb4ijhjg4-brutapode",
+      "id": "5vmn5keehl",
       "name": "Brutapode",
       "number": "55",
-      "type": "darkness",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "l-ile-fabuleuse/55.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "e21ldsyk80arifk-drakkarmin",
+      "id": "6b5311rxzc",
       "name": "Drakkarmin",
       "number": "56",
-      "type": "dragon",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "l-ile-fabuleuse/56.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "fwowr179gwvn0wi-roucool",
+      "id": "xdf3dj51vi",
       "name": "Roucool",
       "number": "57",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/57.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "7y5t30djskzt031-roucoups",
+      "id": "z3w3efvdno",
       "name": "Roucoups",
       "number": "58",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/58.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "5o5naaasoda63qt-roucarnage",
-      "name": "Roucarnage",
+      "id": "3u3eiqmtfm",
+      "name": "Roucarnage EX",
       "number": "59",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 4,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦♦",
-        "value": 4
-      }
+      "rarity": "♢♢♢♢",
+      "img": "l-ile-fabuleuse/59.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "mk4yq4bmy9p73ij-tauros",
+      "id": "ut2b2gk4k2",
       "name": "Tauros",
       "number": "60",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 3,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦♦",
-        "value": 3
-      }
+      "rarity": "♢♢♢",
+      "img": "l-ile-fabuleuse/60.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "awn64f65f1m7k6n-evoli",
+      "id": "78ks73whkg",
       "name": "Évoli",
       "number": "61",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/61.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "1s1tq7sqqgvq8tc-pijako",
+      "id": "u23e60j0sy",
       "name": "Pijako",
       "number": "62",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/62.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "fo7ec02e0ucc7x8-vieil-ambre",
+      "id": "ire1z60i4b",
       "name": "Vieil Ambre",
       "number": "63",
-      "type": "",
-      "rarity": {
-        "diamonds": 1,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦",
-        "value": 1
-      }
+      "rarity": "♢",
+      "img": "l-ile-fabuleuse/63.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "0afyr6z43839idd-flte-pokemon",
+      "id": "0qt1v3mk89",
       "name": "Flûte Pokémon",
       "number": "64",
-      "type": "",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "l-ile-fabuleuse/64.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "tzfcmr5r03hyksk-dalle-fabuleuse",
-      "name": "Dalle Fabuleuse",
+      "id": "8vg7l880ae",
+      "name": "Dalle Mythique",
       "number": "65",
-      "type": "",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "l-ile-fabuleuse/65.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "59y3ogqwlc7t1q6-jeune-explorateur",
-      "name": "Jeune Explorateur",
+      "id": "ovi5udwxlo",
+      "name": "Expéditeur en Herbe",
       "number": "66",
-      "type": "",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "l-ile-fabuleuse/66.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "j197ch2entsxdup-blue",
+      "id": "37zajsr8m5",
       "name": "Blue",
       "number": "67",
-      "type": "",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "l-ile-fabuleuse/67.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "z2ofwxxu6bb8z6n-leaf",
+      "id": "rvm6zwwnur",
       "name": "Leaf",
       "number": "68",
-      "type": "",
-      "rarity": {
-        "diamonds": 2,
-        "stars": 0,
-        "crowns": 0,
-        "text": "♦♦",
-        "value": 2
-      }
+      "rarity": "♢♢",
+      "img": "l-ile-fabuleuse/68.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "b210ploeuw8kc3o-noadkoko",
+      "id": "fy1g8rin44",
       "name": "Noadkoko",
       "number": "69",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "l-ile-fabuleuse/69.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "c59pgs3a6gf02su-majaspic",
+      "id": "0waxe1y6rz",
       "name": "Majaspic",
       "number": "70",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "l-ile-fabuleuse/70.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "vm8rykfyesi8psj-tritox",
+      "id": "8yef3ayo0j",
       "name": "Tritox",
       "number": "71",
-      "type": "fire",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "l-ile-fabuleuse/71.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "fgzqfijb00tqiy2-aquali",
+      "id": "jhvcogb849",
       "name": "Aquali",
       "number": "72",
-      "type": "water",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "l-ile-fabuleuse/72.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "ijpqniv1h7k4uzs-dedenne",
+      "id": "l638lxbexn",
       "name": "Dedenne",
       "number": "73",
-      "type": "lightning",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "l-ile-fabuleuse/73.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "zm3n389x9y6o1as-marshadow",
+      "id": "rv2kylf2vy",
       "name": "Marshadow",
       "number": "74",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 1,
-        "crowns": 0,
-        "text": "★",
-        "value": 10
-      }
+      "rarity": "☆",
+      "img": "l-ile-fabuleuse/74.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "kz21cxjbnl78n7k-celebi-ex",
-      "name": "Celebi-ex",
+      "id": "ok1vv2gtab",
+      "name": "Celebi EX",
       "number": "75",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "l-ile-fabuleuse/75.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "k4hllj09hixdi6m-leviator",
-      "name": "Léviator",
+      "id": "h3bwn3i69y",
+      "name": "Léviator EX",
       "number": "76",
-      "type": "water",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "l-ile-fabuleuse/76.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "5eatuaiywrs77bc-mew-ex",
-      "name": "Mew-ex",
+      "id": "tv6yanvhx8",
+      "name": "Mew EX",
       "number": "77",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "l-ile-fabuleuse/77.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "v0z6lar0cdel1ay-ptera-ex",
-      "name": "Ptéra-ex",
+      "id": "gfz4wflwj1",
+      "name": "Ptéra EX",
       "number": "78",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "l-ile-fabuleuse/78.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "5y62vvr58pxazez-roucarnage",
-      "name": "Roucarnage",
+      "id": "846htwywxo",
+      "name": "Roucarnage EX",
       "number": "79",
-      "type": "colorless",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "l-ile-fabuleuse/79.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "30koqtat89as3os-jeune-explorateur",
-      "name": "Jeune Explorateur",
+      "id": "z2fesoulj9",
+      "name": "Expéditeur en Herbe",
       "number": "80",
-      "type": "",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "l-ile-fabuleuse/80.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "a91f9i3l5do91lu-blue",
+      "id": "mi3wu3zc33",
       "name": "Blue",
       "number": "81",
-      "type": "",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "l-ile-fabuleuse/81.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "9cvnctq71ts6ocj-leaf",
+      "id": "8ofcxld2g9",
       "name": "Leaf",
       "number": "82",
-      "type": "",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "l-ile-fabuleuse/82.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "1qfj5pkve2jtpx1-mew-ex",
-      "name": "Mew-ex",
+      "id": "n52df949vp",
+      "name": "Mew EX",
       "number": "83",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "l-ile-fabuleuse/83.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "trsczskf0z2z12p-ptera-ex",
-      "name": "Ptéra-ex",
+      "id": "2y2mk36e4m",
+      "name": "Ptéra EX",
       "number": "84",
-      "type": "fighting",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 2,
-        "crowns": 0,
-        "text": "★★",
-        "value": 20
-      }
+      "rarity": "☆☆",
+      "img": "l-ile-fabuleuse/84.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "xpv0hpyt1z1rz7f-celebi-ex",
-      "name": "Celebi-ex",
+      "id": "noqdi978sd",
+      "name": "Celebi EX",
       "number": "85",
-      "type": "grass",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 3,
-        "crowns": 0,
-        "text": "★★★",
-        "value": 30
-      }
+      "rarity": "☆☆☆",
+      "img": "l-ile-fabuleuse/85.webp",
+      "setName": "l-ile-fabuleuse"
     },
     {
-      "id": "98f36d2k9cqin6s-mew-ex",
-      "name": "Mew-ex",
+      "id": "fpnfwr0grr",
+      "name": "Mew EX",
       "number": "86",
-      "type": "psychic",
-      "rarity": {
-        "diamonds": 0,
-        "stars": 0,
-        "crowns": 1,
-        "text": "👑",
-        "value": 100
-      }
+      "rarity": "♛",
+      "img": "l-ile-fabuleuse/86.webp",
+      "setName": "l-ile-fabuleuse"
     }
   ]
 }
