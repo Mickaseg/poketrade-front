@@ -2,8 +2,7 @@ import React, { useState, useEffect, useMemo } from "react";
 import { Search, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { debounce } from "../utils/utils.js";
-import { SetSelector } from "../components/SetSelector.jsx";
-import { getCardImageUrl } from "../utils/imageUtils.js";
+import { SetSelector } from "../components/filters/SetSelector.jsx";
 import { getLocalCards } from "../data/localData.js";
 
 const CardGrid = () => {
@@ -14,7 +13,7 @@ const CardGrid = () => {
     const [filters, setFilters] = useState({
         search: "",
         type: "",
-        rarity: ""
+        rarity: "",
     });
     const [isChangingSet, setIsChangingSet] = useState(false);
 
@@ -42,7 +41,8 @@ const CardGrid = () => {
                     .includes(filters.search.toLowerCase()) ||
                 card.number.includes(filters.search);
             const matchType = !filters.type || card.type === filters.type;
-            const matchRarity = !filters.rarity || card.rarity === filters.rarity;
+            const matchRarity =
+                !filters.rarity || card.rarity === filters.rarity;
             return matchSearch && matchType && matchRarity;
         });
         setFilteredCards(filteredResults);
@@ -114,9 +114,7 @@ const CardGrid = () => {
                 </div>
 
                 <div className="flex gap-2 items-center">
-                    {(filters.search ||
-                        filters.type ||
-                        filters.rarity) && (
+                    {(filters.search || filters.type || filters.rarity) && (
                         <button
                             onClick={resetFilters}
                             className="btn btn-outline btn-info btn-sm"
@@ -127,9 +125,7 @@ const CardGrid = () => {
                     {uniqueRarities.map((rarity, index) => (
                         <button
                             className={`btn btn-outline btn-primary btn-sm transition-all duration-300 ${
-                                filters.rarity === rarity
-                                    ? "btn-active"
-                                    : ""
+                                filters.rarity === rarity ? "btn-active" : ""
                             }`}
                             key={index}
                             value={rarity}

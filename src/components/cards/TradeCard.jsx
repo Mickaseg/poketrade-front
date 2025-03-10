@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
-import { useAuth } from "../context/AuthContext";
-import PlaceholderAvatar from "./PlaceholderAvatar";
+import { useAuth } from "../../context/AuthContext";
+import PlaceholderAvatar from "../common/PlaceholderAvatar";
+import { getTimeDisplay } from "../../utils/timeUtils";
 const TradeCard = ({ trade }) => {
     const { isAuthenticated } = useAuth();
-    console.log(trade);
+
     // Limiter le nombre de cartes affichées en aperçu
     const getPreviewCards = (cards, limit = 3) => {
         const visibleCards = cards.slice(0, limit);
@@ -14,12 +15,11 @@ const TradeCard = ({ trade }) => {
             remainingCount: remainingCount > 0 ? remainingCount : 0,
         };
     };
-  
+
     const { visibleCards, remainingCount } = getPreviewCards(
         trade.proposedCards
     );
 
-   
     return (
         <div
             key={trade._id}
@@ -30,12 +30,13 @@ const TradeCard = ({ trade }) => {
                 <div className="flex justify-between items-center">
                     <div className="flex items-center gap-2">
                         <PlaceholderAvatar name={trade.creator.username} />
+
                         <h2 className="text-lg font-semibold text-gray-800">
                             {trade.creator.username}
                         </h2>
                     </div>
                     <span className="text-xs text-gray-500 mt-1">
-                        {new Date(trade.createdAt).toLocaleDateString()}
+                        {getTimeDisplay(trade.createdAt)}
                     </span>
                 </div>
             </div>

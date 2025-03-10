@@ -1,18 +1,11 @@
 import { useState, useEffect } from "react";
-import {
-    isSameRarity,
-    isCardExchangeable,
-    getTokenInfo,
-    displayRarity,
-} from "../utils/tradeUtils";
+import { isSameRarity, isCardExchangeable } from "../utils/tradeUtils";
 import { fetchAllCards, createTrade } from "../api/tradeApi";
 import { useNavigate } from "react-router-dom";
-import CardGrid from "../components/CardGrid.jsx";
-import CardDetails from "../components/CardDetails";
-import SearchInput from "../components/SearchInput";
-import StepNavigation from "../components/StepNavigation";
-import LoadingSpinner from "../components/LoadingSpinner";
-import MultiTradePreview from "../components/MultiTradePreview";
+import CardGrid from "../components/layout/CardGrid";
+import StepNavigation from "../components/common/StepNavigation.jsx";
+import { toast } from "react-hot-toast";
+import Filter from "../components/filters/Filter";
 
 const CreateTrade = () => {
     const [step, setStep] = useState(1);
@@ -22,9 +15,17 @@ const CreateTrade = () => {
     const [allCards, setAllCards] = useState([]);
     const [filteredCards, setFilteredCards] = useState([]);
     const [errorMessage, setErrorMessage] = useState("");
-    const [searchTerm, setSearchTerm] = useState("");
+    const [search, setSearch] = useState({
+        term: "",
+        set: "",
+        showSelected: false,
+    });
+    const [searchStep2, setSearchStep2] = useState({
+        term: "",
+        set: "",
+        showSelected: false,
+    });
     const [isLoading, setIsLoading] = useState(true);
-    const [searchTermStep3, setSearchTermStep3] = useState("");
     const navigate = useNavigate();
 
     // Charger les cartes au démarrage
@@ -94,38 +95,92 @@ const CreateTrade = () => {
         setErrorMessage("");
     }, [requestedCards]);
 
-    // Fonction pour filtrer les cartes par recherche à l'étape 1
+    // Modifier la fonction de filtrage pour l'étape 1
     const getFilteredCardsBySearch = () => {
-        // Si aucune carte n'est sélectionnée, on filtre juste par le terme de recherche
-        const searchFiltered = allCards.filter(
-            (card) =>
-                card.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                card.number.includes(searchTerm)
-        );
+        let filteredCards = allCards.filter((card) => {
+            const matchesSearch =
+                card.name.toLowerCase().includes(search.term.toLowerCase()) ||
+                card.number.includes(search.term);
+            const matchesSet = !search.set || card.setName === search.set;
+            const matchesSelected =
+                !search.showSelected || requestedCards.includes(card.id);
 
-        // Si au moins une carte est sélectionnée, on filtre aussi par rareté
+            return (
+                matchesSearch &&
+                matchesSet &&
+                (search.showSelected ? matchesSelected : true)
+            );
+        });
+
+        // Si au moins une carte est sélectionnée, filtrer par rareté
         if (requestedCards.length > 0) {
             const firstSelectedCard = allCards.find(
                 (card) => card.id === requestedCards[0]
             );
             if (firstSelectedCard) {
-                return searchFiltered.filter(
+                return filteredCards.filter(
                     (card) => card.rarity === firstSelectedCard.rarity
                 );
             }
         }
 
-        return searchFiltered;
+        return filteredCards;
     };
 
-    // Filtrer les cartes basées sur le terme de recherche et la rareté
-    const getFilteredCardsForStep3 = () => {
+    // Modifier la fonction de filtrage pour l'étape 2
+    const getFilteredCardsForStep2 = () => {
         const firstRequestedCard = requestedCardDetails[0];
         if (!firstRequestedCard) return [];
 
-        return filteredCards.filter(
-            (card) => card.rarity === firstRequestedCard.rarity
-        );
+        return filteredCards.filter((card) => {
+            const matchesSearch =
+                card.name
+                    .toLowerCase()
+                    .includes(searchStep2.term.toLowerCase()) ||
+                card.number.includes(searchStep2.term);
+            const matchesSet =
+                !searchStep2.set || card.setName === searchStep2.set;
+            const matchesSelected =
+                !searchStep2.showSelected || offeredCards.includes(card.id);
+
+            return (
+                matchesSearch &&
+                matchesSet &&
+                (searchStep2.showSelected ? matchesSelected : true)
+            );
+        });
+    };
+
+    // Gestionnaires de mise à jour des filtres
+    const handleSearchUpdate = (field, value) => {
+        setSearch((prev) => ({
+            ...prev,
+            [field]: value,
+        }));
+    };
+
+    const handleSearchStep2Update = (field, value) => {
+        setSearchStep2((prev) => ({
+            ...prev,
+            [field]: value,
+        }));
+    };
+
+    // Gestionnaires de réinitialisation
+    const resetFilters = () => {
+        setSearch({
+            term: "",
+            set: "",
+            showSelected: false,
+        });
+    };
+
+    const resetFiltersStep2 = () => {
+        setSearchStep2({
+            term: "",
+            set: "",
+            showSelected: false,
+        });
     };
 
     const handleNextStep = () => {
@@ -172,13 +227,15 @@ const CreateTrade = () => {
 
             await Promise.all(promises);
 
+            toast.success("Échange créé avec succès!");
+
             // Réinitialiser le formulaire
             setStep(1);
             setRequestedCards([]);
             setRequestedCardDetails([]);
             setOfferedCards([]);
             setErrorMessage("");
-            
+
             navigate("/");
         } catch (error) {
             setErrorMessage(
@@ -256,127 +313,249 @@ const CreateTrade = () => {
         }
     }, [allCards]);
 
+    // console.log(requestedCards);
+
     return (
-        <div className="container mx-auto px-6 py-8">
-            <h1 className="text-2xl font-bold mb-6 text-center">
-                Créer un échange
-            </h1>
+        <div className="max-w-3xl md:max-w-4xl lg:max-w-6xl mx-auto bg-white shadow-sm rounded-lg overflow-hidden mt-8 sm:mt-4 md:mt-6">
+            <div className="border-b border-gray-200 bg-white px-4 sm:px-6 py-4">
+                <h1 className="text-xl sm:text-2xl font-bold text-gray-900">
+                    Créer un échange
+                </h1>
+                <p className="mt-1 text-sm text-gray-500">
+                    Proposez vos cartes à échanger
+                </p>
+            </div>
 
-            {isLoading && <LoadingSpinner />}
+            <div className="p-4 sm:p-6 space-y-6 bg-gray-50">
+                {/* ********** STEP 1 ********** */}
+                {step === 1 && (
+                    <>
+                        <div className="flex items-start gap-4 mb-4">
+                            <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold">
+                                1
+                            </div>
+                            <div>
+                                <h2 className="text-base sm:text-lg font-medium text-gray-900">
+                                    Sélectionnez les cartes que vous souhaitez
+                                    obtenir
+                                </h2>
+                                <p className="mt-1 text-sm text-gray-500">
+                                    Choisissez les carte que vous recherchez
+                                </p>
+                            </div>
+                        </div>
 
-            {!isLoading && (
-                <>
-                    {step === 1 && (
-                        <div>
-                            <h2 className="text-xl font-bold mb-4">
-                                Étape 1 : Choisissez les cartes souhaitées
-                            </h2>
-                            <div className="shadow-md rounded-md p-4">
-                                <SearchInput
-                                    value={searchTerm}
-                                    onChange={setSearchTerm}
-                                    placeholder="Rechercher une carte..."
-                                />
-
-                                {requestedCards.length > 0 && (
-                                    <div className="mt-2 mb-4 p-2 bg-blue-50 rounded-md">
-                                        <p className="text-sm text-blue-700">
-                                            Vous ne pouvez sélectionner que des
-                                            cartes de rareté{" "}
-                                            {
-                                                allCards.find(
-                                                    (card) =>
-                                                        card.id ===
-                                                        requestedCards[0]
-                                                )?.rarity
-                                            }
-                                        </p>
+                        {requestedCards.length > 0 && (
+                            <div className="flex items-center gap-1 bg-gradient-to-r from-blue-50 to-white rounded-lg p-3 sm:p-4 border border-blue-100 mb-4">
+                                {requestedCardDetails.map((card) => (
+                                    <div className="flex items-center">
+                                        <div className="shrink-0">
+                                            <img
+                                                src={`images/${card.img}`}
+                                                alt="Évoli"
+                                                className="w-30 h-30 sm:w-30 sm:h-30 object-contain"
+                                            />
+                                        </div>
                                     </div>
-                                )}
+                                ))}
+                            </div>
+                        )}
 
-                                <CardGrid
-                                    cards={getFilteredCardsBySearch()}
-                                    selectedCards={requestedCards}
-                                    onCardClick={handleRequestedCardSelect}
-                                    displayRarity={displayRarity}
-                                    showSelectButton={true}
-                                    maxHeight="96"
+                        <div className="bg-white shadow rounded-lg p-3 sm:p-6">
+                            {/* search bar */}
+                            <Filter
+                                search={search}
+                                handleSearchUpdate={handleSearchUpdate}
+                                resetFilters={resetFilters}
+                            />
+
+                            <div className="flex flex-col gap-4">
+                                <div className="mt-4 shadow-md rounded-md p-4">
+                                    {requestedCards.length > 0 && (
+                                        <div className="mt-2 mb-4 p-2 bg-blue-50 rounded-md">
+                                            <p className="text-sm text-blue-700">
+                                                Vous ne pouvez sélectionner que
+                                                des cartes de rareté{" "}
+                                                {
+                                                    allCards.find(
+                                                        (card) =>
+                                                            card.id ===
+                                                            requestedCards[0]
+                                                    )?.rarity
+                                                }
+                                            </p>
+                                        </div>
+                                    )}
+                                    <div className="max-h-[600px] overflow-y-auto">
+                                        <CardGrid
+                                            cards={getFilteredCardsBySearch()}
+                                            selectedCards={requestedCards}
+                                            onCardClick={
+                                                handleRequestedCardSelect
+                                            }
+                                            showSelectButton={true}
+                                        />
+                                    </div>
+                                </div>
+
+                                <StepNavigation
+                                    onPrevious={handlePreviousStep}
+                                    onNext={handleNextStep}
+                                    nextDisabled={requestedCards.length === 0}
                                 />
                             </div>
-
-                            <CardDetails
-                                cards={requestedCardDetails}
-                                displayRarity={displayRarity}
-                                getTokenInfo={getTokenInfo}
-                                showExchangeInfo={false}
-                            />
-
-                            <StepNavigation
-                                onPrevious={handlePreviousStep}
-                                onNext={handleNextStep}
-                                nextDisabled={requestedCards.length === 0}
-                            />
                         </div>
-                    )}
+                    </>
+                )}
 
-                    {step === 2 && (
-                        <div>
-                            <h2 className="text-xl font-bold mb-4">
-                                Étape 2 : Proposez vos cartes
-                            </h2>
-                            <SearchInput
-                                value={searchTermStep3}
-                                onChange={setSearchTermStep3}
-                                placeholder="Rechercher parmi les cartes disponibles..."
-                                className="mb-4"
+                {/* ********** STEP 2 ********** */}
+                {step === 2 && (
+                    <>
+                        <div className="flex items-start gap-4 mb-4">
+                            <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold">
+                                2
+                            </div>
+                            <div>
+                                <h2 className="text-base sm:text-lg font-medium text-gray-900">
+                                    Sélectionnez les cartes que vous proposez
+                                </h2>
+                                <p className="mt-1 text-sm text-gray-500">
+                                    Proposez une ou plusieurs cartes en échange
+                                </p>
+                            </div>
+                        </div>
+
+                        {requestedCards.length > 0 && (
+                            <div className="flex items-center gap-1 bg-gradient-to-r from-blue-50 to-white rounded-lg p-3 sm:p-4 border border-blue-100 mb-4">
+                                {requestedCardDetails.map((card) => (
+                                    <div className="flex items-center">
+                                        <div className="shrink-0">
+                                            <img
+                                                src={`images/${card.img}`}
+                                                alt="Évoli"
+                                                className="w-30 h-30 sm:w-30 sm:h-30 object-contain"
+                                            />
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        )}
+
+                        <div className="bg-white shadow rounded-lg p-3 sm:p-6">
+                            {/* search bar */}
+                            <Filter
+                                search={searchStep2}
+                                handleSearchUpdate={handleSearchStep2Update}
+                                resetFilters={resetFiltersStep2}
                             />
 
-                            {filteredCards.length > 0 ? (
-                                <CardGrid
-                                    cards={getFilteredCardsForStep3()}
-                                    selectedCards={offeredCards}
-                                    onCardClick={handleOfferedCardSelect}
-                                    displayRarity={displayRarity}
-                                    showSelectButton={true}
+                            {/* <div className="flex flex-col gap-4"> */}
+                            {/* <div className="flex flex-wrap gap-2 mt-3">
+                            <button className="px-3 py-1.5 text-xs font-medium rounded-full transition-colors bg-gray-900 text-white">
+                                Toutes les cartes
+                            </button>
+                            <button className="px-3 py-1.5 text-xs font-medium rounded-full transition-colors bg-purple-50 text-purple-700 hover:bg-purple-100">
+                                Cartes peu possédées (0-1 ex.)
+                            </button>
+                            <button className="px-3 py-1.5 text-xs font-medium rounded-full transition-colors bg-orange-50 text-orange-700 hover:bg-orange-100">
+                                Cartes manquantes
+                            </button>
+                            <button className="px-3 py-1.5 text-xs font-medium rounded-full transition-colors inline-flex items-center bg-red-50 text-red-700 hover:bg-red-100">
+                               <Heart size={16} />  
+                                Souhaitée
+                            </button>
+                        </div> */}
+                            {/* </div> */}
+
+                            <div className="flex flex-col gap-4">
+                                <div className="shadow-md rounded-md p-4">
+                                    <div className="max-h-[600px] overflow-y-auto">
+                                        <CardGrid
+                                            cards={getFilteredCardsForStep2()}
+                                            selectedCards={offeredCards}
+                                            onCardClick={
+                                                handleOfferedCardSelect
+                                            }
+                                            showSelectButton={true}
+                                        />
+                                    </div>
+                                </div>
+
+                                <StepNavigation
+                                    onPrevious={handlePreviousStep}
+                                    onNext={handleSubmit}
+                                    nextLabel="Créer l'échange"
+                                    nextButtonColor="green"
+                                    nextDisabled={offeredCards.length === 0}
+                                    isSubmitButton={true}
                                 />
-                            ) : (
-                                <p className="text-center text-gray-700 mt-4">
-                                    Aucune carte de même rareté disponible pour
-                                    l'échange.
+                            </div>
+                        </div>
+                    </>
+                )}
+
+                {/* {step === 2 && (
+                                <div>
+                                    <h2 className="text-xl font-bold mb-4">
+                                        Étape 2 : Proposez vos cartes
+                                    </h2>
+                                    <SearchInput
+                                        value={searchTermStep3}
+                                        onChange={setSearchTermStep3}
+                                        placeholder="Rechercher parmi les cartes disponibles..."
+                                        className="mb-4"
+                                    />
+
+                                    {filteredCards.length > 0 ? (
+                                        <CardGrid
+                                            cards={getFilteredCardsForStep3()}
+                                            selectedCards={offeredCards}
+                                            onCardClick={
+                                                handleOfferedCardSelect
+                                            }
+                                            displayRarity={displayRarity}
+                                            showSelectButton={true}
+                                        />
+                                    ) : (
+                                        <p className="text-center text-gray-700 mt-4">
+                                            Aucune carte de même rareté
+                                            disponible pour l'échange.
+                                        </p>
+                                    )}
+
+                                    {requestedCardDetails.length > 0 && (
+                                        <MultiTradePreview
+                                            requestedCards={
+                                                requestedCardDetails
+                                            }
+                                            offeredCards={offeredCards}
+                                            allCards={allCards}
+                                            displayRarity={displayRarity}
+                                            getTokenInfo={getTokenInfo}
+                                            onRemoveOfferedCard={
+                                                handleOfferedCardSelect
+                                            }
+                                        />
+                                    )}
+
+                                    <StepNavigation
+                                        onPrevious={handlePreviousStep}
+                                        onNext={handleSubmit}
+                                        nextLabel="Créer l'échange"
+                                        nextButtonColor="green"
+                                        nextDisabled={offeredCards.length === 0}
+                                        isSubmitButton={true}
+                                    />
+                                </div>
+                            )}
+
+                            {errorMessage && (
+                                <p className="mt-4 text-center text-red-500">
+                                    {errorMessage}
                                 </p>
                             )}
-
-                            {requestedCardDetails.length > 0 && (
-                                <MultiTradePreview
-                                    requestedCards={requestedCardDetails}
-                                    offeredCards={offeredCards}
-                                    allCards={allCards}
-                                    displayRarity={displayRarity}
-                                    getTokenInfo={getTokenInfo}
-                                    onRemoveOfferedCard={
-                                        handleOfferedCardSelect
-                                    }
-                                />
-                            )}
-
-                            <StepNavigation
-                                onPrevious={handlePreviousStep}
-                                onNext={handleSubmit}
-                                nextLabel="Créer l'échange"
-                                nextButtonColor="green"
-                                nextDisabled={offeredCards.length === 0}
-                                isSubmitButton={true}
-                            />
-                        </div>
-                    )}
-
-                    {errorMessage && (
-                        <p className="mt-4 text-center text-red-500">
-                            {errorMessage}
-                        </p>
-                    )}
-                </>
-            )}
+                       */}
+            </div>
         </div>
     );
 };

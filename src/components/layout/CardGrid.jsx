@@ -1,4 +1,5 @@
-import CardSelectTrade from "./CardSelectTrade.jsx";
+import CardSelectTrade from "../cards/CardSelectTrade.jsx";
+import LoadingSpinner from "../common/LoadingSpinner.jsx";
 
 const CardGrid = ({
     cards,
@@ -7,22 +8,21 @@ const CardGrid = ({
     showSelectButton = false,
     onCardSelect = null,
     selectedCards = [],
-    displayRarity,
-    columnsConfig = "grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6",
-    maxHeight = null,
+
+    
 }) => {
     if (!cards || cards.length === 0) {
         return (
             <p className="text-center text-gray-700 mt-4">
-                Aucune carte disponible.
+                <LoadingSpinner message="Chargement des cartes..." />
             </p>
         );
     }
 
-    const gridClassName = `grid ${columnsConfig} gap-4 mt-2 min-h-[350px] max-h-[500px] overflow-y-auto p-2`;
+    
 
     return (
-        <div className={gridClassName}>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {cards.map((card) => (
                 <CardSelectTrade
                     key={card.id}
@@ -34,7 +34,6 @@ const CardGrid = ({
                     }
                     onClick={onCardClick ? () => onCardClick(card.id) : null}
                     onSelect={onCardSelect}
-                    displayRarity={displayRarity}
                     showSelectButton={showSelectButton}
                 />
             ))}

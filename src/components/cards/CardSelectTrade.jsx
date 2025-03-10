@@ -1,17 +1,17 @@
-import { getCardImageUrl } from "../utils/imageUtils";
+import { getCardImageUrl } from "../../utils/imageUtils";
 
 const CardSelectTrade = ({
     card,
     isSelected = false,
     onClick = null,
     onSelect = null,
-    displayRarity,
+    
     showSelectButton = false,
 }) => {
     return (
         <div
             className={`border rounded overflow-hidden ${
-                isSelected ? "border-blue-500 shadow-md" : "border-gray-300"
+                isSelected ? "border-blue-500 border-4 shadow-md" : "border-gray-300"
             } ${
                 onClick
                     ? "cursor-pointer transition-transform hover:shadow-md"

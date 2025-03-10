@@ -1,6 +1,5 @@
 import React from "react";
 import { ArrowRight, X } from "lucide-react";
-import { getCardImageUrl } from "../utils/imageUtils";
 
 const MultiTradePreview = ({
     requestedCards,

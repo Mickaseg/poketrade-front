@@ -2,40 +2,33 @@ import { useEffect, useState } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { enrichTradeWithCards } from "../utils/tradeUtils";
 import { Check } from "lucide-react";
+import { fetchTradeDetails, submitTradeOffer } from "../api/tradeApi";
+import { RequestedCard } from "../components/cards/RequestedCard";
+import { ProposedCard } from "../components/cards/ProposedCard";
+import { useNotifications } from "../context/NotificationContext";
+import { toast } from "react-hot-toast";
+
 const TradeDetails = () => {
     const { tradeId } = useParams();
     const [trade, setTrade] = useState(null);
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState(null);
     const [selectedCardId, setSelectedCardId] = useState(null);
+    const { addNotification } = useNotifications();
+    const user = JSON.parse(localStorage.getItem("user"));
 
     const navigate = useNavigate();
     const token = localStorage.getItem("token");
 
     useEffect(() => {
-        const fetchTradeDetails = async () => {
+        const loadTradeDetails = async () => {
             setIsLoading(true);
             try {
-                const response = await fetch(
-                    `https://poketrade-back-production.up.railway.app/api/trades/${tradeId}`,
-                    {
-                        method: "GET",
-                        headers: {
-                            "Content-Type": "application/json",
-                            Authorization: `Bearer ${token}`,
-                        },
-                    }
-                );
-
-                if (!response.ok) {
-                    throw new Error(`Erreur HTTP: ${response.status}`);
-                }
-
-                const data = await response.json();
-                const enrichedTrade = enrichTradeWithCards(data);
-                setTrade(enrichedTrade);
+                const data = await fetchTradeDetails(tradeId, token);
+                setTrade(enrichTradeWithCards(data));
+                // console.log(data);
+                // setTradeCost(calculateTradeCost(trade));
             } catch (err) {
-                console.error("Erreur:", err);
                 setError(
                     "Impossible de charger les détails de l'échange. Veuillez réessayer plus tard."
                 );
@@ -44,8 +37,8 @@ const TradeDetails = () => {
             }
         };
 
-        fetchTradeDetails();
-    }, [tradeId]);
+        loadTradeDetails();
+    }, [tradeId, token]);
 
     const handleSelectedCard = (cardId) => {
         if (selectedCardId === cardId) {
@@ -54,44 +47,29 @@ const TradeDetails = () => {
             setSelectedCardId(cardId);
         }
     };
-   
 
-    const submitTradeOffer = async () => {
+    const handleSubmitTrade = async () => {
         try {
             if (!selectedCardId) {
                 throw new Error("Veuillez sélectionner une carte");
             }
+            await submitTradeOffer(tradeId, selectedCardId, token);
+            toast.success("Offre proposée avec succès!");
 
-            const response = await fetch(
-                `https://poketrade-back-production.up.railway.app/api/trades/${tradeId}/offer`,
-                {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "application/json",
-                        Authorization: `Bearer ${token}`,
-                    },
-                    body: JSON.stringify({
-                        selectedCard: selectedCardId,
-                    }),
-                }
-            );
-
-            if (!response.ok) {
-                const errorData = await response.json();
-                throw new Error(
-                    errorData.message ||
-                        "Une erreur est survenue lors de l'échange"
-                );
-            }
+            //Créer une notification
+            await addNotification({
+                // userId: trade.creator._id,
+                message: `Vous avez une nouvelle offre d'échange de la part de ${user.username}`,
+                type: "trade_proposal",
+                trade_id: tradeId,
+            });
 
             navigate("/");
         } catch (error) {
-            console.error("Erreur:", error);
-            setError(error.message);
+            toast.error("Erreur lors de la proposition d'échange");
+            navigate("/");
         }
     };
-
-    // console.log(trade);
 
     if (isLoading) {
         return (
@@ -112,7 +90,7 @@ const TradeDetails = () => {
                 <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-md">
                     <p>{error}</p>
                     <button
-                        onClick={() => navigate("/trades")}
+                        onClick={() => navigate("/")}
                         className="mt-2 px-4 py-2 bg-gray-600 text-white rounded hover:bg-gray-700 transition-colors"
                     >
                         Retour aux échanges
@@ -127,7 +105,7 @@ const TradeDetails = () => {
             <div className="container mx-auto px-6 py-8 text-center">
                 <p>Échange non trouvé</p>
                 <Link
-                    to="/trades"
+                    to="/"
                     className="mt-4 inline-block px-4 py-2 bg-blue-500 text-white rounded"
                 >
                     Retour aux échanges
@@ -137,11 +115,11 @@ const TradeDetails = () => {
     }
 
     return (
-        <div className="bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-lg p-4 sm:p-8 max-w-7xl mx-auto">
+        <div className="bg-gray-50 rounded-2xl shadow-lg p-4 sm:p-8 max-w-7xl mx-auto">
             {/* Header */}
             <div className="mb-6 sm:mb-8 border-b border-gray-200 pb-6">
                 <div className="flex items-start sm:items-center gap-3 sm:gap-4">
-                    <a className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gradient-to-br from-blue-500 to-indigo-500 flex items-center justify-center text-white text-lg font-bold flex-shrink-0 hover:from-blue-600 hover:to-indigo-600 transition-all">
+                    <a className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-blue-500 flex items-center justify-center text-white text-lg font-bold flex-shrink-0 hover:from-blue-600 hover:to-indigo-600 transition-all">
                         {trade.creator.username.charAt(0)}
                     </a>
                     <div className="min-w-0 flex-1">
@@ -166,36 +144,7 @@ const TradeDetails = () => {
                 <div className="lg:w-1/3">
                     <div className="sticky top-8 space-y-6">
                         {/*Carte Recherchée */}
-                        <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-4 sm:p-6">
-                            <h2 className="text-lg sm:text-xl font-semibold text-gray-900 mb-4 sm:mb-6 flex items-center">
-                                <span className="w-7 h-7 sm:w-8 sm:h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mr-2 sm:mr-3 text-sm font-bold flex-shrink-0">
-                                    1
-                                </span>
-                                <span className="truncate">
-                                    Carte recherchée
-                                </span>
-                            </h2>
-                            <div className="relative group">
-                                <div className="aspect-square rounded-lg overflow-hidden bg-white shadow-md transform transition-transform group-hover:scale-[1.02]">
-                                    <img
-                                        src={`/images/${trade.requestedCard.img}`}
-                                        alt={trade.requestedCard.name}
-                                        className="w-full h-full object-contain p-4"
-                                    />
-                                </div>
-                            </div>
-                            <div className="mt-4 text-center">
-                                <h3 className="text-xl font-bold text-gray-900 mb-2">
-                                    {trade.requestedCard.name}
-                                </h3>
-                                <div className="inline-flex items-center px-3 py-1 rounded-full bg-blue-100 text-blue-700">
-                                    <span className="text-sm font-medium">
-                                        {trade.requestedCard.setName} •{" "}
-                                        {trade.requestedCard.rarity}
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
+                        <RequestedCard card={trade.requestedCard} />
 
                         <div className="bg-white rounded-xl p-4 sm:p-6 shadow-sm border border-gray-100">
                             <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-4 flex items-center">
@@ -226,7 +175,7 @@ const TradeDetails = () => {
                                     </span>
                                 </div>
                                 <div className="pt-4">
-                                    <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-4">
+                                    <div className="bg-blue-50 rounded-lg p-4">
                                         <h4 className="text-sm font-medium text-gray-900 mb-3 flex items-center">
                                             <img
                                                 src="https://blog.pokemonpocket.fr/wp-content/uploads/2025/01/piece-echange.png"
@@ -237,7 +186,7 @@ const TradeDetails = () => {
                                         </h4>
                                         <div className="flex items-center justify-center bg-white rounded-lg p-3">
                                             <span className="text-lg font-medium text-gray-900">
-                                                500
+                                                {trade.tradeCost}
                                             </span>
                                             <img
                                                 src="https://blog.pokemonpocket.fr/wp-content/uploads/2025/01/piece-echange.png"
@@ -321,45 +270,12 @@ const TradeDetails = () => {
                         {/* Grille cartes proposées */}
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
                             {trade.proposedCards.map((card) => (
-                                <div
-                                    className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100 group relative"
-                                    onClick={() => handleSelectedCard(card.id)}
+                                <ProposedCard
                                     key={card.id}
-                                >
-                                    {/* Indication de sélection */}
-                                    {selectedCardId === card.id && (
-                                        <div className="absolute top-2 right-2 z-10 bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center">
-                                            <svg
-                                                className="h-4 w-4"
-                                                fill="none"
-                                                viewBox="0 0 24 24"
-                                                stroke="currentColor"
-                                            >
-                                                <path
-                                                    strokeLinecap="round"
-                                                    strokeLinejoin="round"
-                                                    strokeWidth="2"
-                                                    d="M5 13l4 4L19 7"
-                                                />
-                                            </svg>
-                                        </div>
-                                    )}
-                                    <div className="relative aspect-square">
-                                        <img
-                                            src={`/images/${card.img}`}
-                                            alt={card.name}
-                                            className="w-full h-full object-contain p-4 transition-transform group-hover:scale-105"
-                                        />
-                                    </div>
-                                    <div className="p-3 sm:p-4">
-                                        <h3 className="font-semibold text-gray-900 mb-1 truncate">
-                                            {card.name}
-                                        </h3>
-                                        <div className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800 truncate max-w-full">
-                                            {card.setName} • {card.rarity}
-                                        </div>
-                                    </div>
-                                </div>
+                                    card={card}
+                                    isSelected={selectedCardId === card.id}
+                                    onClick={handleSelectedCard}
+                                />
                             ))}
                         </div>
 
@@ -405,7 +321,7 @@ const TradeDetails = () => {
                                         </strong>
                                     </p>
                                 </div>
-                                <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-4 sm:p-6 my-6">
+                                <div className="bg-blue-50 rounded-xl p-4 sm:p-6 my-6">
                                     <h4 className="text-base font-semibold text-gray-900 mb-4 flex items-center">
                                         <svg
                                             className="w-5 h-5 mr-2 text-blue-500 flex-shrink-0"
@@ -515,9 +431,9 @@ const TradeDetails = () => {
                         les conditions mentionnées ci-dessus.
                     </p>
                     <button
-                        onClick={submitTradeOffer}
+                        onClick={handleSubmitTrade}
                         disabled={!selectedCardId}
-                        className={`w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-8 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-base sm:text-lg font-medium rounded-xl transition-all duration-300 shadow-md ${
+                        className={`w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-8 py-3 bg-blue-600 text-white text-base sm:text-lg font-medium rounded-xl transition-all duration-300 shadow-md ${
                             selectedCardId
                                 ? "hover:from-blue-700 hover:to-indigo-700 hover:shadow-lg transform hover:-translate-y-0.5"
                                 : "opacity-50 cursor-not-allowed"

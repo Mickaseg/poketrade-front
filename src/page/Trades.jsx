@@ -1,81 +1,89 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { enrichTradeWithCards } from "../utils/tradeUtils";
-import { LoadingSpinner } from "../components/LoadingSpinner";
-import TradeCard from "../components/TradeCard";
+import { LoadingSpinner } from "../components/common/LoadingSpinner";
+import TradeCard from "../components/cards/TradeCard";
 import { useAuth } from "../context/AuthContext";
+import { fetchAllTrades, fetchTradesByUser } from "../api/tradeApi";
+import Filter from "../components/filters/Filter";
 
 export const Trades = () => {
     const [trades, setTrades] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-    const { isAuthenticated } = useAuth();
+    const { isAuthenticated, loadingAuth } = useAuth();
+    const [search, setSearch] = useState({
+        term: "",
+        set: "",
+    });
+    const [filteredTrades, setFilteredTrades] = useState([]);
+
+    const handleSearchUpdate = (field, value) => {
+        setSearch((prev) => ({ ...prev, [field]: value }));
+    };
 
     useEffect(() => {
-        const fetchTrades = async () => {
-            setLoading(true);
-            try {
-                const response = await fetch(
-                    "https://poketrade-back-production.up.railway.app/api/trades",
-                    {
-                        method: "GET",
-                        headers: {
-                            "Content-Type": "application/json",
-                        },
-                    }
-                );
+        setFilteredTrades(getFilteredTrades());
+    }, [search]);
 
-                if (response.status === 502) {
-                    throw new Error(
-                        "Le serveur est temporairement indisponible. Veuillez réessayer plus tard."
-                    );
-                }
+    const getFilteredTrades = () => {
+        return trades.filter((trade) => {
+            const matchesSearch =
+                trade.requestedCard.name
+                    .toLowerCase()
+                    .includes(search.term.toLowerCase()) ||
+                trade.requestedCard.number.includes(search.term);
+            const matchesSet =
+                !search.set || trade.requestedCard.setName === search.set;
 
-                if (!response.ok) {
-                    throw new Error(`Erreur serveur: ${response.status}`);
-                }
+            return matchesSearch && matchesSet;
+        });
+    };
 
-                const data = await response.json();
+    const resetFilters = () => {
+        setSearch({ term: "", set: "" });
+        setFilteredTrades(trades);
+    };
 
-                if (!Array.isArray(data)) {
-                    throw new Error("Format de données invalide");
-                }
-                console.log(data);
+    const fetchTrades = async () => {
+        setLoading(true);
+        try {
+            const data = isAuthenticated
+                ? await fetchTradesByUser()
+                : await fetchAllTrades();
 
-                if (data.length === 0) {
-                    setTrades([]);
-                    setError(null);
-                    return;
-                }
+            const enrichedTrades = data.map((trade) =>
+                enrichTradeWithCards(trade)
+            );
+            setTrades(enrichedTrades);
+            setError(null);
+        } catch (err) {
+            console.error("Erreur détaillée:", err);
 
-                const enrichedTrades = data.map((trade) =>
-                    enrichTradeWithCards(trade)
-                );
-                setTrades(enrichedTrades);
-                setError(null);
-            } catch (err) {
-                console.error("Erreur détaillée:", err);
-                if (err.message.includes("CORS")) {
-                    setError(
-                        "Erreur d'accès au serveur. Veuillez vérifier votre connexion."
-                    );
-                } else {
-                    setError(
-                        err.message ||
-                            "Impossible de charger les échanges. Veuillez réessayer plus tard."
-                    );
-                }
-            } finally {
-                setLoading(false);
+            setError(
+                err.message ||
+                    "Impossible de charger les échanges. Veuillez réessayer plus tard."
+            );
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    useEffect(() => {
+        if (!loadingAuth) {
+            if (isAuthenticated) {
+                fetchTrades();
+            } else {
+                fetchTrades();
             }
-        };
+        }
+    }, [isAuthenticated, loadingAuth]);
 
-        fetchTrades();
-    }, []);
+    useEffect(() => {
+        setFilteredTrades(trades);
+    }, [trades]);
 
-    console.log(trades);
-
-    if (loading) {
+    if (loadingAuth) {
         return (
             <div className="flex justify-center items-center h-screen">
                 <LoadingSpinner message="Chargement des échanges..." />
@@ -90,50 +98,6 @@ export const Trades = () => {
                     <p>{error}</p>
                     <button
                         onClick={() => {
-                            const fetchTrades = async () => {
-                                setLoading(true);
-                                try {
-                                    const response = await fetch(
-                                        "http://localhost:5000/api/trades"
-                                    );
-
-                                    if (!response.ok) {
-                                        throw new Error(
-                                            `Erreur HTTP: ${response.status}`
-                                        );
-                                    }
-
-                                    const data = await response.json();
-
-                                    // Vérifier que data est un tableau
-                                    if (!Array.isArray(data)) {
-                                        console.error(
-                                            "Les données reçues ne sont pas un tableau:",
-                                            data
-                                        );
-                                        throw new Error(
-                                            "Format de données invalide"
-                                        );
-                                    }
-
-                                    // Enrichir chaque trade avec les informations complètes des cartes
-                                    const enrichedTrades = data.map((trade) => {
-                                        const enriched =
-                                            enrichTradeWithCards(trade);
-                                        return enriched;
-                                    });
-
-                                    setTrades(enrichedTrades);
-                                } catch (err) {
-                                    console.error("Erreur détaillée:", err);
-                                    setError(
-                                        "Impossible de charger les échanges. Veuillez réessayer plus tard."
-                                    );
-                                } finally {
-                                    setLoading(false);
-                                }
-                            };
-
                             fetchTrades();
                         }}
                         className="mt-2 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700 transition-colors"
@@ -145,15 +109,28 @@ export const Trades = () => {
         );
     }
 
+    console.log(loadingAuth)
+
     return (
         <div className="container mx-auto px-6 py-8">
-            <h1 className="text-2xl font-bold mb-16 text-center">
-                Échangez vos cartes Pokémon
-            </h1>
+            <div className="border-b border-gray-200 bg-white px-4 sm:px-6 py-4 mb-4">
+                <h1 className="text-xl sm:text-2xl font-bold text-gray-900">
+                    Echangez vos cartes
+                </h1>
+                <p className="mt-1 text-sm text-gray-500">
+                    Trouvez un échange qui vous correspond
+                </p>
+            </div>
+
+            <Filter
+                search={search}
+                handleSearchUpdate={handleSearchUpdate}
+                resetFilters={resetFilters}
+            />
 
             {trades.length > 0 ? (
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                    {trades.map((trade) => (
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-4">
+                    {filteredTrades.map((trade) => (
                         <TradeCard key={trade._id} trade={trade} />
                     ))}
                 </div>

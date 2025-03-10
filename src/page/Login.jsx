@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Eye, EyeOff } from "lucide-react";
 import { useAuth } from "../context/AuthContext";
+import { loginApi } from "../api/loginApi";
 
 const Login = () => {
     const [credentials, setCredentials] = useState({
@@ -29,22 +30,7 @@ const Login = () => {
         setIsLoading(true);
 
         try {
-            const response = await fetch(
-                "https://poketrade-back-production.up.railway.app/api/auth/login",
-                {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "application/json",
-                    },
-                    body: JSON.stringify(credentials),
-                }
-            );
-
-            if (!response.ok) {
-                throw new Error("Identifiants invalides");
-            }
-
-            const data = await response.json();
+            const data = await loginApi(credentials);
             login(data);
             navigate("/");
         } catch (err) {
@@ -57,6 +43,7 @@ const Login = () => {
     return (
         <div className="min-h-[calc(100vh-100px)] flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-md w-full space-y-8">
+                {error && <div className="text-red-500 text-center">{error}</div>}
                 {/* Logo et titre */}
                 <div className="text-center">
                     <h2 className="mt-6 text-3xl font-extrabold text-gray-900">
@@ -148,7 +135,7 @@ const Login = () => {
                         </div>
                     </div>
 
-                    <div>
+                    <div className="flex justify-center">
                         <button
                             type="submit"
                             className="btn btn-primary btn-wide"

@@ -1,21 +1,29 @@
 import "./App.css";
+import { NotificationProvider } from "./context/NotificationContext";
 
 import { Trades } from "./page/Trades.jsx";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Navbar from "./components/Navbar.jsx";
+import Navbar from "./components/layout/Navbar.jsx";
 import CreateTrade from "./page/CreateTrade.jsx";
 import TradeDetails from "./page/TradeDetails.jsx";
 import ShareExchange from "./page/ShareExchange.jsx";
 import CardGrid from "./page/CardGalerie.jsx";
-import Footer from "./components/Footer.jsx";
+import Footer from "./components/layout/Footer.jsx";
 import Login from "./page/Login.jsx";
 import Register from "./page/Register.jsx";
 import { AuthProvider, useAuth } from "./context/AuthContext";
-import RegisterPrompt from "./components/RegisterPrompt.jsx";
+import RegisterPrompt from "./components/auth/RegisterPrompt.jsx";
+import MyTrades from "./page/MyTrades.jsx";
+import NotificationsPage from "./page/NotificationsPage.jsx";
 
 // Composant Protected Route
 const ProtectedRoute = ({ children }) => {
-    const { isAuthenticated } = useAuth();
+    const { isAuthenticated, loadingAuth } = useAuth();
+    
+    // Attendre que la vérification d'authentification soit terminée
+    if (loadingAuth) {
+        return <div className="flex justify-center items-center h-screen">Chargement...</div>;
+    }
 
     if (!isAuthenticated) {
         return <Navigate to="/login" replace />;
@@ -27,36 +35,48 @@ const ProtectedRoute = ({ children }) => {
 function App() {
     return (
         <AuthProvider>
+            <NotificationProvider>
                 <BrowserRouter>
                     <RegisterPrompt />
                     <Navbar />
-            <div className="w-full mx-auto px-1 sm:px-4 lg:px-8 py-4 sm:py-6">
-                    <Routes>
-                        <Route path="/galerie" element={<CardGrid />} />
-                        <Route path="/" element={<Trades />} />
-                        <Route
-                            path="/trade/:tradeId"
-                            element={<TradeDetails />}
-                        />
+                    <div className=" bg-gray-100 w-full min-h-screen mx-auto px-1 sm:px-4 lg:px-8 py-4 sm:py-6">
+                        <Routes>
+                            <Route path="/galerie" element={<CardGrid />} />
+                            <Route path="/" element={<Trades />} />
+                            <Route
+                                path="/trade/:tradeId"
+                                element={<TradeDetails />}
+                            />
 
-                        <Route
-                            path="/create-trade"
-                            element={
-                                <ProtectedRoute>
-                                    <CreateTrade />
-                                </ProtectedRoute>
-                            }
-                        />
-                        <Route
-                            path="/share-exchange"
-                            element={<ShareExchange />}
-                        />
-                        <Route path="/login" element={<Login />} />
-                        <Route path="/register" element={<Register />} />
-                    </Routes>
-            </div>
+                            <Route
+                                path="/create-trade"
+                                element={
+                                    <ProtectedRoute>
+                                        <CreateTrade />
+                                    </ProtectedRoute>
+                                }
+                            />
+                            {/* <Route
+                                path="/share-exchange"
+                                element={<ShareExchange />}
+                            /> */}
+
+                            <Route
+                                path="/mytrades"
+                                element={
+                                    <ProtectedRoute>
+                                        <MyTrades />
+                                    </ProtectedRoute>
+                                }
+                            />
+                            <Route path="/login" element={<Login />} />
+                            <Route path="/register" element={<Register />} />
+                            <Route path="/notifications" element={<NotificationsPage />} />
+                        </Routes>
+                    </div>
                     {/* <Footer /> */}
                 </BrowserRouter>
+            </NotificationProvider>
         </AuthProvider>
     );
 }

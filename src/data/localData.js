@@ -28,11 +28,14 @@ export const getTradeableCards = () => {
     return getAllLocalCards().filter((card) => {
         // Une carte est échangeable si elle a une ou deux étoiles
         return (
-            card.rarity === "☆" ||
-            card.rarity === "♢" ||
-            card.rarity === "♢♢" ||
-            card.rarity === "♢♢♢" ||
-            card.rarity === "♢♢♢♢"
+            (card.rarity === "☆" ||
+                card.rarity === "♢" ||
+                card.rarity === "♢♢" ||
+                card.rarity === "♢♢♢" ||
+                card.rarity === "♢♢♢♢") &&
+            (card.setName === "puissance-genetique" ||
+                card.setName === "choc-spatio-temporel" ||
+                card.setName === "l-ile-fabuleuse")
         );
     });
 };

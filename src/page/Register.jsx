@@ -178,7 +178,7 @@ const Register = () => {
                         </div>
                     )}
 
-                    <div>
+                    <div className="flex justify-center">
                         <button
                             type="submit"
                             className="btn btn-primary btn-wide"

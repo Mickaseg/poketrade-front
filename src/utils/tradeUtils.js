@@ -26,6 +26,10 @@ export const getTokenInfo = (rarity) => {
 
     // Définir les valeurs en fonction de la rareté
     switch (rarity) {
+        case "♢":
+            return { sellValue: 25, exchangeCost: 0 };
+        case "♢♢":
+            return { sellValue: 25, exchangeCost: 0 };
         case "♢♢♢":
             return { sellValue: 25, exchangeCost: 120 };
         case "♢♢♢♢":
@@ -44,18 +48,15 @@ export const getTokenInfo = (rarity) => {
     }
 };
 
-// Fonction pour afficher la rareté de façon lisible
-export const displayRarity = (rarity) => {
-    if (!rarity) return "Inconnue";
-    return rarity;
-};
-
 // Enrichit un objet trade avec les informations complètes des cartes
 export const enrichTradeWithCards = (trade) => {
     if (!trade) return null;
 
     // Enrichir la carte demandée
     const requestedCard = getCardById(trade.wantedCard);
+    const requestedCardRarity = requestedCard.rarity;
+
+    const tradeCost = getTokenInfo(requestedCardRarity);
 
     // Enrichir les cartes proposées
     const offeredCards = trade.proposedCards.map((card) => {
@@ -67,5 +68,23 @@ export const enrichTradeWithCards = (trade) => {
         ...trade,
         requestedCard: requestedCard || trade.wantedCard,
         proposedCards: offeredCards,
+        tradeCost: tradeCost.exchangeCost,
     };
+};
+
+export const enrichOffersWithCards = (offers) => {
+    // Check if offers is an array
+    if (!Array.isArray(offers)) {
+        console.error("Expected an array of offers, but got:", offers);
+        return [];
+    }
+
+    if (offers.length === 0) return [];
+
+    // Enrich each offer individually
+    return offers.map((offer) => ({
+        ...offer,
+        wantedCard: getCardById(offer.wantedCard),
+        selectedCard: getCardById(offer.selectedCard),
+    }));
 };
