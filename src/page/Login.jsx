@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 import { loginApi } from "../api/loginApi";
 import { toast } from "react-hot-toast";
+import SEOHead from "../components/SEO/SEOHead";
 const Login = () => {
     const [credentials, setCredentials] = useState({
         email: "",

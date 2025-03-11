@@ -2,7 +2,7 @@ import { X } from "lucide-react";
 import { useNotifications } from "../context/NotificationContext";
 import { useNavigate } from "react-router-dom";
 import { getTimeDisplay } from "../utils/timeUtils";
-import { useEffect } from "react";
+import SEOHead from "../components/SEO/SEOHead";
 
 const NotificationsPage = () => {
     const { notifications, markAsRead, removeNotification } =

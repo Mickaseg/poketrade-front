@@ -8,6 +8,7 @@ import { ProposedCard } from "../components/cards/ProposedCard";
 import { useNotifications } from "../context/NotificationContext";
 import { toast } from "react-hot-toast";
 import LoadingSpinner from "../components/common/LoadingSpinner";
+import SEOHead from "../components/SEO/SEOHead";
 
 const TradeDetails = () => {
     const { tradeId } = useParams();
