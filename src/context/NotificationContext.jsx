@@ -66,7 +66,9 @@ export const NotificationProvider = ({ children }) => {
 
     // Fonction pour récupérer les notifications non lues
     const getUnreadCount = () => {
-        return notifications.filter((notif) => !notif.read).length;
+        return Array.isArray(notifications) 
+            ? notifications.filter((notif) => !notif.read).length 
+            : 0;
     };
 
     // Effet pour vérifier les nouvelles notifications périodiquement
@@ -76,12 +78,14 @@ export const NotificationProvider = ({ children }) => {
         const checkNewNotifications = async () => {
             try {
                 const newNotifications = await fetchNotifications();
-                setNotifications(newNotifications);
+                setNotifications(Array.isArray(newNotifications) ? newNotifications : []);
             } catch (error) {
                 console.error(
                     "Erreur lors de la vérification des notifications:",
                     error
                 );
+                // Garantir que notifications reste toujours un tableau
+                setNotifications([]);
             }
         };
 

@@ -7,6 +7,7 @@ import { RequestedCard } from "../components/cards/RequestedCard";
 import { ProposedCard } from "../components/cards/ProposedCard";
 import { useNotifications } from "../context/NotificationContext";
 import { toast } from "react-hot-toast";
+import LoadingSpinner from "../components/common/LoadingSpinner";
 
 const TradeDetails = () => {
     const { tradeId } = useParams();
@@ -71,13 +72,8 @@ const TradeDetails = () => {
 
     if (isLoading) {
         return (
-            <div className="container mx-auto px-6 py-8 text-center">
-                <div className="flex justify-center items-center h-40">
-                    <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500"></div>
-                </div>
-                <p className="mt-4 text-gray-600">
-                    Chargement des détails de l'échange...
-                </p>
+            <div className="flex justify-center items-center h-screen">
+                <LoadingSpinner message="Chargement des échanges..." />
             </div>
         );
     }

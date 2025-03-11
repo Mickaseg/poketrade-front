@@ -30,6 +30,11 @@ const Register = () => {
         e.preventDefault();
         setError("");
 
+        if (formData.username.length > 15) {
+            setError("Le pseudo ne doit pas dépasser 15 caractères");
+            return;
+        }
+
         if (formData.password !== formData.confirmPassword) {
             setError("Les mots de passe ne correspondent pas");
             return;
@@ -69,7 +74,7 @@ const Register = () => {
     };
 
     return (
-        <div className="min-h-[calc(100vh-100px)] flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+        <div className="min-h-[calc(100vh-300px)] flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-md w-full space-y-8">
                 {/* Logo et titre */}
                 <div className="text-center">
