@@ -14,7 +14,7 @@ import { AuthProvider, useAuth } from "./context/AuthContext";
 import RegisterPrompt from "./components/auth/RegisterPrompt.jsx";
 import MyTrades from "./page/MyTrades.jsx";
 import NotificationsPage from "./page/NotificationsPage.jsx";
-
+import FriendCode from "./page/FriendCode.jsx";
 // Composant Protected Route
 const ProtectedRoute = ({ children }) => {
     const { isAuthenticated, loadingAuth } = useAuth();
@@ -86,6 +86,14 @@ function App() {
                                 element={
                                     <ProtectedRoute>
                                         <NotificationsPage />
+                                    </ProtectedRoute>
+                                }
+                            />
+                            <Route
+                                path="/friend-codes"
+                                element={
+                                    <ProtectedRoute>
+                                        <FriendCode />
                                     </ProtectedRoute>
                                 }
                             />
