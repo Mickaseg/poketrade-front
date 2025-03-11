@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { Eye, EyeOff } from "lucide-react";
+import toast from "react-hot-toast";
 
 const Register = () => {
     useEffect(() => {
@@ -63,7 +63,6 @@ const Register = () => {
                 throw new Error(data.message || "Erreur lors de l'inscription");
             }
 
-            const data = await response.json();
             toast.success("Inscription réussie!");
             navigate("/login");
         } catch (err) {
