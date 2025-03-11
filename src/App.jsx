@@ -6,8 +6,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/layout/Navbar.jsx";
 import CreateTrade from "./page/CreateTrade.jsx";
 import TradeDetails from "./page/TradeDetails.jsx";
-import ShareExchange from "./page/ShareExchange.jsx";
-import CardGrid from "./page/CardGalerie.jsx";
+import CardGalerie from "./page/CardGalerie.jsx";
 import Footer from "./components/layout/Footer.jsx";
 import Login from "./page/Login.jsx";
 import Register from "./page/Register.jsx";
@@ -19,10 +18,14 @@ import NotificationsPage from "./page/NotificationsPage.jsx";
 // Composant Protected Route
 const ProtectedRoute = ({ children }) => {
     const { isAuthenticated, loadingAuth } = useAuth();
-    
+
     // Attendre que la vérification d'authentification soit terminée
     if (loadingAuth) {
-        return <div className="flex justify-center items-center h-screen">Chargement...</div>;
+        return (
+            <div className="flex justify-center items-center h-screen">
+                Chargement...
+            </div>
+        );
     }
 
     if (!isAuthenticated) {
@@ -39,13 +42,20 @@ function App() {
                 <BrowserRouter>
                     <RegisterPrompt />
                     <Navbar />
-                    <div className=" bg-gray-100 w-full min-h-screen mx-auto px-1 sm:px-4 lg:px-8 py-4 sm:py-6">
+                    <div
+                        className="bg-gray-100 w-full mx-auto px-1 sm:px-4 lg:px-8 py-4 sm:py-6"
+                        style={{ minHeight: "calc(100vh - 80px)" }}
+                    >
                         <Routes>
-                            <Route path="/galerie" element={<CardGrid />} />
+                            <Route path="/galerie" element={<CardGalerie />} />
                             <Route path="/" element={<Trades />} />
                             <Route
                                 path="/trade/:tradeId"
-                                element={<TradeDetails />}
+                                element={
+                                    <ProtectedRoute>
+                                        <TradeDetails />
+                                    </ProtectedRoute>
+                                }
                             />
 
                             <Route
@@ -71,7 +81,14 @@ function App() {
                             />
                             <Route path="/login" element={<Login />} />
                             <Route path="/register" element={<Register />} />
-                            <Route path="/notifications" element={<NotificationsPage />} />
+                            <Route
+                                path="/notifications"
+                                element={
+                                    <ProtectedRoute>
+                                        <NotificationsPage />
+                                    </ProtectedRoute>
+                                }
+                            />
                         </Routes>
                     </div>
                     {/* <Footer /> */}

@@ -1,8 +1,12 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Eye, EyeOff } from "lucide-react";
 
 const Register = () => {
+    useEffect(() => {
+        document.title = "Inscription - TradeHelper";
+    }, []);
+
     const [formData, setFormData] = useState({
         username: "",
         email: "",
@@ -55,8 +59,8 @@ const Register = () => {
             }
 
             const data = await response.json();
-            localStorage.setItem("user", JSON.stringify(data));
-            navigate("/");
+            toast.success("Inscription réussie!");
+            navigate("/login");
         } catch (err) {
             setError(err.message || "Une erreur est survenue");
         } finally {

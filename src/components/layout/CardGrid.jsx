@@ -13,9 +13,9 @@ const CardGrid = ({
 }) => {
     if (!cards || cards.length === 0) {
         return (
-            <p className="text-center text-gray-700 mt-4">
+            <div className="text-center text-gray-700 mt-4">
                 <LoadingSpinner message="Chargement des cartes..." />
-            </p>
+            </div>
         );
     }
 

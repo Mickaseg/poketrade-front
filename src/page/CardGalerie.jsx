@@ -5,7 +5,7 @@ import { debounce } from "../utils/utils.js";
 import { SetSelector } from "../components/filters/SetSelector.jsx";
 import { getLocalCards } from "../data/localData.js";
 
-const CardGrid = () => {
+const CardGalerie = () => {
     const [currentSet, setCurrentSet] = useState("puissance-genetique");
     const [allCards, setAllCards] = useState([]);
     const [filteredCards, setFilteredCards] = useState([]);
@@ -30,6 +30,7 @@ const CardGrid = () => {
     };
 
     useEffect(() => {
+        document.title = "Galerie de cartes - TradeHelper";
         fetchCards(currentSet);
     }, []);
 
@@ -197,4 +198,4 @@ const CardGrid = () => {
     );
 };
 
-export default CardGrid;
+export default CardGalerie;

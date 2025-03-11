@@ -39,6 +39,7 @@ const MyTrades = () => {
     };
 
     useEffect(() => {
+        document.title = "Mes offres - TradeHelper";
         loadTradeOffers();
     }, []);
 

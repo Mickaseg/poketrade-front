@@ -22,7 +22,10 @@ export const Trades = () => {
         setSearch((prev) => ({ ...prev, [field]: value }));
     };
 
+    console.log(trades);
+
     useEffect(() => {
+        document.title = "Echanges - TradeHelper";
         setFilteredTrades(getFilteredTrades());
     }, [search]);
 
@@ -32,7 +35,8 @@ export const Trades = () => {
                 trade.requestedCard.name
                     .toLowerCase()
                     .includes(search.term.toLowerCase()) ||
-                trade.requestedCard.number.includes(search.term);
+                trade.requestedCard.number.includes(search.term) ||
+                trade.creator.username.toLowerCase().includes(search.term.toLowerCase());
             const matchesSet =
                 !search.set || trade.requestedCard.setName === search.set;
 
@@ -109,7 +113,7 @@ export const Trades = () => {
         );
     }
 
-    console.log(loadingAuth)
+    console.log(loadingAuth);
 
     return (
         <div className="container mx-auto px-6 py-8">

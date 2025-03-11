@@ -3,10 +3,15 @@ import { X } from "lucide-react";
 import { useNotifications } from "../context/NotificationContext";
 import { useNavigate } from "react-router-dom";
 import { getTimeDisplay } from '../utils/timeUtils';
+import { useEffect } from "react";
 
 const NotificationsPage = () => {
     const { notifications, markAsRead, removeNotification } = useNotifications();
     const navigate = useNavigate();
+
+    useEffect(() => {
+        document.title = "Notifications - TradeHelper";
+    }, []);
 
     // console.log(notifications);
 

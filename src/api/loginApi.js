@@ -1,6 +1,6 @@
 export const loginApi = async (credentials) => {
     const response = await fetch(
-        "https://poketrade-back-production.up.railway.app/api/auth/login",
+        "http://localhost:3000/api/auth/login",
         {
             method: "POST",
             headers: {

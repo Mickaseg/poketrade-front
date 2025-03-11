@@ -16,7 +16,7 @@ const OfferCard = ({ offer, refreshOffers, isHighlighted }) => {
             setStatusColor("bg-green-100 text-green-800");
         } else if (offer.status === "declined") {
             setStatusColor("bg-red-100 text-red-800");
-        }else if (offer.status === "completed") {
+        } else if (offer.status === "completed") {
             setStatusColor("bg-green-100 text-green-800");
         }
     }, [offer.status]);
@@ -53,24 +53,37 @@ const OfferCard = ({ offer, refreshOffers, isHighlighted }) => {
         }
     };
 
-    
-
     return (
-        <div className={` rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100 mb-6 ${isHighlighted ? 'border-2 border-blue-500 bg-blue-50' : 'bg-white'}`}>
+        <div
+            className={` rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100 mb-6 ${
+                isHighlighted
+                    ? "border-2 border-blue-500 bg-blue-50"
+                    : "bg-white"
+            }`}
+        >
             <div className="p-6">
                 {/* En-tête de la carte */}
                 <div className="flex flex-row-reverse justify-between mb-4 w-full">
                     <span
                         className={`px-3 py-1 rounded-full text-sm font-medium ${statusColor}`}
                     >
-                        {offer.status === "pending" ? "En attente" : offer.status === "accepted" ? "Accepté" : "Complété"}
+                        {offer.status === "pending"
+                            ? "En attente"
+                            : offer.status === "accepted"
+                            ? "Accepté"
+                            : "Complété"}
                     </span>
                     <div className="flex items-center gap-2">
                         <PlaceholderAvatar name={offer.user.username} />
-                        <p className="text-sm text-gray-500 mt-1">
+                        <p className="text-sm text-gray-500 mt-1 font-bold hidden sm:block">
                             {offer.role === "participant"
                                 ? "Proposé à "
                                 : "Proposé par "}
+                            {offer.role === "participant"
+                                ? offer.creator.username
+                                : offer.user.username}
+                        </p>
+                        <p className="text-sm text-gray-500 mt-1 font-bold block sm:hidden">
                             {offer.role === "participant"
                                 ? offer.creator.username
                                 : offer.user.username}

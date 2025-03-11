@@ -1,4 +1,3 @@
-import { getCardImageUrl } from "../../utils/imageUtils";
 
 const CardSelectTrade = ({
     card,
