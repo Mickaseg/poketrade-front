@@ -455,24 +455,6 @@ const CreateTrade = () => {
                                 resetFilters={resetFiltersStep2}
                             />
 
-                            {/* <div className="flex flex-col gap-4"> */}
-                            {/* <div className="flex flex-wrap gap-2 mt-3">
-                            <button className="px-3 py-1.5 text-xs font-medium rounded-full transition-colors bg-gray-900 text-white">
-                                Toutes les cartes
-                            </button>
-                            <button className="px-3 py-1.5 text-xs font-medium rounded-full transition-colors bg-purple-50 text-purple-700 hover:bg-purple-100">
-                                Cartes peu possédées (0-1 ex.)
-                            </button>
-                            <button className="px-3 py-1.5 text-xs font-medium rounded-full transition-colors bg-orange-50 text-orange-700 hover:bg-orange-100">
-                                Cartes manquantes
-                            </button>
-                            <button className="px-3 py-1.5 text-xs font-medium rounded-full transition-colors inline-flex items-center bg-red-50 text-red-700 hover:bg-red-100">
-                               <Heart size={16} />  
-                                Souhaitée
-                            </button>
-                        </div> */}
-                            {/* </div> */}
-
                             <div className="flex flex-col gap-4">
                                 <div className="shadow-md rounded-md p-4">
                                     <div className="max-h-[600px] overflow-y-auto">
@@ -499,68 +481,6 @@ const CreateTrade = () => {
                         </div>
                     </>
                 )}
-
-                {/* {step === 2 && (
-                                <div>
-                                    <h2 className="text-xl font-bold mb-4">
-                                        Étape 2 : Proposez vos cartes
-                                    </h2>
-                                    <SearchInput
-                                        value={searchTermStep3}
-                                        onChange={setSearchTermStep3}
-                                        placeholder="Rechercher parmi les cartes disponibles..."
-                                        className="mb-4"
-                                    />
-
-                                    {filteredCards.length > 0 ? (
-                                        <CardGrid
-                                            cards={getFilteredCardsForStep3()}
-                                            selectedCards={offeredCards}
-                                            onCardClick={
-                                                handleOfferedCardSelect
-                                            }
-                                            displayRarity={displayRarity}
-                                            showSelectButton={true}
-                                        />
-                                    ) : (
-                                        <p className="text-center text-gray-700 mt-4">
-                                            Aucune carte de même rareté
-                                            disponible pour l'échange.
-                                        </p>
-                                    )}
-
-                                    {requestedCardDetails.length > 0 && (
-                                        <MultiTradePreview
-                                            requestedCards={
-                                                requestedCardDetails
-                                            }
-                                            offeredCards={offeredCards}
-                                            allCards={allCards}
-                                            displayRarity={displayRarity}
-                                            getTokenInfo={getTokenInfo}
-                                            onRemoveOfferedCard={
-                                                handleOfferedCardSelect
-                                            }
-                                        />
-                                    )}
-
-                                    <StepNavigation
-                                        onPrevious={handlePreviousStep}
-                                        onNext={handleSubmit}
-                                        nextLabel="Créer l'échange"
-                                        nextButtonColor="green"
-                                        nextDisabled={offeredCards.length === 0}
-                                        isSubmitButton={true}
-                                    />
-                                </div>
-                            )}
-
-                            {errorMessage && (
-                                <p className="mt-4 text-center text-red-500">
-                                    {errorMessage}
-                                </p>
-                            )}
-                       */}
             </div>
         </div>
     );

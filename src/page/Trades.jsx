@@ -147,7 +147,7 @@ export const Trades = () => {
                     ))}
                 </div>
             ) : (
-                <div className="text-center py-10 bg-gray-50 rounded-lg ">
+                <div className="text-center py-10 bg-gray-50 rounded-lg mt-4">
                     <svg
                         className="mx-auto h-12 w-12 text-gray-400"
                         fill="none"
