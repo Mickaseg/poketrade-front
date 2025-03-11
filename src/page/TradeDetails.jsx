@@ -72,7 +72,10 @@ const TradeDetails = () => {
 
     if (isLoading) {
         return (
-            <div className="flex justify-center items-center h-screen">
+            <div
+                className="flex justify-center items-center"
+                style={{ minHeight: "calc(100vh - 80px)" }}
+            >
                 <LoadingSpinner message="Chargement des échanges..." />
             </div>
         );
