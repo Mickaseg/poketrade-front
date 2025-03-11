@@ -314,8 +314,6 @@ const CreateTrade = () => {
         }
     }, [allCards]);
 
-    // console.log(requestedCards);
-
     return (
         <div className="max-w-3xl md:max-w-4xl lg:max-w-7xl mx-auto bg-white shadow-sm rounded-lg overflow-hidden mt-8 sm:mt-4 md:mt-6">
             <div className="border-b border-gray-200 bg-white px-4 sm:px-6 py-4">

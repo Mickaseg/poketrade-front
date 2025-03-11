@@ -26,8 +26,6 @@ const TradeDetails = () => {
             try {
                 const data = await fetchTradeDetails(tradeId, token);
                 setTrade(enrichTradeWithCards(data));
-                // console.log(data);
-                // setTradeCost(calculateTradeCost(trade));
             } catch (err) {
                 setError(
                     "Impossible de charger les détails de l'échange. Veuillez réessayer plus tard."

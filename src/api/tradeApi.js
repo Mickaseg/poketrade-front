@@ -1,7 +1,7 @@
 import { getTradeableCards } from "../data/localData";
 
-// const API_BASE_URL = "https://poketrade-back-production.up.railway.app";
-const API_BASE_URL = "http://localhost:3000";
+const API_BASE_URL = "https://poketrade-back-production.up.railway.app";
+// const API_BASE_URL = "http://localhost:3000";
 
 // Récupérer toutes les cartes
 export const fetchAllCards = async () => {

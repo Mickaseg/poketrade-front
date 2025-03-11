@@ -13,7 +13,6 @@ const NotificationsPage = () => {
         document.title = "Notifications - TradeHelper";
     }, []);
 
-    // console.log(notifications);
 
     const handleNotificationClick = async (notification) => {
         await markAsRead(notification._id);
