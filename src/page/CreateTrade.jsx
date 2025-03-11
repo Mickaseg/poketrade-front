@@ -363,6 +363,7 @@ const CreateTrade = () => {
                         <div className="bg-white shadow rounded-lg p-3 sm:p-6">
                             {/* search bar */}
                             <Filter
+                                placeholder="Rechercher une carte..."
                                 search={search}
                                 handleSearchUpdate={handleSearchUpdate}
                                 resetFilters={resetFilters}

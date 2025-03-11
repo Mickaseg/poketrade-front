@@ -1,13 +1,13 @@
 import { RotateCcw } from "lucide-react";
 
-const Filter = ({ search, handleSearchUpdate, resetFilters }) => {
+const Filter = ({ search, handleSearchUpdate, resetFilters, placeholder }) => {
     return (
         <div className="bg-white rounded-lg shadow p-3 sm:p-4">
             <div className="flex flex-col sm:flex-row gap-3">
                 <div className="flex-1">
                     <input
                         type="text"
-                        placeholder="Rechercher une carte..."
+                        placeholder={placeholder}
                         className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
                         value={search.term}
                         onChange={(e) =>

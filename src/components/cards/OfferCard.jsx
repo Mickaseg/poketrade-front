@@ -74,7 +74,13 @@ const OfferCard = ({ offer, refreshOffers, isHighlighted }) => {
                             : "Complété"}
                     </span>
                     <div className="flex items-center gap-2">
-                        <PlaceholderAvatar name={offer.user.username} />
+                        <PlaceholderAvatar
+                            name={
+                                offer.role === "participant"
+                                    ? offer.creator.username
+                                    : offer.user.username
+                            }
+                        />
                         <p className="text-sm text-gray-500 mt-1 font-bold hidden sm:block">
                             {offer.role === "participant"
                                 ? "Proposé à "

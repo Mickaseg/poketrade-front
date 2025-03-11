@@ -22,7 +22,6 @@ export const Trades = () => {
         setSearch((prev) => ({ ...prev, [field]: value }));
     };
 
-
     useEffect(() => {
         document.title = "Echanges - TradeHelper";
         setFilteredTrades(getFilteredTrades());
@@ -126,6 +125,7 @@ export const Trades = () => {
             </div>
 
             <Filter
+                placeholder="Rechercher une carte, un utilisateur..."
                 search={search}
                 handleSearchUpdate={handleSearchUpdate}
                 resetFilters={resetFilters}
