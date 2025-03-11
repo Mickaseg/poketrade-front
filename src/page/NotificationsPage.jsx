@@ -13,7 +13,6 @@ const NotificationsPage = () => {
         document.title = "Notifications - TradeHelper";
     }, []);
 
-    // console.log(notifications);
 
     const handleNotificationClick = async (notification) => {
         await markAsRead(notification._id);
@@ -35,6 +34,7 @@ const NotificationsPage = () => {
                 break;
         }
     };
+
 
     return (
         <div className="container mx-auto px-4 py-8">

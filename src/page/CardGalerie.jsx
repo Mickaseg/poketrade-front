@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { debounce } from "../utils/utils.js";
 import { SetSelector } from "../components/filters/SetSelector.jsx";
 import { getLocalCards } from "../data/localData.js";
+import LoadingSpinner from "../components/common/LoadingSpinner.jsx";
 
 const CardGalerie = () => {
     const [currentSet, setCurrentSet] = useState("puissance-genetique");
@@ -85,13 +86,7 @@ const CardGalerie = () => {
 
     if (loading)
         return (
-            <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                className="flex justify-center items-center h-screen"
-            >
-                <div className="animate-spin h-8 w-8 border-4 border-blue-500 rounded-full border-t-transparent"></div>
-            </motion.div>
+            <LoadingSpinner message="Chargement des cartes..." />
         );
 
     return (

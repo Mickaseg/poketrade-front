@@ -22,8 +22,6 @@ export const Trades = () => {
         setSearch((prev) => ({ ...prev, [field]: value }));
     };
 
-    console.log(trades);
-
     useEffect(() => {
         document.title = "Echanges - TradeHelper";
         setFilteredTrades(getFilteredTrades());
@@ -36,7 +34,9 @@ export const Trades = () => {
                     .toLowerCase()
                     .includes(search.term.toLowerCase()) ||
                 trade.requestedCard.number.includes(search.term) ||
-                trade.creator.username.toLowerCase().includes(search.term.toLowerCase());
+                trade.creator.username
+                    .toLowerCase()
+                    .includes(search.term.toLowerCase());
             const matchesSet =
                 !search.set || trade.requestedCard.setName === search.set;
 
@@ -87,9 +87,12 @@ export const Trades = () => {
         setFilteredTrades(trades);
     }, [trades]);
 
-    if (loadingAuth) {
+    if (loadingAuth || loading) {
         return (
-            <div className="flex justify-center items-center h-screen">
+            <div
+                className="flex justify-center items-center"
+                style={{ minHeight: "calc(100vh - 80px)" }}
+            >
                 <LoadingSpinner message="Chargement des échanges..." />
             </div>
         );
@@ -113,8 +116,6 @@ export const Trades = () => {
         );
     }
 
-    console.log(loadingAuth);
-
     return (
         <div className="container mx-auto px-6 py-8">
             <div className="border-b border-gray-200 bg-white px-4 sm:px-6 py-4 mb-4">
@@ -127,6 +128,7 @@ export const Trades = () => {
             </div>
 
             <Filter
+                placeholder="Rechercher une carte, un utilisateur..."
                 search={search}
                 handleSearchUpdate={handleSearchUpdate}
                 resetFilters={resetFilters}

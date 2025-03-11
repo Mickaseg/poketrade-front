@@ -8,9 +8,6 @@ const MultiTradePreview = ({
     displayRarity,
     allCards,
 }) => {
-    console.log(requestedCards);
-    console.log(offeredCards);
-
     // Trouver les détails complets des cartes offertes
     const offeredCardDetails = offeredCards
         .map((cardId) => allCards.find((card) => card.id === cardId))
