@@ -4,9 +4,8 @@ import { fetchTradeOffers } from "../api/tradeApi";
 import LoadingSpinner from "../components/common/LoadingSpinner";
 import { enrichOffersWithCards } from "../utils/tradeUtils";
 import OfferCard from "../components/cards/OfferCard";
-import { toast } from "react-hot-toast";
 import { useLocation } from "react-router-dom";
-
+import SEOHead from "../components/SEO/SEOHead";
 const MyTrades = () => {
     const location = useLocation();
     const queryParams = new URLSearchParams(location.search);
@@ -39,7 +38,6 @@ const MyTrades = () => {
     };
 
     useEffect(() => {
-        document.title = "Mes offres - TradeHelper";
         loadTradeOffers();
     }, []);
 
@@ -54,8 +52,15 @@ const MyTrades = () => {
         );
     }
 
+
     return (
         <div className="max-w-7xl mx-auto px-0 sm:px-4 py-4 sm:py-8 ">
+            {/* SEO */}
+            <SEOHead
+                title="Mes offres"
+                description="Gérez vos propositions et suivez vos échanges en cours"
+                canonicalUrl="https://tradehelper.seguin.cefim.o2switch.site/mytrades"
+            />
             {/* Header */}
             <div className="flex justify-between items-start mb-6">
                 <div>

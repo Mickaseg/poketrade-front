@@ -113,6 +113,12 @@ const TradeDetails = () => {
 
     return (
         <div className="bg-gray-50 rounded-2xl shadow-lg p-4 sm:p-8 max-w-7xl mx-auto">
+            {/* SEO */}
+            <SEOHead
+                title="Détails de l'échange"
+                description="Détails de l'échange"
+                canonicalUrl="https://tradehelper.seguin.cefim.o2switch.site/trade/${tradeId}"
+            />
             {/* Header */}
             <div className="mb-6 sm:mb-8 border-b border-gray-200 pb-6">
                 <div className="flex items-start sm:items-center gap-3 sm:gap-4">

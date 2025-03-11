@@ -6,6 +6,7 @@ import CardGrid from "../components/layout/CardGrid";
 import StepNavigation from "../components/common/StepNavigation.jsx";
 import { toast } from "react-hot-toast";
 import Filter from "../components/filters/Filter";
+import SEOHead from "../components/SEO/SEOHead.jsx";
 
 const CreateTrade = () => {
     const [step, setStep] = useState(1);
@@ -30,7 +31,6 @@ const CreateTrade = () => {
 
     // Charger les cartes au démarrage
     useEffect(() => {
-        document.title = "Créer un échange - TradeHelper";
         const loadCards = async () => {
             try {
                 setIsLoading(true);
@@ -316,6 +316,12 @@ const CreateTrade = () => {
 
     return (
         <div className="max-w-3xl md:max-w-4xl lg:max-w-7xl mx-auto bg-white shadow-sm rounded-lg overflow-hidden mt-8 sm:mt-4 md:mt-6">
+            {/* SEO */}
+            <SEOHead
+                title="Créer un échange"
+                description="Créer un échange avec TradeHelper"
+                canonicalUrl="https://tradehelper.seguin.cefim.o2switch.site/create-trade"
+            />
             <div className="border-b border-gray-200 bg-white px-4 sm:px-6 py-4">
                 <h1 className="text-xl sm:text-2xl font-bold text-gray-900">
                     Créer un échange

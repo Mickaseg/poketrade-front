@@ -1,12 +1,8 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
-
+import SEOHead from "../components/SEO/SEOHead.jsx";
 const Register = () => {
-    useEffect(() => {
-        document.title = "Inscription - TradeHelper";
-    }, []);
-
     const [formData, setFormData] = useState({
         username: "",
         email: "",
@@ -74,6 +70,12 @@ const Register = () => {
 
     return (
         <div className="min-h-[calc(100vh-300px)] flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+            {/* SEO */}
+            <SEOHead
+                title="Inscription"
+                description="Créer un compte TradeHelper"
+                canonicalUrl="https://tradehelper.seguin.cefim.o2switch.site/register"
+            />
             <div className="max-w-md w-full space-y-8">
                 {/* Logo et titre */}
                 <div className="text-center">

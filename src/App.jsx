@@ -1,6 +1,5 @@
 import "./App.css";
 import { NotificationProvider } from "./context/NotificationContext";
-
 import { Trades } from "./page/Trades.jsx";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/layout/Navbar.jsx";
@@ -66,11 +65,6 @@ function App() {
                                     </ProtectedRoute>
                                 }
                             />
-                            {/* <Route
-                                path="/share-exchange"
-                                element={<ShareExchange />}
-                            /> */}
-
                             <Route
                                 path="/mytrades"
                                 element={

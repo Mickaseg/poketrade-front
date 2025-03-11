@@ -1,10 +1,11 @@
-import React, { useState, useEffect, useMemo } from "react";
-import { Search, X } from "lucide-react";
+import { useState, useEffect, useMemo } from "react";
+import { Search } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { debounce } from "../utils/utils.js";
 import { SetSelector } from "../components/filters/SetSelector.jsx";
 import { getLocalCards } from "../data/localData.js";
 import LoadingSpinner from "../components/common/LoadingSpinner.jsx";
+import SEOHead from "../components/SEO/SEOHead.jsx";
 
 const CardGalerie = () => {
     const [currentSet, setCurrentSet] = useState("puissance-genetique");
@@ -31,7 +32,6 @@ const CardGalerie = () => {
     };
 
     useEffect(() => {
-        document.title = "Galerie de cartes - TradeHelper";
         fetchCards(currentSet);
     }, []);
 
@@ -84,13 +84,16 @@ const CardGalerie = () => {
         resetFilters();
     };
 
-    if (loading)
-        return (
-            <LoadingSpinner message="Chargement des cartes..." />
-        );
+    if (loading) return <LoadingSpinner message="Chargement des cartes..." />;
 
     return (
         <div className="container mx-auto px-4 py-8">
+            {/* SEO */}
+            <SEOHead
+                title="Galerie de cartes"
+                description="Retrouvez toutes les cartes de Pokémon TCG Pocket"
+                canonicalUrl="https://tradehelper.seguin.cefim.o2switch.site/galerie"
+            />
             {/* Sélecteur de sets */}
             <SetSelector
                 currentSet={currentSet}
