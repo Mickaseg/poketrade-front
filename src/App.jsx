@@ -15,6 +15,8 @@ import RegisterPrompt from "./components/auth/RegisterPrompt.jsx";
 import MyTrades from "./page/MyTrades.jsx";
 import NotificationsPage from "./page/NotificationsPage.jsx";
 import FriendCode from "./page/FriendCode.jsx";
+import Breadcrumb from "./components/layout/Breadcrumb.jsx";
+
 // Composant Protected Route
 const ProtectedRoute = ({ children }) => {
     const { isAuthenticated, loadingAuth } = useAuth();
@@ -46,6 +48,7 @@ function App() {
                         className="bg-gray-100 w-full mx-auto px-1 sm:px-4 lg:px-8 py-4 sm:py-6"
                         style={{ minHeight: "calc(100vh - 80px)" }}
                     >
+                        <Breadcrumb />
                         <Routes>
                             <Route path="/galerie" element={<CardGalerie />} />
                             <Route path="/" element={<Trades />} />
