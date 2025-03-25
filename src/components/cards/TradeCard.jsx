@@ -1,9 +1,15 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import { useAuth } from "../../context/AuthContext";
 import PlaceholderAvatar from "../common/PlaceholderAvatar";
 import { getTimeDisplay } from "../../utils/timeUtils";
-const TradeCard = ({ trade }) => {
+import ConfirmationModal from "../common/ConfirmationModal";
+import { toast } from "react-hot-toast";
+import { deleteTrade } from "../../api/tradeApi";
+
+const TradeCard = ({ trade, canEdit = false, onDelete }) => {
     const { isAuthenticated } = useAuth();
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
     // Limiter le nombre de cartes affichées en aperçu
     const getPreviewCards = (cards, limit = 3) => {
@@ -19,6 +25,16 @@ const TradeCard = ({ trade }) => {
     const { visibleCards, remainingCount } = getPreviewCards(
         trade.proposedCards
     );
+
+    // Fonction pour ouvrir la modale
+    const openDeleteModal = () => {
+        setIsModalOpen(true);
+    };
+    
+    // Fonction pour fermer la modale
+    const closeDeleteModal = () => {
+        setIsModalOpen(false);
+    };
 
     return (
         <div
@@ -90,7 +106,7 @@ const TradeCard = ({ trade }) => {
                 </div>
 
                 {/* Lien vers la page de détails */}
-                {isAuthenticated && (
+                {isAuthenticated && !canEdit && (
                     <Link
                         to={`/trade/${trade._id}`}
                         className="btn btn-primary w-full text-center "
@@ -98,6 +114,25 @@ const TradeCard = ({ trade }) => {
                         Voir les détails
                     </Link>
                 )}
+                {/* Ajouter les boutons de modification/suppression si l'utilisateur peut éditer */}
+                {canEdit && (
+                    <div className="flex justify-center gap-2 p-3">
+                        <button
+                            className="btn btn-error btn-sm w-full"
+                            onClick={openDeleteModal}
+                        >
+                            Supprimer
+                        </button>
+                    </div>
+                )}
+
+                <ConfirmationModal
+                    isOpen={isModalOpen}
+                    onClose={closeDeleteModal}
+                    onConfirm={() => onDelete(trade._id)}
+                    title="Confirmer la suppression"
+                    message="Êtes-vous sûr de vouloir supprimer cet échange ?"
+                />
             </div>
         </div>
     );

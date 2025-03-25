@@ -11,9 +11,10 @@ import Login from "./page/Login.jsx";
 import Register from "./page/Register.jsx";
 import { AuthProvider, useAuth } from "./context/AuthContext";
 import RegisterPrompt from "./components/auth/RegisterPrompt.jsx";
-import MyTrades from "./page/MyTrades.jsx";
+import Offers from "./page/Offers.jsx";
 import NotificationsPage from "./page/NotificationsPage.jsx";
-
+import MyTrades from "./page/MyTrades.jsx";
+import ProfilePage from "./page/ProfilePage.jsx";
 // Composant Protected Route
 const ProtectedRoute = ({ children }) => {
     const { isAuthenticated, loadingAuth } = useAuth();
@@ -56,12 +57,27 @@ function App() {
                                     </ProtectedRoute>
                                 }
                             />
-
+                            {/* <Route
+                                path="/trade/:tradeId/edit"
+                                element={
+                                    <ProtectedRoute>
+                                        <EditTrade />
+                                    </ProtectedRoute>
+                                }
+                            /> */}
                             <Route
                                 path="/create-trade"
                                 element={
                                     <ProtectedRoute>
                                         <CreateTrade />
+                                    </ProtectedRoute>
+                                }
+                            />
+                            <Route
+                                path="/offers"
+                                element={
+                                    <ProtectedRoute>
+                                        <Offers />
                                     </ProtectedRoute>
                                 }
                             />
@@ -83,6 +99,7 @@ function App() {
                                     </ProtectedRoute>
                                 }
                             />
+                            <Route path="/profile" element={<ProfilePage />} />
                         </Routes>
                     </div>
                     {/* <Footer /> */}

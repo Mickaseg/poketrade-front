@@ -13,7 +13,6 @@ const SEOHead = ({
         <>
             {/* Basic Metadata */}
             <title>{fullTitle}</title>
-        {console.log(fullTitle)}
             <meta name="description" content={description} />
             {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
 

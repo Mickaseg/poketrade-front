@@ -29,6 +29,24 @@ export const fetchAllTrades = async () => {
     return response.json();
 };
 
+// Récupérer les échanges d'un utilisateur
+export const fetchUserTrades = async () => {
+    const token = localStorage.getItem("token");
+    const response = await fetch(`${API_BASE_URL}/api/trades/my-trades`, {
+        method: "GET",
+        headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${token}`,
+        },
+    });
+
+    if (!response.ok) {
+        throw new Error(`Erreur HTTP: ${response.status}`);
+    }
+
+    return response.json();
+};
+
 // Récupérer les échanges lorsqu'un utilisateur est connecté
 export const fetchTradesByUser = async () => {
     const token = localStorage.getItem("token");
@@ -188,6 +206,27 @@ export const validateTrade = async (tradeId, offerId) => {
 
     if (!response.ok) {
         throw new Error("Erreur lors de la validation de l'échange");
+    }
+
+    return response.json();
+};
+
+// Supprimer un échange
+export const deleteTrade = async (tradeId) => {
+    const token = localStorage.getItem("token");
+    if (!token) {
+        throw new Error("Token d'authentification manquant");
+    }
+    const response = await fetch(`${API_BASE_URL}/api/trades/${tradeId}`, {
+        method: "DELETE",
+        headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${token}`,
+        },
+    });
+
+    if (!response.ok) {
+        throw new Error("Erreur lors de la suppression de l'échange");
     }
 
     return response.json();

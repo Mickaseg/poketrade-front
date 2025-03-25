@@ -4,10 +4,10 @@ export const decodeToken = (token) => {
     if (!token) return null;
     try {
         const decoded = jwtDecode(token);
-        // Vérifier si le token est expiré
-        if (decoded.exp && decoded.exp * 1000 < Date.now()) {
-            return null;
-        }
+        // // Vérifier si le token est expiré
+        // if (decoded.exp && decoded.exp * 1000 < Date.now()) {
+        //     return null;
+        // }
         return decoded;
     } catch (error) {
         console.error('Erreur lors du décodage du token:', error);

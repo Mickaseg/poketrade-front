@@ -143,7 +143,11 @@ export const Trades = () => {
             {trades.length > 0 ? (
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-4">
                     {filteredTrades.map((trade) => (
-                        <TradeCard key={trade._id} trade={trade} />
+                        <TradeCard
+                            key={trade._id}
+                            trade={trade}
+                            canEdit={false}
+                        />
                     ))}
                 </div>
             ) : (

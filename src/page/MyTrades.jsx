@@ -1,288 +1,199 @@
-import { useState, useEffect, useRef } from "react";
-import { Plus, Check, Clock } from "lucide-react";
-import { fetchTradeOffers } from "../api/tradeApi";
-import LoadingSpinner from "../components/common/LoadingSpinner";
-import { enrichOffersWithCards } from "../utils/tradeUtils";
-import OfferCard from "../components/cards/OfferCard";
-import { useLocation } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import { enrichTradeWithCards } from "../utils/tradeUtils";
+import { LoadingSpinner } from "../components/common/LoadingSpinner";
+import TradeCard from "../components/cards/TradeCard";
+import { fetchUserTrades, deleteTrade } from "../api/tradeApi";
+import Filter from "../components/filters/Filter";
 import SEOHead from "../components/SEO/SEOHead";
+import { toast } from "react-hot-toast";
+
 const MyTrades = () => {
-    const location = useLocation();
-    const queryParams = new URLSearchParams(location.search);
-    const initialTab = queryParams.get("tab") || "pending";
-    const highlightedOfferId = queryParams.get("offerId");
-
-    const [offers, setOffers] = useState([]);
-    const [isLoading, setIsLoading] = useState(false);
+    // État pour stocker les transactions de l'utilisateur
+    const [trades, setTrades] = useState([]);
+    // État pour gérer le chargement
+    const [loading, setLoading] = useState(true);
+    // État pour gérer les erreurs
     const [error, setError] = useState(null);
-    const [filter, setFilter] = useState(initialTab);
+    const [search, setSearch] = useState({
+        term: "",
+        set: "",
+    });
+    const [filteredTrades, setFilteredTrades] = useState([]);
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [selectedTradeId, setSelectedTradeId] = useState(null);
 
-    const offerRefs = useRef({});
+    // Fonction pour gérer les mises à jour de recherche
+    const handleSearchUpdate = (field, value) => {
+        setSearch((prev) => ({ ...prev, [field]: value }));
+    };
 
-    const loadTradeOffers = async () => {
-        setIsLoading(true);
+    // Fonction pour récupérer les transactions - déplacer en dehors du useEffect pour pouvoir l'appeler ailleurs
+    const fetchTrades = async () => {
         try {
-            const data = await fetchTradeOffers();
+            setLoading(true);
+            // Utilisation de l'API spécifique pour mes échanges
+            const data = await fetchUserTrades();
 
-            const enrichedOffers = enrichOffersWithCards(data);
-
-            setOffers(enrichedOffers);
-        } catch (err) {
-            console.error("Erreur détaillée:", err);
-            setError(
-                "Impossible de charger les détails de l'échange. Veuillez réessayer plus tard."
+            // Enrichir les données avec les informations de cartes
+            const enrichedTrades = data.map((trade) =>
+                enrichTradeWithCards(trade)
             );
+
+            setTrades(enrichedTrades);
+            setFilteredTrades(enrichedTrades);
+            setError(null);
+        } catch (err) {
+            setError(err.message || "Impossible de récupérer vos échanges");
+            console.error("Erreur lors du chargement des échanges:", err);
         } finally {
-            setIsLoading(false);
+            setLoading(false);
         }
     };
 
+    // Appel initial pour charger les échanges
     useEffect(() => {
-        loadTradeOffers();
+        fetchTrades();
     }, []);
 
-    if (isLoading) {
+    // Gestion de la suppression
+    const handleDeleteTrade = async (tradeId) => {
+        try {
+            await deleteTrade(tradeId);
+            // Rafraîchir la liste des échanges
+            fetchTrades();
+            toast.success("Échange supprimé avec succès");
+        } catch (error) {
+            console.error("Erreur lors de la suppression:", error);
+            toast.error("Erreur lors de la suppression");
+        }
+    };
+
+    // Filtrer les échanges lorsque les critères de recherche changent
+    useEffect(() => {
+        setFilteredTrades(getFilteredTrades());
+    }, [search, trades]);
+
+    // Fonction de filtrage des échanges
+    const getFilteredTrades = () => {
+        return trades.filter((trade) => {
+            const matchesSearch =
+                trade.requestedCard?.name
+                    ?.toLowerCase()
+                    ?.includes(search.term.toLowerCase()) ||
+                trade.requestedCard?.number?.includes(search.term) ||
+                trade.creator?.username
+                    ?.toLowerCase()
+                    ?.includes(search.term.toLowerCase());
+            const matchesSet =
+                !search.set || trade.requestedCard?.setName === search.set;
+
+            return matchesSearch && matchesSet;
+        });
+    };
+
+    // Réinitialiser les filtres
+    const resetFilters = () => {
+        setSearch({ term: "", set: "" });
+        setFilteredTrades(trades);
+    };
+
+    if (loading) {
         return (
             <div
                 className="flex justify-center items-center"
                 style={{ minHeight: "calc(100vh - 80px)" }}
             >
-                <LoadingSpinner message="Chargement des offres..." />
+                <LoadingSpinner message="Chargement de vos échanges..." />
             </div>
         );
     }
 
+    if (error) {
+        return (
+            <div className="container mx-auto px-6 py-8 text-center">
+                <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-md">
+                    <p>{error}</p>
+                    <button
+                        onClick={() => fetchUserTrades()}
+                        className="mt-2 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700 transition-colors"
+                    >
+                        Réessayer
+                    </button>
+                </div>
+            </div>
+        );
+    }
 
     return (
-        <div className="max-w-7xl mx-auto px-0 sm:px-4 py-4 sm:py-8 ">
+        <div className="container mx-auto px-6 py-8">
             {/* SEO */}
             <SEOHead
-                title="Mes offres"
-                description="Gérez vos propositions et suivez vos échanges en cours"
+                title="Mes Échanges"
+                description="Gérez vos échanges de cartes sur TradeHelper"
                 canonicalUrl="https://tradehelper.seguin.cefim.o2switch.site/mytrades"
             />
-            {/* Header */}
-            <div className="flex justify-between items-start mb-6">
-                <div>
-                    <h1 className="text-2xl font-bold text-gray-900">
-                        Mes Échanges
-                    </h1>
-                    <p className="text-gray-500 mt-1">
-                        Gérez vos propositions et suivez vos échanges en cours
-                    </p>
-                </div>
-                <a
-                    className="inline-flex items-center px-4 py-2 sm:px-5 sm:py-2.5 bg-blue-600 text-white text-sm sm:text-base rounded-lg hover:bg-blue-700 transition-colors shadow-sm whitespace-nowrap "
-                    href="/create-trade"
-                >
-                    <Plus
-                        size={16}
-                        className="w-4 h-4 sm:w-5 sm:h-5 mr-1.5 sm:mr-2"
-                    />
-                    <span className="hidden sm:inline">Nouvel échange</span>
-                    <span className="sm:hidden">Nouveau</span>
-                </a>
+
+            <div className="border-b border-gray-200 bg-white px-4 sm:px-6 py-4 mb-4">
+                <h1 className="text-xl sm:text-2xl font-bold text-gray-900">
+                    Mes Échanges
+                </h1>
+                <p className="mt-1 text-sm text-gray-500">
+                    Gérez vos échanges en cours
+                </p>
             </div>
 
-            {/* Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mb-6">
-                <div className="bg-blue-50 text-blue-700 rounded-lg p-3 sm:p-4">
-                    <p className="text-sm font-medium">Total</p>
-                    <p className="text-xl sm:text-2xl font-bold mt-1">
-                        {offers.length}
-                    </p>
-                </div>
-                <div className="bg-yellow-50 text-yellow-700 rounded-lg p-3 sm:p-4">
-                    <p className="text-sm font-medium">En attente</p>
-                    <p className="text-xl sm:text-2xl font-bold mt-1">
-                        {
-                            offers.filter((offer) => offer.status === "pending")
-                                .length
-                        }
-                    </p>
-                </div>
-                <div className="bg-green-50 text-green-700 rounded-lg p-3 sm:p-4">
-                    <p className="text-sm font-medium">Acceptés</p>
-                    <p className="text-xl sm:text-2xl font-bold mt-1">
-                        {
-                            offers.filter(
-                                (offer) => offer.status === "accepted"
-                            ).length
-                        }
-                    </p>
-                </div>
-                <div className="bg-purple-50 text-purple-700 rounded-lg p-3 sm:p-4">
-                    <p className="text-sm font-medium">Complétés</p>
-                    <p className="text-xl sm:text-2xl font-bold mt-1">
-                        {
-                            offers.filter(
-                                (offer) => offer.status === "completed"
-                            ).length
-                        }
-                    </p>
-                </div>
-            </div>
+            <Filter
+                placeholder="Rechercher une carte, un utilisateur..."
+                search={search}
+                handleSearchUpdate={handleSearchUpdate}
+                resetFilters={resetFilters}
+            />
 
-            {/* Tabs */}
-            <div className="flex flex-col sm:flex-row justify-between items-stretch sm:items-center px-4 sm:px-6 bg-white shadow mb-6 rounded-lg">
-                <nav className="flex w-full p-4" aria-label="Tabs">
-                    <button
-                        className={`
-                    flex-1 py-3 sm:py-4 px-3 sm:px-6 border-b-2 font-medium text-xs sm:text-sm flex items-center justify-center
-                   ${
-                       filter === "pending"
-                           ? "border-blue-500 text-blue-600"
-                           : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
-                   }
-                  `}
-                        onClick={() => setFilter("pending")}
+            {filteredTrades.length > 0 ? (
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-4">
+                    {filteredTrades.map((trade) => (
+                        <TradeCard
+                            key={trade._id}
+                            trade={trade}
+                            onDelete={handleDeleteTrade}
+                            canEdit={true}
+                            editUrl={`/edit-trade/${trade._id}`}
+                        />
+                    ))}
+                </div>
+            ) : (
+                <div className="text-center py-10 bg-gray-50 rounded-lg mt-4">
+                    <svg
+                        className="mx-auto h-12 w-12 text-gray-400"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
                     >
-                        <div className="flex flex-col items-center sm:flex-row sm:items-center">
-                            <Plus
-                                size={16}
-                                className="w-5 h-5 mb-1 sm:mb-0 sm:mr-2"
-                            />
-                            <span>Mes offres</span>
-                            <span className="ml-1">
-                                (
-                                {
-                                    offers.filter(
-                                        (offer) => offer.status === "pending"
-                                    ).length
-                                }
-                                )
-                            </span>
-                        </div>
-                    </button>
-
-                    <button
-                        className={`
-                    flex-1 py-3 sm:py-4 px-3 sm:px-6 border-b-2 font-medium text-xs sm:text-sm flex items-center justify-center
-                   ${
-                       filter === "accepted"
-                           ? "border-blue-500 text-blue-600"
-                           : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
-                   }
-                  `}
-                        onClick={() => setFilter("accepted")}
-                    >
-                        <div className="flex flex-col items-center sm:flex-row sm:items-center">
-                            <Clock
-                                size={16}
-                                className="w-5 h-5 mb-1 sm:mb-0 sm:mr-2"
-                            />
-                            <span>Offres validées</span>
-                            <span className="ml-1">
-                                (
-                                {
-                                    offers.filter(
-                                        (offer) => offer.status === "accepted"
-                                    ).length
-                                }
-                                )
-                            </span>
-                        </div>
-                    </button>
-                    <button
-                        className={`
-                            flex-1 py-3 sm:py-4 px-3 sm:px-6 border-b-2 font-medium text-xs sm:text-sm flex items-center justify-center
-                           ${
-                               filter === "completed"
-                                   ? "border-blue-500 text-blue-600"
-                                   : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
-                           }
-                          `}
-                        onClick={() => setFilter("completed")}
-                    >
-                        <div className="flex flex-col items-center sm:flex-row sm:items-center">
-                            <Check
-                                size={16}
-                                className="w-5 h-5 mb-1 sm:mb-0 sm:mr-2"
-                            />
-                            <span>Echanges effectués</span>
-                            <span className="ml-1">
-                                (
-                                {
-                                    offers.filter(
-                                        (offer) => offer.status === "completed"
-                                    ).length
-                                }
-                                )
-                            </span>
-                        </div>
-                    </button>
-                </nav>
-            </div>
-
-            <div className="bg-white rounded-lg shadow p-12 text-center">
-                {offers.filter((offer) => offer.status === filter).length ===
-                0 ? (
-                    <>
-                        <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                            {filter === "pending" && (
-                                <Plus
-                                    size={16}
-                                    className="w-8 h-8 text-gray-400"
-                                />
-                            )}
-                            {filter === "completed" && (
-                                <Check
-                                    size={16}
-                                    className="w-8 h-8 text-gray-400"
-                                />
-                            )}
-                            {filter === "accepted" && (
-                                <Clock
-                                    size={16}
-                                    className="w-8 h-8 text-gray-400"
-                                />
-                            )}
-                        </div>
-                        <h3 className="text-lg font-medium text-gray-900 mb-2">
-                            {filter === "pending" &&
-                                "Aucune proposition d'échange"}
-                            {filter === "completed" && "Aucun échange effectué"}
-                            {filter === "accepted" && "Aucune offre en cours"}
-                        </h3>
-                        <p className="text-gray-500 mb-6">
-                            {filter === "pending" &&
-                                "Proposez un échange pour une carte que vous recherchez"}
-                            {filter === "completed" &&
-                                "Vous n'avez pas encore d'échanges effectués"}
-                            {filter === "accepted" &&
-                                "Vous n'avez pas d'offres en cours"}
-                        </p>
-                    </>
-                ) : (
-                    <div>
-                        {offers
-                            .filter((offer) => offer.status === filter)
-                            .sort(
-                                (a, b) =>
-                                    new Date(b.createdAt) -
-                                    new Date(a.createdAt)
-                            )
-                            .map((offer) => (
-                                <div
-                                    key={offer._id}
-                                    ref={(el) =>
-                                        (offerRefs.current[offer._id] = el)
-                                    }
-                                >
-                                    <OfferCard
-                                        offer={offer}
-                                        requestedCard={offer.requestedCard}
-                                        tradeId={offer._id}
-                                        refreshOffers={loadTradeOffers}
-                                        isHighlighted={
-                                            offer.tradeId === highlightedOfferId
-                                        }
-                                    />
-                                </div>
-                            ))}
+                        <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={1.5}
+                            d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                        />
+                    </svg>
+                    <h3 className="mt-2 text-sm font-medium text-gray-900">
+                        Vous n'avez pas encore d'échanges
+                    </h3>
+                    <p className="mt-1 text-sm text-gray-500">
+                        Commencez par proposer un échange ou participez à un
+                        échange existant
+                    </p>
+                    <div className="mt-6">
+                        <Link
+                            to="/create-trade"
+                            className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700"
+                        >
+                            Créer un échange
+                        </Link>
                     </div>
-                )}
-            </div>
+                </div>
+            )}
         </div>
     );
 };

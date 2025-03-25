@@ -14,19 +14,19 @@ const NotificationsPage = () => {
 
         switch (notification.type) {
             case "trade_proposal":
-                navigate("/mytrades");
+                navigate("/offers");
                 break;
             case "trade_accepted":
-                navigate("/mytrades");
+                navigate("/offers");
                 break;
             case "offer_accepted":
                 navigate(
-                    "/mytrades?tab=accepted&offerId=" + notification.trade_id
+                    "/offers?tab=accepted&offerId=" + notification.trade_id
                 );
                 break;
             case "trade_completed":
                 navigate(
-                    "/mytrades?tab=completed&tradeId=" + notification.trade_id
+                    "/offers?tab=completed&tradeId=" + notification.trade_id
                 );
                 break;
             default:

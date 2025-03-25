@@ -10,6 +10,7 @@ import {
     FilePlus,
     Menu,
     X,
+    ChevronDown,
 } from "lucide-react";
 import { useAuth } from "../../context/AuthContext";
 import NotificationBell from "../notifications/NotificationBell";
@@ -19,11 +20,16 @@ const Navbar = () => {
     const { isAuthenticated, logout } = useAuth();
     const location = useLocation();
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isExchangeDropdownOpen, setIsExchangeDropdownOpen] = useState(false);
 
     const user = JSON.parse(localStorage.getItem("user"));
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
+    };
+
+    const toggleExchangeDropdown = () => {
+        setIsExchangeDropdownOpen(!isExchangeDropdownOpen);
     };
 
     return (
@@ -80,21 +86,65 @@ const Navbar = () => {
                         >
                             <LayoutGrid size={16} /> Galerie
                         </Link>
-                        <Link
-                            to="/"
-                            className={`btn btn-primary w-full py-2 rounded-md transition-all duration-200 ${
-                                location.pathname === "/" ? "btn-active" : ""
-                            }`}
-                            onClick={toggleMenu}
-                        >
-                            <Repeat size={16} /> Echanges
-                        </Link>
+
+                        {/* Menu déroulant pour les échanges - version mobile */}
+                        <div className="relative w-full">
+                            <button
+                                className={`btn btn-primary w-full py-2 rounded-md transition-all duration-200 flex justify-between items-center ${
+                                    location.pathname === "/"
+                                        ? "btn-active"
+                                        : ""
+                                }`}
+                                onClick={toggleExchangeDropdown}
+                            >
+                                <div className="flex items-center">
+                                    <Repeat size={16} />
+                                    <span className="ml-2">Echanges</span>
+                                </div>
+                                <ChevronDown
+                                    size={16}
+                                    className={`transform transition-transform ${
+                                        isExchangeDropdownOpen
+                                            ? "rotate-180"
+                                            : ""
+                                    }`}
+                                />
+                            </button>
+
+                            {isExchangeDropdownOpen && (
+                                <div className="absolute top-full left-0 w-full mt-2 bg-gray-800 rounded-md shadow-lg z-10 border border-gray-700 overflow-hidden animate-fadeIn">
+                                    <Link
+                                        to="/"
+                                        className="block px-4 py-3 hover:bg-gray-700 transition-colors duration-200 border-b border-gray-700 flex items-center gap-2"
+                                        onClick={() => {
+                                            toggleExchangeDropdown();
+                                            toggleMenu();
+                                        }}
+                                    >
+                                        <span className="w-2 h-2 rounded-full bg-blue-500"></span>
+                                        Tous les échanges
+                                    </Link>
+                                    <Link
+                                        to="/mytrades"
+                                        className="block px-4 py-3 hover:bg-gray-700 transition-colors duration-200 flex items-center gap-2"
+                                        onClick={() => {
+                                            toggleExchangeDropdown();
+                                            toggleMenu();
+                                        }}
+                                    >
+                                        <span className="w-2 h-2 rounded-full bg-green-500"></span>
+                                        Mes échanges
+                                    </Link>
+                                </div>
+                            )}
+                        </div>
+
                         {isAuthenticated && (
                             <>
                                 <Link
-                                    to="/mytrades"
+                                    to="/offers"
                                     className={`btn btn-primary w-full py-2 rounded-md transition-all duration-200 ${
-                                        location.pathname === "/mytrades"
+                                        location.pathname === "/offers"
                                             ? "btn-active"
                                             : ""
                                     }`}
@@ -119,9 +169,7 @@ const Navbar = () => {
 
                         {isAuthenticated ? (
                             <div className="flex flex-col-reverse justify-center items-center gap-4 mt-4">
-                                <span className="text-lg">
-                                    {user.username}
-                                </span>
+                                <span className="text-lg">{user.username}</span>
                                 <div className="flex flex-row-reverse items-center gap-6">
                                     <button
                                         onClick={() => {
@@ -174,20 +222,53 @@ const Navbar = () => {
                     >
                         <LayoutGrid size={16} /> Galerie
                     </Link>
-                    <Link
-                        to="/"
-                        className={`btn btn-primary px-4 py-2 rounded-md transition-all duration-200 ${
-                            location.pathname === "/" ? "btn-active" : ""
-                        }`}
-                    >
-                        <Repeat size={16} /> Echanges
-                    </Link>
+
+                    {/* Menu déroulant pour les échanges - version desktop */}
+                    <div className="relative">
+                        <button
+                            className={`btn btn-primary px-4 py-2 rounded-md transition-all duration-200 flex items-center gap-1 ${
+                                location.pathname === "/" ? "btn-active" : ""
+                            }`}
+                            onClick={toggleExchangeDropdown}
+                        >
+                            <Repeat size={16} />
+                            <span>Echanges</span>
+                            <ChevronDown
+                                size={16}
+                                className={`transform transition-transform ${
+                                    isExchangeDropdownOpen ? "rotate-180" : ""
+                                }`}
+                            />
+                        </button>
+
+                        {isExchangeDropdownOpen && (
+                            <div className="absolute top-full left-0 mt-2 bg-gray-800 rounded-md shadow-lg z-10 w-56 border border-gray-700 overflow-hidden animate-fadeIn">
+                                <Link
+                                    to="/"
+                                    className="block px-4 py-3 hover:bg-gray-700 transition-colors duration-200 border-b border-gray-700 flex items-center gap-2"
+                                    onClick={toggleExchangeDropdown}
+                                >
+                                    <span className="w-2 h-2 rounded-full bg-blue-500"></span>
+                                    Tous les échanges
+                                </Link>
+                                <Link
+                                    to="/mytrades"
+                                    className="block px-4 py-3 hover:bg-gray-700 transition-colors duration-200 flex items-center gap-2"
+                                    onClick={toggleExchangeDropdown}
+                                >
+                                    <span className="w-2 h-2 rounded-full bg-green-500"></span>
+                                    Mes échanges
+                                </Link>
+                            </div>
+                        )}
+                    </div>
+
                     {isAuthenticated && (
                         <>
                             <Link
-                                to="/mytrades"
+                                to="/offers"
                                 className={`btn btn-primary px-4 py-2 rounded-md transition-all duration-200 ${
-                                    location.pathname === "/mytrades"
+                                    location.pathname === "/offers"
                                         ? "btn-active"
                                         : ""
                                 }`}

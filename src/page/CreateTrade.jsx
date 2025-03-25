@@ -7,6 +7,7 @@ import StepNavigation from "../components/common/StepNavigation.jsx";
 import { toast } from "react-hot-toast";
 import Filter from "../components/filters/Filter";
 import SEOHead from "../components/SEO/SEOHead.jsx";
+import ConfirmationModal from "../components/common/ConfirmationModal";
 
 const CreateTrade = () => {
     const [step, setStep] = useState(1);
@@ -28,6 +29,7 @@ const CreateTrade = () => {
     });
     const [isLoading, setIsLoading] = useState(true);
     const navigate = useNavigate();
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
     // Charger les cartes au démarrage
     useEffect(() => {
@@ -214,6 +216,12 @@ const CreateTrade = () => {
             return;
         }
 
+        // Ouvrir la modale de confirmation
+        setIsModalOpen(true);
+    };
+
+    // Nouvelle fonction pour gérer la création réelle de l'échange après confirmation
+    const confirmCreateTrade = async () => {
         try {
             setIsLoading(true);
 
@@ -244,6 +252,7 @@ const CreateTrade = () => {
             );
         } finally {
             setIsLoading(false);
+            setIsModalOpen(false); // Fermer la modale après traitement
         }
     };
 
@@ -321,6 +330,15 @@ const CreateTrade = () => {
                 title="Créer un échange"
                 description="Créer un échange avec TradeHelper"
                 canonicalUrl="https://tradehelper.seguin.cefim.o2switch.site/create-trade"
+            />
+            {/* Modal de confirmation */}
+            <ConfirmationModal
+                isOpen={isModalOpen}
+                onClose={() => setIsModalOpen(false)}
+                onConfirm={confirmCreateTrade}
+                title="Confirmation de création d'échange"
+                message="Êtes-vous sûr de vouloir créer cet échange ?"
+                btnStyle="success"
             />
             <div className="border-b border-gray-200 bg-white px-4 sm:px-6 py-4">
                 <h1 className="text-xl sm:text-2xl font-bold text-gray-900">
