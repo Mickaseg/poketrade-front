@@ -36,9 +36,11 @@ const TradeCard = ({ trade, canEdit = false, onDelete }) => {
         setIsModalOpen(false);
     };
 
+    // Création d'un ID unique pour cette modal basé sur l'ID de l'échange
+    const modalId = `delete_trade_${trade._id}`;
+
     return (
         <div
-            key={trade._id}
             className="bg-white shadow-md rounded-lg overflow-hidden"
         >
             {/* En-tête avec info de base */}
@@ -132,6 +134,7 @@ const TradeCard = ({ trade, canEdit = false, onDelete }) => {
                     onConfirm={() => onDelete(trade._id)}
                     title="Confirmer la suppression"
                     message="Êtes-vous sûr de vouloir supprimer cet échange ?"
+                    modalId={modalId}
                 />
             </div>
         </div>

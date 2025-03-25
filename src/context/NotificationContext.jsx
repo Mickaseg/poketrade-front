@@ -66,8 +66,8 @@ export const NotificationProvider = ({ children }) => {
 
     // Fonction pour récupérer les notifications non lues
     const getUnreadCount = () => {
-        return Array.isArray(notifications) 
-            ? notifications.filter((notif) => !notif.read).length 
+        return Array.isArray(notifications)
+            ? notifications.filter((notif) => !notif.read).length
             : 0;
     };
 
@@ -78,7 +78,9 @@ export const NotificationProvider = ({ children }) => {
         const checkNewNotifications = async () => {
             try {
                 const newNotifications = await fetchNotifications();
-                setNotifications(Array.isArray(newNotifications) ? newNotifications : []);
+                setNotifications(
+                    Array.isArray(newNotifications) ? newNotifications : []
+                );
             } catch (error) {
                 console.error(
                     "Erreur lors de la vérification des notifications:",
@@ -93,6 +95,8 @@ export const NotificationProvider = ({ children }) => {
             if (document.visibilityState === "visible") {
                 checkNewNotifications();
             }
+            // Ne pas retourner de valeur pour éviter l'erreur de canal de message fermé
+            return false; // Indiquer explicitement qu'il n'y a pas de réponse asynchrone en attente
         };
 
         // Vérifier immédiatement au montage

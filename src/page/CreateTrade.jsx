@@ -339,6 +339,7 @@ const CreateTrade = () => {
                 title="Confirmation de création d'échange"
                 message="Êtes-vous sûr de vouloir créer cet échange ?"
                 btnStyle="success"
+                modalId="create_trade_confirmation"
             />
             <div className="border-b border-gray-200 bg-white px-4 sm:px-6 py-4">
                 <h1 className="text-xl sm:text-2xl font-bold text-gray-900">
